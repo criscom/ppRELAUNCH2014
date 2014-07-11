@@ -1,0 +1,2842 @@
+
+.lotusui30 .lotusIndent10 {
+    padding-left: 10px !important;
+}
+.lotusui30_fonts {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.lotusui30 a, .lotusui30 a:visited {
+    color: #1970b0;
+}
+.lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
+    color: #05386b;
+}
+.lotusui30_layout .lotusColLeft a, .lotusui30_layout .lotusColLeft a:visited {
+    color: #f1f1f1;
+}
+.lotusui30_layout .lotusColLeft a:hover, .lotusui30_layout .lotusColLeft a:focus, .lotusui30_layout .lotusColLeft a:active {
+    color: #fff;
+}
+.lotusui30 .lotusActionBar {
+    height: 2.5em;
+}
+.lotusui30 .lotusActionBar2 {
+    margin-top: -15px;
+}
+.lotusui30 .lotusActionMenu li {
+    padding: 1px;
+}
+.lotusui30 .lotusActionMenu a:hover, .lotusui30 .lotusActionMenu a:focus, .lotusui30 .lotusActionMenu a:active {
+    background-color: #e9f1f3;
+}
+.lotusui30 .lotusBtn {
+    background-color: #d7d7d7;
+    background-image: none;
+    border: 0 none;
+    border-collapse: separate;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    color: #222;
+    font-weight: bold;
+    margin: 0 4px 3px 1px;
+    text-align: center;
+}
+.lotusui_ie .lotusui30 .lotusBtn, .lotusui_ie8 .lotusui30 .lotusBtn {
+    border: 1px solid #ccc;
+}
+.lotusui_ie .lotusui30 .lotusBtn, .lotusui_ie8 .lotusui30 .lotusBtn, .lotusui_ie9 .lotusui30 .lotusBtn {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.lotusui30 .lotusBtnImg {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+.lotusui30 .lotusBtn {
+    padding: 5px 15px;
+    text-shadow: 0 1px 1px #fff;
+}
+.lotusui_ie .lotusui30 .lotusBtn {
+    padding: 2px 3px;
+}
+.lotusui_ie8 .lotusui30 input.lotusBtn {
+    padding: 6px 15px;
+}
+.lotusui_ie9 .lotusui30 input.lotusBtn {
+    padding: 7px 15px;
+}
+.lotusui30 .lotusBtnImg {
+    padding: 5px;
+}
+.lotusui30 .lotusBtnDisabled {
+    background-color: #e7e7e7 !important;
+    background-image: none;
+    border-width: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3) !important;
+    color: #7c7c7c !important;
+}
+.lotusui30 span.lotusBtnDisabled {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.lotusui_ie .lotusui30 input.lotusBtnDisabled, .lotusui_ie8 .lotusui30 input.lotusBtnDisabled, .lotusui_ie .lotusui30 button.lotusBtnDisabled, .lotusui_ie8 .lotusui30 button.lotusBtnDisabled {
+    border-color: #ccc !important;
+}
+.lotusui_ie .lotusui30 .lotusBtnImg {
+    padding: 5px 4px;
+}
+.lotusui30 .lotusBtn:hover, .lotusui30 .lotusBtn:focus, .lotusui30 .lotusBtn:active {
+    background-image: none;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+    color: #000;
+}
+.lotusui30 .lotusBtnImg:hover, .lotusui30 .lotusBtnImg:focus, .lotusui30 .lotusBtnImg:active {
+    color: #000;
+}
+.lotusui30 .lotusButton a, .lotusui30 .lotusButton a:visited {
+    color: #222;
+}
+.lotusui30 .lotusButton {
+    background-color: #d7d7d7;
+    background-image: none;
+    border-radius: 3px;
+    border-width: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #222;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-decoration: none;
+}
+.lotusui_ie .lotusui30 .lotusButton, .lotusui_ie8 .lotusui30 .lotusButton {
+    border: 1px solid #ccc;
+}
+.lotusui_ie .lotusui30 .lotusButton, .lotusui_ie8 .lotusui30 .lotusButton, .lotusui_ie9 .lotusui30 .lotusButton {
+    margin-left: 0;
+    margin-right: 0;
+}
+.lotusui30 .lotusButton a, .lotusui30 .lotusButton a:visited {
+    color: #222;
+}
+.lotusui30 .lotusButton:hover, .lotusui30 .lotusButton:focus, .lotusui30 .lotusButton:active {
+    background-image: none;
+    border-width: 0;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+    color: #000;
+}
+.lotusui30 .lotusButton a:hover, .lotusui30 .lotusButton a:focus, .lotusui30 .lotusButton a:active {
+    color: #000;
+}
+.lotusui_ie .lotusui30 .lotusButton:hover, .lotusui_ie .lotusui30 .lotusButton:focus, .lotusui_ie .lotusui30 .lotusButton:active, .lotusui_ie8 .lotusui30 .lotusButton:hover, .lotusui_ie8 .lotusui30 .lotusButton:focus, .lotusui_ie8 .lotusui30 .lotusButton:active {
+    border: 1px solid #ccc;
+}
+.lotusui30 span.lotusBtn {
+    background-color: transparent;
+    border-width: 0;
+    padding: 0;
+}
+.lotusui30 span.lotusBtnDisabled {
+    background-color: transparent !important;
+}
+.lotusui_ie .lotusui30 span.lotusBtn, .lotusui_ie8 .lotusui30 span.lotusBtn {
+    padding: 0;
+}
+.lotusui30 span.lotusBtn a {
+    display: block;
+    text-decoration: none;
+}
+.lotusui30 span.lotusBtn a:hover, .lotusui30 span.lotusBtn a:focus, .lotusui30 span.lotusBtn a:active {
+    text-decoration: none;
+}
+.lotusui30 span.lotusBtn a {
+    padding: 5px 15px;
+}
+.lotusui_ie .lotusui30 span.lotusBtn a {
+    padding: 3px 15px;
+}
+.lotusui_ie .lotusui30 input.lotusFormButton {
+    padding: 4px 3px;
+}
+.lotusui_ie .lotusui30 button.lotusFormButton {
+    padding: 3px;
+}
+.lotusui_ie8 .lotusui30 input.lotusFormButton {
+    padding: 6px 15px;
+}
+.lotusui_ie9 .lotusui30 input.lotusFormButton {
+    padding: 7px 15px;
+}
+.lotusui_ie .lotusui30 span.lotusBtn, .lotusui_ie8 .lotusui30 span.lotusBtn {
+    border-width: 0;
+}
+.lotusui_ie .lotusui30 span.lotusBtn a, .lotusui_ie8 .lotusui30 span.lotusBtn a {
+    border: 1px solid #ccc;
+}
+.lotusui30 .lotusBtnImg {
+    padding: 5px;
+}
+.lotusui_ie .lotusui30 .lotusBtnImg {
+    padding: 5px 4px;
+}
+.lotusui30 span.lotusBtn {
+    margin-right: 4px;
+}
+.lotusui_ie .lotusui30 span.lotusBtn, .lotusui_ie8 .lotusui30 span.lotusBtn, .lotusui_ie9 .lotusui30 span.lotusBtn {
+    margin-right: 5px;
+}
+.lotusui30 span.lotusBtn, .lotusui30 span.lotusBtn:hover, .lotusui30 span.lotusBtn:focus, .lotusui30 span.lotusBtn:active {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-width: 0;
+    box-shadow: none;
+}
+.lotusui30 span.lotusBtn a, .lotusui30 span.lotusBtn a:visited, .lotusui30 span.lotusBtn a:hover, .lotusui30 span.lotusBtn a:focus, .lotusui30 span.lotusBtn a:active {
+    background-color: #d7d7d7;
+    background-image: none;
+    border-radius: 3px;
+    border-width: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    color: #222;
+    text-decoration: none;
+}
+.lotusui_ie .lotusui30 span.lotusBtn a, .lotusui_ie .lotusui30 span.lotusBtn a:visited, .lotusui_ie .lotusui30 span.lotusBtn a:hover, .lotusui_ie .lotusui30 span.lotusBtn a:focus, .lotusui_ie .lotusui30 span.lotusBtn a:active, .lotusui_ie8 .lotusui30 span.lotusBtn a, .lotusui_ie8 .lotusui30 span.lotusBtn a:visited, .lotusui_ie8 .lotusui30 span.lotusBtn a:hover, .lotusui_ie8 .lotusui30 span.lotusBtn a:focus, .lotusui_ie8 .lotusui30 span.lotusBtn a:active {
+    border: 1px solid #ccc;
+}
+.lotusui30 button.lotusFormButton, .lotusui30 input.lotusFormButton {
+    background-color: #d7d7d7;
+    background-image: none;
+    border-radius: 3px;
+    border-width: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #222;
+    margin: 0 9px 3px 1px;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #fff;
+}
+.lotusui_ie .lotusui30 .lotusFormButton, .lotusui_ie .lotusui30 .lotusFormButton:visited, .lotusui_ie8 .lotusui30 .lotusFormButton, .lotusui_ie8 .lotusui30 .lotusFormButton:visited {
+    border: 1px solid #ccc;
+}
+.lotusui_ie .lotusui30 .lotusFormButton, .lotusui_ie8 .lotusui30 .lotusFormButton, .lotusui_ie9 .lotusui30 .lotusFormButton {
+    margin: 0 10px 3px 0;
+}
+.lotusui30 span.lotusBtn a:hover, .lotusui30 span.lotusBtn a:focus, .lotusui30 span.lotusBtn a:active, .lotusui30 .lotusFormButton:hover, .lotusui30 .lotusFormButton:focus, .lotusui30 .lotusFormButton:active {
+    border-width: 0;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+    color: #000;
+}
+.lotusui_ie .lotusui30 span.lotusBtn a:hover, .lotusui_ie .lotusui30 span.lotusBtn a:focus, .lotusui_ie .lotusui30 span.lotusBtn a:active, .lotusui_ie8 .lotusui30 span.lotusBtn a:hover, .lotusui_ie8 .lotusui30 span.lotusBtn a:focus, .lotusui_ie8 .lotusui30 span.lotusBtn a:active, .lotusui_ie .lotusui30 .lotusFormButton:hover, .lotusui_ie .lotusui30 .lotusFormButton:focus, .lotusui_ie .lotusui30 .lotusFormButton:active, .lotusui_ie8 .lotusui30 .lotusFormButton:hover, .lotusui_ie8 .lotusui30 .lotusFormButton:focus, .lotusui_ie8 .lotusui30 .lotusFormButton:active {
+    border: 1px solid #ccc;
+}
+.lotusui30 span.lotusBtnDisabled {
+    box-shadow: none;
+}
+.lotusui30 span.lotusBtnDisabled a {
+    background-color: #e7e7e7 !important;
+    color: #7c7c7c !important;
+}
+.lotusui30 span.lotusBtnDisabled a:hover, .lotusui30 span.lotusBtnDisabled a:focus, .lotusui30 span.lotusBtnDisabled a:active {
+    background-color: #e7e7e7 !important;
+    background-image: none;
+    border-width: 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.lotusui_ie .lotusui30 span.lotusBtnDisabled a:hover, .lotusui_ie .lotusui30 span.lotusBtnDisabled a:focus, .lotusui_ie .lotusui30 span.lotusBtnDisabled a:active, .lotusui_ie8 .lotusui30 span.lotusBtnDisabled a:hover, .lotusui_ie8 .lotusui30 span.lotusBtnDisabled a:focus, .lotusui_ie8 .lotusui30 span.lotusBtnDisabled a:active {
+    border: 1px solid #ccc;
+}
+.lotusui30 .lotusDialogBorder {
+    border: 3px solid rgba(2, 2, 2, 0.4);
+    border-radius: 3px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.lotusui30 .lotusDialog .lotusDialogHeader {
+    background: -moz-linear-gradient(center top , #3c3c3c 0%, #252525 100%) repeat scroll 0 0 #3c3c3c;
+    border-bottom: 0 none;
+}
+.lotusui30 .lotusDialog .lotusHeading {
+    color: #fff;
+    display: block;
+    font-size: 1.2em;
+    margin-right: 0;
+}
+.lotusui30.lotusImagesOff .lotusDialog .lotusHeading, .lotusImagesOff .lotusui30 .lotusDialog .lotusHeading {
+    margin-right: 15px;
+}
+.lotusui30 .lotusDialog .lotusDialogHeader .lotusDialogClose {
+    border: 0 none;
+    padding: 0;
+    position: absolute;
+    right: -11px;
+    top: -11px;
+}
+.lotusui30.lotusImagesOff .lotusDialog .lotusDialogHeader .lotusDialogClose, .lotusImagesOff .lotusui30 .lotusDialog .lotusDialogHeader .lotusDialogClose {
+    border: 1px solid #000;
+    padding: 3px;
+    right: 15px;
+    top: 15px;
+}
+.lotusui30 .lotusDialog .lotusDialogHeader .lotusDialogClose img, .lotusui30 .lotusDialog .lotusClose img {
+    background-image: url("/connections/resources/web/com.ibm.lconn.core.styles.oneui3/images/lotusHSprite-8bit.png?etag=20130828.201043");
+    background-position: -150px 0;
+    height: 32px;
+    width: 32px;
+}
+.lotusui30 .lotusDialog .lotusFormTable, .lotusui30 .lotusDialog .lotusFormTable td, .lotusui30 .lotusDialog .lotusDialogContent {
+    border: 0 none;
+}
+.lotusui30 .lotusDialog .lotusDialogFooter {
+    background-color: #fff;
+    border-top: 1px solid #aaa;
+    margin: 0 20px;
+    padding: 15px 0;
+}
+.lotusui30 .lotusDialogFooter .lotusBtn {
+    margin-left: 9px;
+    margin-right: 1px;
+}
+.lotusui_ie .lotusui30 .lotusDialogFooter .lotusBtn, .lotusui_ie8 .lotusui30 .lotusDialogFooter .lotusBtn, .lotusui_ie9 .lotusui30 .lotusDialogFooter .lotusBtn {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.lotusui30 .lotusOverlay {
+    opacity: 0.4;
+}
+.lotusui30 .lotusDialog h1, .lotusui30 .lotusDialog h2 {
+    background: -moz-linear-gradient(center top , #3c3c3c 0%, #252525 100%) repeat scroll 0 0 #3c3c3c;
+    border-bottom: 0 none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.lotusui30 .lotusDialog h1 .lotusBtnImg, .lotusui30 .lotusDialog h2 .lotusBtnImg {
+    top: 10px;
+}
+.lotusui30 .lotusViewControl div {
+    border-radius: 2px;
+    padding: 2px;
+}
+.lotusui30 .lotusViewControl {
+    font-size: 0.9em;
+}
+.lotusui30 .lotusViewControl td div {
+    background-color: #d7d7d7;
+    background-image: none;
+    border: 0 none;
+    border-collapse: separate;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    margin: 0 1px;
+    padding: 3px;
+}
+.lotusui_ie .lotusui30 .lotusViewControl td div, .lotusui_ie8 .lotusui30 .lotusViewControl td div {
+    border: 1px solid #ccc;
+}
+.lotusui_ie .lotusui30 .lotusViewControl td div, .lotusui_ie8 .lotusui30 .lotusViewControl td div, .lotusui_ie9 .lotusui30 .lotusViewControl td div {
+    margin-left: 0;
+    margin-right: 0;
+}
+.lotusui30 .lotusDetailsOn, .lotusui30 .lotusSummaryOn, .lotusui30 .lotusTreeOn, .lotusui30 .lotusTileOn, .lotusui30 .lotusFolderOn {
+    background-color: transparent;
+    border-color: #666;
+    border-radius: 2px;
+}
+.lotusui30 .lotusFeeds {
+    margin: 5px 0;
+}
+.lotusui30 .lotusForm2 .lotusFormFooter {
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1px 0 0;
+}
+.lotusui30 .lotusForm2 .lotusFormFooter {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.lotusui30 .lotusForm2 .lotusFormFooter .lotusBtn {
+    margin-right: 9px;
+}
+.lotusui_ie .lotusui30 .lotusForm2 .lotusFormFooter .lotusBtn, .lotusui_ie8 .lotusui30 .lotusForm2 .lotusFormFooter .lotusBtn, .lotusui_ie9 .lotusui30 .lotusForm2 .lotusFormFooter .lotusBtn {
+    margin-right: 10px;
+}
+.lotusui30 .lotusForm2 .lotusFieldEmphasis {
+    box-shadow: 0 3px 3px #f3f3f3 inset;
+}
+.lotusui30 .lotusForm .lotusFieldBorder {
+    background-color: #eee;
+}
+.lotusui30 .lotusForm .lotusFormTable .lotusFormFooter {
+    background-color: #eee;
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1px 0 0;
+}
+.lotusui30 .lotusForm {
+    background-color: #f4f5f6;
+}
+.lotusui30 .lotusFormPlain, .lotusui30 .lotusForm, .lotusui30 .lotusForm .lotusFormTable td.lotusFormFooter {
+    background-color: transparent;
+    border-width: 0;
+}
+.lotusui30 .lotusTable .lotusForm {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #f0f0f0;
+    border-image: none;
+    border-style: solid;
+    border-width: 5px 0;
+    margin: 15px 0;
+}
+.lotusui30 .lotusTable .lotusForm .lotusFormTitle h2 {
+    margin-top: 15px;
+}
+.lotusui30 .lotusTable .lotusForm .lotusFormTable td.lotusFormFooter {
+    border: 0 none;
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+.lotusui30 .lotusHeader {
+    margin-top: 0;
+}
+.lotusui30 .lotusHeader .lotusHeading, .lotusui30 .lotusHeader h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.lotusui30 div.lotusHeader {
+    margin-bottom: 15px;
+}
+.lotusui30 .lotusHeader .lotusFilters2 {
+    margin: 5px 0 0;
+}
+.lotusui30 .lotusHelp {
+    background-color: #fff;
+}
+.lotusui30 table.lotusLegal {
+    margin: 5px auto 10px;
+}
+.lotusui30 .lotusIBMLogoFooter {
+    display: none;
+}
+.lotusui30 .lotusLogin .lotusLegal {
+    margin: 5px 25px 10px;
+}
+.lotusui30 .lotusLike .lotusLikeCount {
+    background-color: #f4f4f4;
+}
+.lotusui30 .lotusLikeLightBox ul.lotusList li a:hover, .lotusui30 .lotusLikeLightBox ul.lotusList li a:focus, .lotusui30 .lotusLikeLightBox ul.lotusList li a:active {
+    background-color: #e9f1f3;
+}
+.lotusui30 .lotusColLeft ul.lotusList {
+    margin: 0 -20px;
+}
+.lotusui30 .lotusColLeft ul.lotusList li {
+    padding: 3px 20px;
+}
+.lotusui30 .lotusColLeft ul.lotusList li.lotusSelected {
+    background-color: #1f2123;
+}
+.lotusui30 .lotusColLeft ul.lotusList li.lotusSelected a, .lotusui30 .lotusColLeft ul.lotusList li.lotusSelected a:visited {
+    color: #e8e8e8;
+}
+.lotusui30 .lotusMenu {
+    background-color: transparent;
+    border-radius: 0;
+    border-width: 0;
+    color: #ccc;
+    font-size: 1.08333em;
+    margin: 0 0 25px;
+    padding: 0;
+    width: 100%;
+}
+.lotusui30 .lotusMenu div.lotusChunk {
+    margin: 5px 5px 0 15px;
+}
+.lotusui30 .lotusMenu .lotusMenuSection {
+    border-width: 0;
+    position: relative;
+}
+.lotusui30 .lotusMenu li a, .lotusui30 .lotusMenu li a:visited {
+    background-color: transparent;
+    border-width: 0;
+    color: #bbb;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0;
+    outline: medium none;
+    padding: 4px 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #121212;
+}
+.lotusui30 .lotusMenu li a:hover, .lotusui30 .lotusMenu li a:focus, .lotusui_ie .lotusui30 .lotusMenu li a:active {
+    background-color: #2a2c2f;
+    box-shadow: 0 1px 0 #242628 inset, 0 -1px 0 #242628 inset;
+    color: #fff;
+    text-decoration: none;
+}
+.lotusui30.lotusImagesOff .lotusMenu li a, .lotusui30.lotusImagesOff .lotusMenu li a:visited {
+    font-weight: normal;
+}
+.lotusui30 .personinlinemenu .lotusMenu li.lconnCommLogo a:hover, .lotusui30 .personinlinemenu .lotusMenu li.lconnCommLogo a:focus, .lotusui30 .personinlinemenu .lotusMenu li.lconnCommLogo a:active {
+    background-color: #2a2c2f;
+}
+.lotusui30 .communityImgLink, .lotusui30 .lotusMenu li.lconnCommLogo {
+    text-align: center;
+}
+.lotusui30 .lotusMenu li .communityImgLink a, .lotusui30 .lotusMenu li.lconnCommLogo a {
+    margin-top: -5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.lotusui30 .communityImgLink a img, .lotusui30 .lotusMenu li.lconnCommLogo a img {
+    border: 1px solid #121212;
+}
+.lotusui30 .personinlinemenu .lotusMenu .lotusInner {
+    width: auto;
+}
+.lotusui30 .lotusMenu .lotusMenuHeader {
+    border-width: 0;
+    font-weight: normal;
+    margin: 20px 0 0;
+    padding: 10px 10px 5px 35px;
+}
+.lotusui30 .lotusMenu .lotusMenuHeader .lotusHeading, .lotusui30 .lotusMenu h3 {
+    color: #f1f1f1;
+    font-size: 1em;
+    margin: 15px 0 0;
+    padding: 15px 10px 5px 18px;
+    text-shadow: 0 1px 1px #121212;
+}
+.lotusui30 .lotusMenu .lotusMenuHeader h3.lotusHeading {
+    margin: 0;
+    padding: 0;
+}
+.lotusui30 .lotusMenu .lotusMenuHeader:before, .lotusui30 .lotusMenu .lotusMenuHeader .lotusHeading:before, .lotusui30 .lotusMenu h3:before {
+    background: none repeat scroll 0 0 #2b2d30;
+    border-bottom: 1px solid #434b4d;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    width: 175px;
+}
+.lotusui30 .lotusCommunities .lotusMenu .lotusMenuHeader .lotusHeading, .lotusui30 .lotusCommunities .lotusMenu h3, .lotusui30 .vcomm .lotusMenu h3 {
+    margin-top: 0;
+    padding-top: 0;
+}
+.lotusui30 .lotusMenu .lotusIndent10.communityLink, .lotusui30 .vcomm .lotusMenu h3 div.lotusIndent10 {
+    padding-left: 0 !important;
+}
+.lotusui30 .lotusCommunities .lotusMenu h3:before, .lotusui30 .X-community-display-inline .lotusMenu h3:before {
+    content: none;
+}
+.lotusui30 .lotusMenu .lotusHeading a, .lotusui30 .lotusMenu .lotusHeading a:visited, .lotusui30 .lotusMenu .lotusHeading a:hover, .lotusui30 .lotusMenu .lotusHeading a:focus, .lotusui30 .lotusMenu .lotusHeading a:active, .lotusui30 .lotusMenu h3 a, .lotusui30 .lotusMenu h3 a:visited, .lotusui30 .lotusMenu h3 a:hover, .lotusui30 .lotusMenu h3 a:focus, .lotusui30 .lotusMenu h3 a:active {
+    color: #f1f1f1;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #121212;
+}
+.lotusui30 .lotusMenu .lotusMenuHeader a.lotusArrow {
+    left: 14px;
+    top: 12px;
+}
+.lotusui30 .lotusMenu .lotusMenuHeader a.lotusArrow {
+    z-index: 10;
+}
+.lotusui30 .lotusMenu .lotusTwistyOpenMenu {
+    background-position: 4px -1256px;
+    opacity: 1;
+}
+.lotusui30 .lotusMenu .lotusTwistyClosedMenu {
+    background-position: 4px -1352px;
+    opacity: 1;
+}
+.lotusui30 .lotusMenu .lotusHeaderSelected .lotusTwistyOpenMenu {
+    background-position: 4px -1016px;
+    opacity: 1;
+}
+.lotusui30 .lotusMenu .lotusHeaderSelected .lotusTwistyClosedMenu {
+    background-position: 4px -1160px;
+    opacity: 1;
+}
+.lotusui30 .lotusMenu .lotusMenuHeader .lotusHeading a {
+    display: block;
+    margin: 0;
+}
+.lotusui30 .lotusMenu .lotusMenuHeader.lotusSelected .lotusArrow .lotusAltText {
+    color: #dd731c;
+}
+.lotusui30 .lotusMenu .lotusAction {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.lotusui30 .lotusMenu li.lotusSelected a, .lotusui30 .lotusMenu li.lotusSelected a:visited, .lotusui30 .lotusMenu li.lotusSelected a:hover, .lotusui30 .lotusMenu li.lotusSelected a:focus, .lotusui30 .lotusMenu li.lotusSelected a:active, .lotusui30 .lotusMenu .lotusHeaderSelected {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #1f7cae;
+    border-color: -moz-use-text-color #222 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: none solid none none;
+    border-width: 0 1px 0 0;
+    box-shadow: 0 1px 1px #52acdb inset, 0 -1px 0 #000 inset;
+    color: #fff;
+    margin: 0;
+    padding: 4px 20px;
+    position: relative;
+    text-shadow: 0 -1px 0 #121212;
+}
+.lotusui30.lotusImagesOff .lotusMenu li.lotusSelected a, .lotusui30.lotusImagesOff .lotusMenu .lotusHeaderSelected {
+    border-right: 0 none;
+    font-weight: bold;
+}
+.lotusui30 .lotusMenu .lotusHeaderSelected {
+    padding-top: 10px;
+}
+.lotusui30 .lotusMenu .lotusHeaderSelected .lotusHeading a {
+    color: #222 !important;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection {
+    margin: 0;
+    padding: 0;
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection li a {
+    font-weight: normal;
+    padding-left: 34px;
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection li a:before {
+    bottom: 2px;
+    color: #54575a;
+    content: "■";
+    margin-right: 5px;
+    position: relative;
+    text-shadow: none;
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection li.lotusSelected a {
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 34px;
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection li.lotusSelected a:before {
+    color: #fff;
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection ul[aria-labelledby="communityName"] li a, .lotusui30 .vcomm .lotusMenu .lotusMenuSubsection li a {
+    padding-left: 20px;
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection ul[aria-labelledby="communityName"] li a:before, .lotusui30 .vcomm .lotusMenu .lotusMenuSubsection li a:before, .lotusui30 .lotusMenu .lotusMenuSubsection ul.lotusIcons li a:before {
+    content: none;
+}
+.lotusui30 .lotusMenu ul.lotusIcons img, .lotusui30 .lotusMenu ul.lotusIcons .lotusSelected img {
+    left: 35px;
+    top: 5px;
+}
+.lotusui30 .lotusMenu ul.lotusIcons a {
+    padding-left: 60px;
+}
+.lotusui30 .lotusMenu ul.lotusIcons .lotusSelected a {
+    padding-left: 60px;
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection ul.lotusIcons a {
+    padding-left: 60px;
+}
+.lotusui30 .lotusMenu .lotusMenuSubsection ul.lotusIcons .lotusSelected a {
+    padding-left: 60px;
+}
+.lotusui30.lotusImagesOff .lotusMenu .lotusMenuSubsection ul.lotusIcons a, .lotusImagesOff .lotusui30 .lotusMenu .lotusMenuSubsection ul.lotusIcons a, .lotusui30.lotusImagesOff .lotusMenu .lotusMenuSubsection ul.lotusIcons .lotusSelected a, .lotusImagesOff .lotusui30 .lotusMenu .lotusMenuSubsection ul.lotusIcons .lotusSelected a {
+    padding-left: 60px;
+}
+.lotusui30 .lotusMenu .lotusUnreadBadge {
+    background-color: #d96438;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 0.714286em;
+    left: -11px;
+    line-height: 1.2;
+    padding: 1px 3px;
+    position: absolute;
+    text-align: center;
+    text-shadow: none;
+    top: 8px;
+}
+.lotusui30 .lotusMessage2 {
+    background-color: #ffe3e0;
+    border-color: #efa6a5;
+    border-radius: 3px;
+}
+.lotusui30 .lotusMessage2.lotusWarning {
+    background-color: #ffffbc;
+    border-color: #f6e692;
+}
+.lotusui30 .lotusMessage2.lotusInfo {
+    background-color: #e6f1fe;
+    border-color: #b9cfeb;
+}
+.lotusui30 .lotusMessage2.lotusSuccess {
+    background-color: #ecf9df;
+    border-color: #c8e2b8;
+}
+.lotusui30 .lotusMessage2 {
+    background-color: #ffebe6;
+    border-color: #f08137;
+    border-radius: 3px;
+    font-size: 0.9em;
+    padding: 10px;
+}
+.lotusui30 .lotusMessage2.lotusWarning {
+    background-color: #fdf4c8;
+    border-color: #e48617;
+}
+.lotusui30 .lotusMessage2.lotusInfo {
+    background-color: #d9f1fb;
+    border-color: #00b0da;
+}
+.lotusui30 .lotusMessage2.lotusSuccess {
+    background-color: #ecf9df;
+    border-color: #108f53;
+}
+.lotusui30 .lotusMessage2 .lotusIcon {
+    margin-right: 7px;
+    margin-top: 0;
+}
+.lotusui30 .lotusMessage2 .lotusDelete {
+    right: 10px;
+    top: 10px;
+}
+.lotusMessage {
+    background-color: #ffe3e0;
+    border-color: #efa6a5;
+    border-radius: 3px;
+}
+.lotusui30 .lotusWarning {
+    background-color: #ffffbc;
+    border-color: #f6e692;
+}
+.lotusui30 .lotusInfo {
+    background-color: #e6f1fe;
+    border-color: #b9cfeb;
+}
+.lotusui30 .lotusConfirm {
+    background-color: #ecf9df;
+    border-color: #c8e2b8;
+}
+.lotusui30 .lotusMessage {
+    background-color: #ffebe6;
+    border-color: #f08137;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px;
+}
+.lotusui30 .lotusWarning {
+    background-color: #fdf4c8;
+    border-color: #e48617;
+}
+.lotusui30 .lotusInfo {
+    background-color: #d9f1fb;
+    border-color: #00b0da;
+}
+.lotusui30 .lotusConfirm {
+    background-color: #ecf9df;
+    border-color: #108f53;
+}
+.lotusui30 .lotusMessage img {
+    margin-right: 7px;
+    margin-top: 0;
+}
+.lotusui30 .lotusMessage .lotusDelete {
+    right: 5px;
+    top: 10px;
+}
+.lotusui30 .lotusPaging {
+    border-top-width: 0;
+    margin: 5px 0;
+}
+.lotusui30 .lotusPaging, .lotusui30 .lotusPaging ul li, .lotusui30 .lotusPaging div, .lotusui30 .lotusPaging input {
+    color: #222;
+}
+.lotusui30 .lotusPaging {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #ddd;
+    border-width: 1px 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.lotusui30 .lotusStream .lotusPagingTop.lotusPaging, .lotusui30 .lotusStream .lotusPaging {
+    background: -moz-linear-gradient(center top , #f7f7f7 0%, #e8e8e8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ccc !important;
+    border-radius: 5px 5px 0 0;
+    height: 2em;
+    margin: 0;
+    padding: 15px 10px 10px 15px;
+}
+.lotusui30 .lotusPaging a, .lotusui30 .lotusPaging a:visited {
+    font-weight: normal;
+}
+.lotusui30 .lotusPaging .lotusInlinelist li {
+    border-color: #ccc;
+}
+.lotusui30 .lotusPaging div, .lotusui30 .lotusPaging .lotusInlinelist li.lotusFirst {
+    padding-left: 0;
+}
+.lotusui30 .lotusPaging .lotusRight li {
+    margin-left: 5px;
+    padding: 0 0 0 6px;
+}
+.lotusui30 #paletteWrapper {
+    margin: 0 -5px;
+}
+.lotusui30 .lotusPalette {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f0f0f0;
+    border-color: #d2d2d2;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    box-shadow: 0 -2px 4px #ccc inset;
+    position: relative;
+    z-index: 1;
+}
+.lotusui30 .lotusPaletteHeader {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #ccc;
+    border-top-width: 0;
+    color: #222;
+    overflow: visible;
+    padding: 2px 10px 0;
+}
+.lotusui30 .lotusPaletteHeader span.lotusRight {
+    background: none repeat scroll 0 0 #ecf9df;
+    border: 1px solid #108f53;
+    border-radius: 3px;
+    float: none;
+    font-size: 0.9em;
+    margin-top: 0;
+    padding: 0 5px;
+    position: absolute;
+    right: 35px;
+    top: 7px;
+}
+.lotusui30 .lotusPalette .lotusAdded, .lotusui30 .lotusPalette .lotusAdded a {
+    color: #222;
+}
+.lotusui30 .lotusPaletteHeader .lotusPaletteClose {
+    float: none;
+    position: absolute;
+    right: 7px;
+    top: 9px;
+}
+.lotusui30 .lotusPalette .lotusPaletteHeader a, .lotusui30 .lotusPalette .lotusPaletteHeader a:visited, .lotusui30 .lotusPalette .lotusPaletteHeader a:hover, .lotusui30 .lotusPalette .lotusPaletteHeader a:focus, .lotusui30 .lotusPalette .lotusPaletteHeader a:active {
+    color: #222;
+}
+.lotusui30 .lotusPaletteHeader ul.lotusTabs {
+    float: none;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.lotusui30 .lotusPaletteHeader ul.lotusTabs li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+}
+.lotusui30 .lotusPaletteHeader ul.lotusTabs li.lotusSelected {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom-color: #f0f0f0;
+}
+.lotusui30 .lotusPaletteHeader ul.lotusTabs li a, .lotusui30 .lotusPaletteHeader ul.lotusTabs li a:visited {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    margin: 0;
+    padding: 9px 10px;
+}
+.lotusui30 .lotusPaletteHeader ul.lotusTabs li.lotusSelected a, .lotusui30 .lotusPaletteHeader ul.lotusTabs li.lotusSelected a:visited {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #000;
+}
+.lotusui30 .lotusPaletteNav {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: auto;
+    margin: 20px -20px 0;
+    padding: 0 20px;
+    width: 215px;
+}
+.lotusui30 .lotusPaletteNav h3, .lotusui30 .lotusPaletteNav .lotusPaletteNavHeader .lotusHeading2 {
+    color: #444;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+.lotusui30 .lotusPalette .lotusSearch input.lotusText {
+    background: -moz-linear-gradient(center top , #f2f2f2 0%, #ffffff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #ccc;
+    border-radius: 15px;
+    margin: 0 4px 0 0;
+    padding-left: 8px;
+    width: 155px;
+}
+.lotusui30 .lotusPalette .lotusChunk, .lotusui30 .lotusPalette .lotusPaletteNavHeader {
+    margin: 10px 0;
+    width: auto;
+}
+.lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 16em;
+    margin: 0;
+    width: auto;
+}
+.lotusui_ie .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu {
+    height: 15em;
+}
+.lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li a, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li a:visited, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li a:hover, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li a:focus, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li a:active {
+    background-image: none;
+    box-shadow: none;
+    color: #444;
+    margin: 0;
+    padding-left: 20px;
+    text-shadow: none;
+}
+.lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li.lotusSelected, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li.lotusSelected a {
+    background: none repeat scroll 0 0 #1f7cae;
+}
+.lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li.lotusSelected a, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li.lotusSelected a:visited, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li.lotusSelected a:hover, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li.lotusSelected a:focus, .lotusui30 .lotusPalette .lotusPaletteNav .lotusMenu li.lotusSelected a:active {
+    color: #fff;
+}
+.lotusui30 .lotusPaletteBody {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    margin-bottom: 0;
+}
+.lotusui30 .lotusPaletteContent {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 19.2em;
+    padding: 20px 25px;
+}
+.lotusui30 .lotusPaletteWidget {
+    background: none repeat scroll 0 0 #fff;
+    border-color: #ccc;
+    color: #222;
+}
+.lotusui30 .lotusPaletteContent .lotusPaletteWidget a, .lotusui30 .lotusPaletteContent .lotusPaletteWidget a:visited, .lotusui30 .lotusPaletteContent .lotusPaletteWidget a:hover, .lotusui30 .lotusPaletteContent .lotusPaletteWidget a:focus, .lotusui30 .lotusPaletteContent .lotusPaletteWidget a:active {
+    color: #222;
+}
+.lotusui30 .lotusPaletteWidget a.lotusIcon {
+    background-position: 0 -4119px;
+    opacity: 0.45;
+}
+.lotusui30 .lotusPaletteWidget a.lotusIcon:hover, .lotusui30 .lotusPaletteWidget a.lotusIcon:focus, .lotusui30 .lotusPaletteWidget a.lotusIcon:active {
+    opacity: 0.55;
+}
+.lotusui30 .lotusPaletteWidgetHover {
+    border-color: #00b0da;
+}
+.lotusui30 .lotusPaletteWidget .lotusWidgetTitle .lotusTitle span {
+    color: #1f7cae;
+}
+.lotusui30 .lotusPaletteWidget.lotusPaletteDisabledBtn .lotusTitle a.homepageUnclickable span {
+    color: #1f7cae !important;
+}
+.lotusui30 .lotusPaletteContent .lotusPaging[dojoattachpoint="noWidgetNode"] {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+.lotusui30 .lotusPalette .lotusMeta[dojoattachpoint="loadingNode"] {
+    font-size: 1em;
+    margin: 0 20px !important;
+}
+.lotusui30 .lotusPaletteContent .lotusPaging {
+    margin-bottom: 0;
+}
+.lotusui30 .lotusPaletteContent .lotusPaging ul li, .lotusui30 .lotusPaletteContent .lotusPaging div {
+    color: #222;
+}
+.lotusui30 .lotusPalette .lotusPaging a, .lotusui30 .lotusPalette .lotusPaging a:visited {
+    color: #1970b0;
+}
+.lotusui30 .lotusPalette .lotusPaging a:hover, .lotusui30 .lotusPalette .lotusPaging a:focus, .lotusui30 .lotusPalette .lotusPaging a:active {
+    color: #05386b;
+}
+.lotusui30 .lotusSearch .lotusScope, .lotusui30 .lotusSearch .lotusText, .lotusui30 .lotusSearch .dijitTextBox {
+    border-color: #aaa;
+}
+.lotusui30 .lotusSearch .lotusText {
+    padding-bottom: 4px;
+    padding-top: 3px;
+}
+.lotusui30 .lotusSearch .lotusScope {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.lotusui30 .lotusSearch .lotusSearchButton {
+    color: #000;
+}
+.lotusui30 .lotusSearch .lotusText, .lotusui30 .lotusSearch .dijitTextBox {
+    border-color: #ccc;
+}
+.lotusui30 .lotusSearch a.lotusScope:hover, .lotusui30 .lotusSearch a.lotusScope:focus, .lotusui30 .lotusSearch a.lotusScope:active {
+    background-color: #e9f1f3;
+    background-position: 100% -1680px;
+    color: #000;
+}
+.lotusui30 .lotusSearchForm .lotusSearchButton {
+    color: #000;
+}
+.lotusui30 .lotusSearchTab {
+    background-color: #f1f1f1;
+    background-image: -moz-linear-gradient(center top , #fff 0%, #ebebeb 100%);
+    border-color: #aaa;
+    border-radius: 2px;
+    padding: 2px 6px 4px 8px;
+}
+.lotusui30 .lotusTabExpanded {
+    border-radius: 2px 2px 0 0;
+}
+.lotusui30 .lotusSearchTab a, .lotusui30 .lotusSearchTab a:visited {
+    font-size: 0.9em;
+    line-height: 1.7;
+    padding-right: 12px;
+}
+.lotusui30 .lotusSearchTab a, .lotusui30 .lotusSearchTab a:visited, .lotusui30 .lotusSearchTab a:hover, .lotusui30 .lotusSearchTab a:focus, .lotusui30 .lotusSearchTab a:active {
+    text-decoration: none;
+}
+.lotusui30 form.lotusSearchForm {
+    border-radius: 0;
+    box-shadow: 0 2px 5px #eee;
+    z-index: 1;
+}
+.lotusui30 .lotusSearchForm .lotusBtnImg {
+    padding: 3px;
+}
+.lotusui30 .lotusSearchForm input.lotusText {
+    padding-bottom: 4px;
+    padding-top: 3px;
+}
+.lotusui30 .lotusSection2 {
+    border: 0 none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+.lotusui30 .lotusSection, .lotusui30 .lotusWidget, .lotusui30 .lotusWidget2 {
+    border-width: 0;
+    margin: 0 0 20px;
+    padding: 0;
+    width: auto;
+}
+.lotusui30 .lotusColLeft .lotusWidget2 h3 {
+    border-bottom-color: #484848;
+    margin: 0;
+    padding: 7px 0 10px;
+}
+.lotusui30 .lotusPortlet .lotusSectionHeader {
+    background-color: transparent;
+    background-image: none;
+    border-width: 0;
+    margin: 0;
+}
+.lotusui30 .lotusSectionPlain .lotusSectionHeader {
+    background-image: none;
+    border-width: 0;
+}
+.lotusui30 .lotusSection2 .lotusSectionHeader .lotusIcon {
+    padding: 5px 0 5px 5px;
+    width: 16px;
+}
+.lotusui30 .lotusSection h2 a.lotusIcon {
+    height: 16px;
+    margin-top: 2px;
+}
+.lotusui30 .lotusSection2 .lotusSectionHeader .lotusFirst {
+    padding-left: 0;
+}
+.lotusui30 .lotusSection2 .lotusSectionHeader a.lotusArrow, .lotusui30 .lotusSection2 .lotusSectionHeader a.lotusArrow:visited, .lotusui30 .lotusSection2 .lotusSectionHeader a.lotusArrow:hover, .lotusui30 .lotusSection2 .lotusSectionHeader a.lotusArrow:focus, .lotusui30 .lotusSection2 .lotusSectionHeader a.lotusArrow:active {
+    padding: 5px 0;
+}
+.lotusui30 .lotusSection2 .lotusDraggable a.lotusArrow, .lotusui30 .lotusSection2 .lotusDraggable a.lotusArrow:visited, .lotusui30 .lotusSection2 .lotusDraggable a.lotusArrow:hover, .lotusui30 .lotusSection2 .lotusDraggable a.lotusArrow:focus, .lotusui30 .lotusSection2 .lotusDraggable a.lotusArrow:active {
+    padding: 5px 0 5px 5px;
+}
+.lotusui30 .lotusSection .lotusDraggable .lotusArrow {
+    margin-left: 5px;
+}
+.lotusui30 .lotusSection2 .lotusDragHandle, .lotusui30 .lotusSection .lotusDragHandle {
+    left: 0;
+    top: 7px;
+}
+.lotusui30 .lotusSection h2.lotusDraggable span.lotusLeft, .lotusui30 .lotusSection h3.lotusDraggable span.lotusLeft {
+    width: 75%;
+}
+.lotusui30 .lotusSection2 .lotusSubheader, .lotusui30 .lotusSection h3, .lotusui30 .lotusWidget h3, .lotusui30 .lotusWidget2 h3 {
+    padding: 7px 0;
+}
+.lotusui30 .lotusSection2 .lotusSubheader .lotusIcon {
+    padding-right: 0;
+}
+.lotusui30 .lotusSection2 .lotusHeading, .lotusui30 .lotusSection2 .lotusHeading2 {
+    color: #484848;
+    font-size: 1.16667em;
+}
+.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, .lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
+    font-size: 1.25em;
+}
+.lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2, .lotusui30 .dijitTitlePaneTitle {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-width: 0;
+    color: #484848;
+    font-size: 1.16667em;
+    margin: 0;
+    padding: 5px 0;
+}
+.lotusui30 .lotusColRight .lotusSection h2, .lotusui30 .lotusColRight .lotusWidget h2, .lotusui30 .lotusColRight .lotusWidget2 h2, .lotusui30 .lotusColRight .dijitTitlePaneTitle {
+    font-size: 1.25em;
+}
+.lotusui30 .lotusSection2 .lotusHeading a, .lotusui30 .lotusSection h2 a, .lotusui30 .lotusWidget h2 a, .lotusui30 .lotusWidget2 h2 a {
+    color: inherit !important;
+}
+.lotusui30 .lotusColLeft .lotusSection2 .lotusHeading, .lotusui30 .lotusColLeft .lotusSection h2, .lotusui30 .lotusColLeft .lotusWidget h2, .lotusui30 .lotusColLeft .lotusWidget2 h2, .lotusui30 .lotusColLeft .dijitTitlePaneTitle {
+    color: #f1f1f1;
+    font-size: 1.16667em;
+    text-shadow: 0 1px 1px #121212;
+}
+.lotusui30 .lotusColLeft .lotusSection2 .lotusHeading2, .lotusui30 .lotusColLeft .lotusSection h3, .lotusui30 .lotusColLeft .lotusWidget h3, .lotusui30 .lotusColLeft .lotusWidget2 h3 {
+    color: #f1f1f1;
+    text-shadow: 0 1px 1px #121212;
+}
+.lotusui30 .lotusColLeft .lotusSection2 .lotusHeading .lotusArrow, .lotusui30 .lotusColLeft .lotusSection h2 .lotusArrow, .lotusui30 .lotusColLeft .lotusWidget h2 .lotusArrow, .lotusui30 .lotusColLeft .lotusWidget2 h2 .lotusArrow {
+    margin-left: -4px;
+}
+.lotusui30 .lotusSection div.lotusChunk h3 {
+    margin-top: 5px;
+}
+.lotusui30 .lotusSectionBody, .lotusui30 .lotusSection2 .lotusSectionBody, .lotusui30 .lotusSection .lotusSectionBody, .lotusui30 .lotusWidget .lotusWidgetBody, .lotusui30 .lotusWidget2 .lotusWidgetBody, .lotusui30 .lotusWidgetPlain .lotusWidgetBody {
+    background-color: transparent;
+    border-width: 0;
+    clear: both;
+    margin: 0;
+    padding: 5px 0;
+}
+.lotusui30 .lotusSectionBody[dojoattachpoint="tagCloudContent"], .lotusui30 #socialTagsSubArea, .lotusui30 #lconnTagCloudContent, .lotusui30 .lotusSection .lconnTagCloudContent, .lotusui30 .lotusSectionBody.lconnFacet, .lotusui30 .lotusWidget2 .lconnTagCloudContent {
+    background: none repeat scroll 0 0 #2e3033;
+    border-bottom: 1px solid #404040;
+    border-top: 1px solid #252525;
+    margin: 0 -20px;
+    padding: 10px 20px;
+}
+.lotusui30 .lotusSectionBody[dojoattachpoint="tagCloudContent"] .lotusLoading {
+    margin-right: 5px;
+}
+.lotusui30 .lotusSectionBody[dojoattachpoint="tagCloudContent"] ul.lotusList, .lotusui30 .lotusSectionBody[dojoattachpoint="tagCloudContent"] ul.lotusEditable li {
+    overflow: visible;
+}
+.lotusui30 .lotusSectionBody[dojoattachpoint="tagCloudContent"] div[dojoattachpoint="_tagListLink"] {
+    padding-top: 7px;
+}
+.lotusui30 .lotusSection2 .lotusSectionFooter, .lotusui30 .lotusSection .lotusSectionFooter, .lotusui30 .lotusWidget .lotusWidgetFooter, .lotusui30 .lotusWidget2 .lotusWidgetFooter {
+    border-top: 1px solid #ced2d4;
+    padding: 5px 0;
+}
+.lotusui30 .lotusSection2 .lotusSectionFooter .lotusPaging, .lotusui30 .lotusSection .lotusSectionFooter .lotusPaging, .lotusui30 .lotusWidget .lotusSectionFooter .lotusPaging, .lotusui30 .lotusWidget2 .lotusSectionFooter .lotusPaging {
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+.lotusui30 .lotusPortlet .lotusTabs li.lotusSelected, .lotusui30 .lotusWidget2 .lotusTabs li.lotusSelected, .lotusui30 .lotusWidget .lotusTabs li.lotusSelected {
+    background-color: #fff;
+    border-color: #aaa #aaa #fff;
+}
+.lotusui30 .lotusPortlet, .lotusui30 .lotusContent .lotusWidget {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    box-shadow: 0 1px 3px #eee;
+    padding: 10px;
+}
+.lotusui30 .lotusWidget .widgetFooter {
+    padding-top: 5px;
+}
+.lotusui30 .lotusContent .lotusWidget2 {
+    border-top: 1px solid #d2d2d2;
+}
+.lotusui30 .lotusSection2 .lotusSectionHeader .lotusActionIcon img, .lotusui30 .lotusWidget h2 a.lotusActionMenu, .lotusui30 .lotusWidget2 h2 a.lotusActionMenu {
+    background-image: url("/connections/resources/web/com.ibm.social.gen4.theme/sprite/sprite16.png?etag=20130828.201043");
+    background-position: -656px 0;
+    background-repeat: no-repeat;
+    height: 16px;
+    margin-top: 2px;
+    opacity: 0.55;
+    width: 16px;
+}
+.lotusui30 .lotusSection2 .lotusSectionHeader .lotusActionIcon:hover img, .lotusui30 .lotusSection2 .lotusSectionHeader .lotusActionIcon:focus img, .lotusui30 .lotusWidget h2 a.lotusActionMenu:hover, .lotusui30 .lotusWidget2 h2 a.lotusActionMenu:hover {
+    opacity: 0.75;
+}
+.lotusui30 .lotusColLeft .lotusSection2 .lotusSectionHeader .lotusActionIcon img, .lotusui30 .lotusColLeft .lotusWidget h2 a.lotusActionMenu, .lotusui30 .lotusColLeft .lotusWidget2 h2 a.lotusActionMenu {
+    background-position: -640px 0;
+}
+.lotusui30 .lotusWidgetTable td:first-child .lotusWidget {
+    margin-right: 10px !important;
+}
+.lotusui30 .lotusWidgetTable td:last-child .lotusWidget {
+    margin-left: 10px !important;
+}
+.lotusui30 .lotusSort {
+    background-color: transparent;
+    color: #222;
+    margin: 5px 0;
+}
+.lotusui30 .lotusSort .lotusInlinelist li {
+    padding: 0 5px;
+}
+.lotusui30 .lotusInfoTable {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px #eee;
+}
+.lotusui30 .lotusInfoTable td, .lotusui30 .lotusInfoTable th {
+    border-width: 0;
+}
+.lotusui30 .lotusTable .lotusAltRow td, .lotusui30 .lotusTable .lotusAltRow th.lotusRowHeader {
+    background-color: transparent;
+}
+.lotusui30 .lotusTable .lotusForm2 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #f0f0f0;
+    border-style: solid;
+    border-width: 5px 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.lotusui30 .lotusTable .lotusForm2 .lotusFormTitle .lotusHeading {
+    margin-top: 0;
+}
+.lotusui30 .lotusTable .lotusForm2 .lotusFormFooter {
+    border: 0 none;
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+.lotusui30 .lotusTable .lotusForm2 .lotusMessage2 {
+    margin-bottom: 0;
+    top: 0;
+}
+.lotusui30 .lotusTabs li {
+    background-color: transparent;
+    border-color: #ccc;
+    padding: 0;
+}
+.lotusui30 .lotusTabs li.lotusSelected {
+    background-color: #fff;
+    border-color: #aaa #aaa #fff;
+}
+.lotusui30 .lotusTabs a, .lotusui30 .lotusTabs a:visited {
+    color: #444;
+    font-size: 0.9em;
+}
+.lotusui30 .lotusTabs a:hover, .lotusui30 .lotusTabs a:focus {
+    color: #000;
+}
+.lotusui30 .lotusTabCondensed .lotusTabs li.lotusSelected {
+    background-color: transparent;
+}
+.lotusui30 .lotusTagCloud {
+    margin-left: -15px;
+    padding: 10px;
+}
+.lotusui30 a.lotusF5, .lotusui30 a.lotusF5:visited {
+    color: #0498d2;
+}
+.lotusui30 a.lotusF4, .lotusui30 a.lotusF4:visited {
+    color: #0498d2;
+}
+.lotusui30 a.lotusF3, .lotusui30 a.lotusF3:visited {
+    color: #0498d2;
+}
+.lotusui30 a.lotusF2, .lotusui30 a.lotusF2:visited {
+    color: #90c3d7;
+}
+.lotusui30 a.lotusF1, .lotusui30 a.lotusF1:visited {
+    color: #90c3d7;
+}
+.lotusui30 .lotusTips {
+    background-color: #1d6784;
+    border-color: #25586c;
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px;
+}
+.lotusui30 .lotusTips .lotusClose {
+    right: 4px;
+}
+.lotusui30 .lotusTips .lotusClose input {
+    opacity: 0.45;
+}
+.lotusui30 .lotusTips .lotusClose input:hover, .lotusui30 .lotusTips .lotusClose input:focus, .lotusui30 .lotusTips .lotusClose input:active {
+    opacity: 0.75;
+}
+.lotusui30 .lotusVCard a:link, .lotusui30 .lotusVCard a:visited, .lotusui30 .lotusVCard a:hover, .lotusui30 .lotusVCard a:focus, .lotusui30 .lotusVCard a:active {
+    color: #1970b0;
+}
+.lotusui30 .lotusVCard .lotusAppLinks td {
+    background-color: #f1f1f1;
+    background-image: -moz-linear-gradient(center top , #fff 0%, #ebebeb 100%);
+    background-position: left top;
+}
+.lotusui30 .lotusVCard .lotusActionMenu a, .lotusui30 .lotusVCard .lotusActionMenu a:visited {
+    color: #000;
+}
+.lotusui30 .lotusVCard .lotusPhoto {
+    background-color: #fff;
+    border-color: #ccc;
+}
+.lotusui30 .lotusVCard .lotusAppLinks td {
+    border-color: #ccc;
+}
+.lotusui30 .lotusVCard .lotusDetails {
+    background-color: #fafafa;
+    border-top-width: 0;
+}
+.lotusui30 .lotusVCard .lotusActionMenu a:hover, .lotusui30 .lotusVCard .lotusActionMenu a:focus, .lotusui30 .lotusVCard .lotusActionMenu a:active {
+    background-color: #e9f1f3;
+    color: #000;
+}
+.lotusui30 .lotusVCardHover {
+    background-color: #0072a7;
+    border-width: 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    font-size: 0.9em;
+    padding: 6px 10px 6px 25px;
+}
+.lotusui30 a.lotusVCardHover, .lotusui30 a.lotusVCardHover:visited {
+    color: #fff;
+}
+.lotusui30 .lotusIconLike, .lotusui30 .lotusIconMsgSuccess, .lotusui30 .lotusIconMsgError, .lotusui30 .lotusIconMsgInfo, .lotusui30 .lotusIconMsgWarning {
+    background-image: url("/connections/resources/web/com.ibm.lconn.core.styles.oneui3/images/lotusHSprite-8bit.png?etag=20130828.201043");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+.lotusui30 .lotusIconLike {
+    background-position: -88px -8px;
+}
+.lotusui30 .lotusIconMsgSuccess {
+    background-position: 0 -8px;
+}
+.lotusui30 .lotusIconMsgError {
+    background-position: -22px -8px;
+}
+.lotusui30 .lotusIconMsgInfo {
+    background-position: -44px -8px;
+}
+.lotusui30 .lotusIconMsgWarning {
+    background-position: -66px -8px;
+}
+.lotusui30_body .lotusFrame {
+    max-width: none;
+}
+.lotusui30_body {
+    background-color: #f0f0f0;
+    color: #222;
+}
+.lotusui30_layout .lotusMain .lotusContent {
+    border: 1px solid #d2d2d2;
+    border-radius: 0;
+    margin: 25px 0 0;
+    padding: 20px;
+}
+.lotusui30 .lotusBanner .lotusInner, .lotusui30 .lotusBannerExt .lotusWrapper, .lotusui30 .lotusTitleBar2 .lotusWrapper, .lotusui30 .lotusTitleBarExt .lotusWrapper, .lotusui30 .lotusTitleBar .lotusRightCorner, .lotusui30 .lotusPlaceBar .lotusRightCorner {
+    margin: 0 auto;
+    max-width: 1575px;
+    min-width: 965px;
+    padding: 0 5px 0 20px;
+}
+.lotusui30 .lotusTitleBarExt .lotusWrapper {
+    position: relative;
+}
+.lotusui30 .lotusPlaceBar .lotusRightCorner {
+    max-width: 1595px;
+    min-width: 985px;
+    padding-left: 0;
+}
+.lotusui30_body .lotusMain {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    border-radius: 0;
+    clear: none;
+    margin: 0 auto;
+    max-width: 1590px;
+    min-width: 980px;
+    padding: 0 5px;
+    position: relative;
+}
+.lotusui30_layout.lotusFluid .lotusBanner .lotusInner, .lotusui30_layout.lotusFluid .lotusBannerExt .lotusWrapper, .lotusui30_layout.lotusFluid .lotusTitleBar2 .lotusWrapper, .lotusui30_layout.lotusFluid .lotusTitleBarExt .lotusWrapper, .lotusui30_body .lotusFluid .lotusMain, .lotusui30_layout.lotusFluid .lotusTitleBar .lotusRightCorner, .lotusui30_layout.lotusFluid .lotusPlaceBar .lotusRightCorner {
+    max-width: none;
+}
+.lotusui30_layout.lotusFixed .lotusBanner .lotusInner, .lotusui30_layout.lotusFixed .lotusBannerExt .lotusWrapper, .lotusui30_layout.lotusFixed .lotusTitleBar2 .lotusWrapper, .lotusui30_layout.lotusFixed .lotusTitleBarExt .lotusWrapper, .lotusui30_layout.lotusFixed .lotusTitleBar .lotusRightCorner, .lotusui30_layout.lotusFixed .lotusPlaceBar .lotusRightCorner, .lotusui_ie6 .lotusui30 .lotusBanner .lotusInner, .lotusui_ie6 .lotusui30 .lotusBannerExt .lotusWrapper, .lotusui_ie6 .lotusui30 .lotusTitleBar2 .lotusWrapper, .lotusui_ie6 .lotusui30 .lotusTitleBarExt .lotusWrapper, .lotusui_ie6 .lotusui30 .lotusTitleBar .lotusRightCorner, .lotusui_ie6 .lotusui30 .lotusPlaceBar .lotusRightCorner {
+    max-width: none;
+    width: 965px;
+}
+.lotusui30_body .lotusFixed .lotusMain, .lotusui_ie6 .lotusui30_body .lotusMain {
+    max-width: none;
+    width: 980px;
+}
+.lotusui30_layout .lotusColLeft, .lotusui30_layout .lotusColRight {
+    padding: 25px 0;
+}
+.lotusui30_layout .lotusColLeft {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fafafa;
+    margin-left: -5px;
+    margin-right: 25px;
+    width: 215px;
+}
+.lotusui_ie .lotusui30_layout .lotusColLeft, .lotusui_ie8 .lotusui30_layout .lotusColLeft {
+    background: none repeat scroll 0 0 #363a3e;
+}
+.lotusui30_layout .lotusColLeft .lconnEmpty, .lotusui30_layout .lotusColLeft .lotusMeta {
+    color: inherit;
+}
+.lotusui_ie .lotusui30_layout .lotusColLeft .lconnEmpty, .lotusui_ie .lotusui30_layout .lotusColLeft .lotusMeta {
+    color: #fafafa;
+}
+.lotusui30_layout .lotusColLeft .lotusSection2 .lotusPhoto {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 5px #eee;
+}
+.lotusui30_layout .lotusColLeft .lotusPhoto {
+    height: 146px;
+    width: 146px;
+}
+.lotusui30_layout .lotusColLeft .lotusPhoto img {
+    margin: 9px;
+}
+.lotusui30_layout .lotusColLeft .lotusForm2 .lotusFormFooter, .lotusui30_layout .lotusColRight .lotusForm2 .lotusFormFooter {
+    background-color: transparent;
+    border-width: 0;
+}
+.lotusui30_layout .lotusColRight {
+    margin-left: 25px;
+    transition: width 500ms cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    width: 250px;
+}
+.lotusui30_layout .lotusColLeft .lotusSection2, .lotusui30_layout .lotusColLeft .lotusSection, .lotusui30_layout .lotusColLeft .lotusWidget, .lotusui30_layout .lotusColLeft .lotusWidget2, .lotusui30_layout .lotusColLeft .lotusTips {
+    margin: 0 20px 20px;
+}
+.lotusui30_layout .lotusColRight .lotusSection2, .lotusui30_layout .lotusColRight .lotusSection, .lotusui30_layout .lotusColRight .lotusWidget, .lotusui30_layout .lotusColRight .lotusWidget2, .lotusui30_layout .lotusColRight .lotusTips, .lotusui30_layout .lotusColRight .lotusInfoBox {
+    margin: 0 0 15px;
+}
+.lotusui30_layout .lotusColLeft .lotusSection2 .lotusSearch .lotusText, .lotusui30_layout .lotusColRight .lotusSection2 .lotusSearch .lotusText {
+    width: 76%;
+}
+.lotusui30_layout .lotusColRight .lotusTable td, .lotusui30_layout .lotusColRight .lotusTable th.lotusRowHeader, .lotusui30_layout .lotusColRight .lotusTable th.lotusSubHeader {
+    border-top: 1px solid #ced2d4;
+}
+.lotusui30_layout .lotusColLeft .lotusTwistyOpen {
+    background-position: 2px -518px;
+    margin-top: 2px;
+    opacity: 1;
+}
+.lotusui30_layout .lotusColLeft .lotusTwistyClosed {
+    background-position: 2px -622px;
+    margin-top: 2px;
+    opacity: 1;
+}
+.lotusui30_layout .lotusColLeft a.lotusDelete img {
+    background-position: -575px -11px;
+    opacity: 0.55;
+    vertical-align: middle;
+}
+.lotusui30_layout .lotusColLeft a.lotusDelete:hover img, .lotusui30_layout .lotusColLeft a.lotusDelete:focus img {
+    opacity: 0.75;
+}
+.lotusui30_layout .lotusColLeft .lotusSearch .lotusSearchButton {
+    background-position: -609px -8px;
+    opacity: 0.55;
+}
+.lotusui30_layout .lotusColLeft .lotusSearch .lotusSearchButton:hover {
+    opacity: 0.75;
+}
+.lotusui30_layout .lotusColLeft .lotusAdd img {
+    background-position: -537px -8px;
+    margin-left: 5px;
+    opacity: 0.55;
+}
+.lotusui30_layout .lotusColLeft .lotusAdd:hover img {
+    opacity: 0.75;
+}
+.lotusui30_layout .lotusContent .lotusTable tr td:first-child {
+    padding-left: 15px;
+}
+.lotusui30_layout .lotusContent .lotusTable tr td:last-child {
+    padding-right: 10px;
+}
+.lotusui30 .lotusColLeft .lotusTagCloud {
+    margin: 5px 0 0;
+    padding: 0;
+}
+.lotusui30 .lotusColLeft a.lotusF5, .lotusui30 .lotusColLeft a.lotusF5:visited {
+    color: #fafafa;
+}
+.lotusui30 .lotusColLeft a.lotusF4, .lotusui30 .lotusColLeft a.lotusF4:visited {
+    color: #dadada;
+}
+.lotusui30 .lotusColLeft a.lotusF3, .lotusui30 .lotusColLeft a.lotusF3:visited {
+    color: #dadada;
+}
+.lotusui30 .lotusColLeft a.lotusF2, .lotusui30 .lotusColLeft a.lotusF2:visited {
+    color: #9a9a9a;
+}
+.lotusui30 .lotusColLeft a.lotusF1, .lotusui30 .lotusColLeft a.lotusF1:visited {
+    color: #9a9a9a;
+}
+.lotusui30 .lotusColLeft .lotusInlinelist li {
+    border-left-color: #6e6e6e;
+}
+.lotusui30_layout .lotusColLeft .lotusSection .lotusSearch .lotusText, .lotusui30_layout .lotusColRight .lotusSection .lotusSearch .lotusText, .lotusui30_layout .lotusColLeft .lotusWidget2 .lotusSearch .lotusText, .lotusui30_layout .lotusColRight .lotusWidget2 .lotusSearch .lotusText {
+    width: 76%;
+}
+.lotusui30_layout .lotusColLeft:after {
+    background: none repeat scroll 0 0 #282a2d;
+    border-left: 1000px solid #33363a;
+    border-right: 214px solid #363a3e;
+    bottom: 0;
+    box-shadow: -1px 0 0 #404749 inset;
+    content: "";
+    height: 100%;
+    margin-left: -1001px;
+    position: fixed;
+    width: 2px;
+    z-index: -2;
+}
+@media not all {
+.lotusui30_layout .lotusColLeft:after {
+    margin-left: -1000px;
+}
+}
+.lotusui30_layout .lotusMain .lotusContent:before {
+    background: none repeat scroll 0 0 #f0f0f0;
+    content: "";
+    height: 100%;
+    left: 215px;
+    position: absolute;
+    top: 0;
+    width: 770px;
+    z-index: -1;
+}
+.lotusui30_layout .lotusMain .startContent .lotusContent:before {
+    content: none;
+}
+.lotusui_ie8 .lotusui30_body .lotusMain {
+    position: static;
+}
+.lotusui_ie8 .lotusui30_layout .lotusColLeft:after {
+    border-right-width: 215px;
+    width: 1px;
+}
+.lotusui_ie8 .lotusui30_layout .lotusMain .lotusContent:before {
+    content: none;
+}
+.lotusui30 .lotusBanner {
+    background: none repeat scroll 0 0 #008abf;
+    border-bottom: 1px solid #0075a3;
+    padding: 0 0 2px;
+    position: relative;
+    z-index: 2;
+}
+.lotusui30 div.lotusBanner .lotusRightCorner {
+    background: linear-gradient(to bottom, #3c4044 0%, #151718 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #1a96c6;
+    overflow: hidden;
+}
+.lotusui30 .lotusBanner .lotusLogo img {
+    margin-bottom: 21px;
+    margin-top: 23px;
+}
+.lotusui_ie .lotusui30 .lotusBanner .lotusLogo img {
+    margin-top: 21px;
+}
+.lotusui_ie6 .lotusui30 .lotusBanner .lotusLogo img {
+    margin-left: 0;
+}
+.lotusui30 div.lotusBanner .lotusLogo .lotusAltText {
+    color: #fff;
+    font-size: 1.083em;
+    font-weight: bold;
+    line-height: 1.385;
+    margin: 15px 20px 15px 0;
+    padding: 0;
+    text-shadow: 0 1px 2px #000;
+}
+.lotusui30 .lotusBanner a.lotusLogo:hover, .lotusui30 .lotusBanner a.lotusLogo:focus, .lotusui30 .lotusBanner a.lotusLogo:active {
+    color: #ccc;
+    cursor: pointer;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li {
+    display: block;
+    float: left;
+    margin: 0 -1px 0 0;
+    position: relative;
+    z-index: 0;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    display: block;
+    font-weight: bold;
+    padding: 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+}
+.lotusui30.lotusImagesOff .lotusBanner ul.lotusInlinelist li a, .lotusImagesOff .lotusui30 .lotusBanner ul.lotusInlinelist li a {
+    border: 0 none;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusSelected a {
+    text-decoration: none;
+}
+.lotusui30 .lotusBanner .lotusDropDownSprite {
+    background-position: 0 -1260px;
+    margin-left: 3px;
+}
+.lotusui30 .lotusBanner .lotusUnreadBadge {
+    background: none repeat scroll 0 0 #107bbb;
+    bottom: 0.7em;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.2;
+    margin-left: 2px;
+    position: relative;
+    text-shadow: none;
+}
+.lotusui30 .lotusBanner .lotusBadgeIcon {
+    bottom: 7px;
+    line-height: 0.8;
+    margin-left: -5px;
+    padding: 2px 3px 3px;
+}
+.lotusui_ie .lotusui30 .lotusBanner .lotusBadgeIcon {
+    padding-bottom: 0;
+}
+.lotusImagesOff .lotusui30 .lotusBanner .lotusBadgeIcon {
+    margin-left: 0;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:hover, .lotusui30 .lotusBanner ul.lotusInlinelist li a:focus, .lotusui30 .lotusBanner ul.lotusInlinelist li a:active, .lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a {
+    background: linear-gradient(to bottom, #33393f 0%, #161618 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 0 rgba(255, 255, 255, 0.05), -1px 0 rgba(255, 255, 255, 0.05);
+}
+.lotusui30 .lotusBanner ul.lotusLinks li a, .lotusui30 .lotusBanner ul.lotusLinks li a:hover, .lotusui30 .lotusBanner ul.lotusLinks li a:focus, .lotusui30 .lotusBanner ul.lotusLinks li a:active, .lotusui30 .lotusBanner ul.lotusLinks li.lotusHover a {
+    color: #cfcfcf;
+    text-decoration: none;
+}
+.lotusui30 .lotusBanner ul.lotusUtility li {
+    font-size: 0.916667em;
+    font-weight: bold;
+    line-height: 1.63636;
+}
+.lotusui30 div.lotusBanner ul.lotusUtility li a {
+    color: #cfcfcf;
+    padding: 15px 12px;
+}
+.lotusui30 .lotusBanner ul.lotusUtility li a:hover, .lotusui30 .lotusBanner ul.lotusUtility li a:focus, .lotusui30 .lotusBanner ul.lotusUtility li.lotusHover a {
+    color: #fafafa;
+    text-decoration: none;
+}
+.lotusui30 .lotusBanner ul.lotusUtility li a:active {
+    color: #fff;
+    text-decoration: none;
+}
+.lotusui30 .lotusBanner .lotusUtility img.lotusArrow {
+    opacity: 0.75;
+}
+.lotusui30 div.lotusBanner ul.lotusUtility .lotusBranding {
+    display: block;
+    padding: 16px 0 16px 10px;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:hover, .lotusui30 .lotusBanner ul.lotusInlinelist li a:focus, .lotusui30 .lotusBanner ul.lotusInlinelist li a:active .lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a {
+    color: #fafafa;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:active, .lotusui30 .lotusBanner ul.lotusLinks li.lotusSelected a {
+    color: #fff;
+}
+.lotusui30 .lotusBanner ul.lotusLinks li.lotusSelected {
+    z-index: 1;
+}
+.lotusui30 .lotusBanner ul.lotusLinks li.lotusSelected a {
+    background: linear-gradient(to bottom, #292b2c 0%, #202223 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 6px #000 inset;
+}
+.lotusui_ie9 .lotusui30 .lotusBanner ul.lotusLinks li.lotusSelected a {
+}
+.lotusui30 .lotusBanner .lconnBannerIcon {
+    background: url("/connections/resources/web/com.ibm.social.gen4.theme/sprite/sprite16.png?etag=20130828.201043") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+.lotusui30.lotusImagesOff .lotusBanner .lconnBannerIcon {
+    display: none;
+}
+.lotusui30 #lotusBannerHomepage .lconnBannerIcon {
+    background-position: -480px 0;
+    margin: 2px 0 0;
+}
+.lotusui30 #lotusBannerHomepage a:hover .lconnBannerIcon, .lotusui30 #lotusBannerHomepage a:focus .lconnBannerIcon, .lotusui30 #lotusBannerHomepage.lotusSelected .lconnBannerIcon {
+    background-position: -496px 0;
+}
+.lotusui30 #lconnBannerHomepageLabel {
+    display: none;
+}
+.lotusui30.lotusImagesOff #lconnBannerHomepageLabel {
+    display: block;
+}
+.lotusui30 #lotusBannerProfiles .lconnBannerIcon {
+    background-position: -512px 0;
+}
+.lotusui30 #lotusBannerProfiles a:hover .lconnBannerIcon, .lotusui30 #lotusBannerProfiles a:focus .lconnBannerIcon, .lotusui30 #lotusBannerProfiles.lotusSelected .lconnBannerIcon {
+    background-position: -528px 0;
+}
+.lotusui30 #lotusBannerCommunities .lconnBannerIcon {
+    background-position: -544px 0;
+}
+.lotusui30 #lotusBannerCommunities a:hover .lconnBannerIcon, .lotusui30 #lotusBannerCommunities a:focus .lconnBannerIcon, .lotusui30 #lotusBannerCommunities.lotusSelected .lconnBannerIcon {
+    background-position: -560px 0;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist #headerSharebox {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, #33393f 0%, #161618 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.4);
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px;
+    box-shadow: 1px 0 rgba(255, 255, 255, 0.05), -1px 0 rgba(255, 255, 255, 0.05);
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn {
+    background: linear-gradient(to bottom, #7d7d7d 0%, #747474 26%, #646464 56%, #5b5b5b 59%, #515151 78%, #494949 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #212121;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(204, 204, 204, 0.15) inset;
+    color: #fff;
+    font-size: 1.09091em;
+    margin: 8px 12px;
+    padding: 5px 18px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:hover, .lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:focus, .lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a.lotusBannerBtn {
+    background: linear-gradient(to bottom, #7e7e7e 0%, #777777 48%, #757575 56%, #6e6d6d 59%, #676767 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #212121;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:active {
+    background: none repeat scroll 0 0 #676767;
+    padding-bottom: 4px;
+    padding-top: 6px;
+}
+.lotusui_ie9 .lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn, .lotusui_ie9 .lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:hover, .lotusui_ie9 .lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:focus, .lotusui_ie9 .lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a.lotusBannerBtn {
+}
+#headerHelpLink img, #lotusBannerMail .lconnSprite-iconMailWhite16, #lotusBannerCalendar .iconsComponentsWhite16-CalendarWhite16 {
+    margin: 1px 0;
+}
+.lconnSprite-iconMailWhite16 {
+    background-image: url("/connections/resources/web/com.ibm.social.gen4.theme/sprite/sprite16.png?etag=20130828.201043");
+    background-position: -576px 0;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover .lconnSprite-iconMailWhite16, .lotusui30 .lotusBanner ul.lotusInlinelist li a:hover .lconnSprite-iconMailWhite16, .lotusui30 .lotusBanner ul.lotusInlinelist li a:focus .lconnSprite-iconMailWhite16, .lotusui30 .lotusBanner ul.lotusInlinelist li a:active .lconnSprite-iconMailWhite16 {
+    background-position: -592px 0;
+}
+.iconsComponentsWhite16-CalendarWhite16 {
+    background-image: url("/connections/resources/web/com.ibm.social.gen4.theme/sprite/sprite16.png?etag=20130828.201043");
+    background-position: -608px 0;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover .iconsComponentsWhite16-CalendarWhite16, .lotusui30 .lotusBanner ul.lotusInlinelist a:hover .iconsComponentsWhite16-CalendarWhite16, .lotusui30 .lotusBanner ul.lotusInlinelist a:focus .iconsComponentsWhite16-CalendarWhite16, .lotusui30 .lotusBanner ul.lotusInlinelist a:active .iconsComponentsWhite16-CalendarWhite16 {
+    background-position: -624px 0;
+}
+.lotusui30 .lotusBannerExt {
+    color: #30302f;
+    padding: 0;
+}
+.lotusui30 .lotusBannerExt .lotusBreadcrumbs a, .lotusui30 .lotusBannerExt .lotusBreadcrumbs a:hover, .lotusui30 .lotusBannerExt .lotusBreadcrumbs a:focus, .lotusui30 .lotusBannerExt .lotusBreadcrumbs a:active {
+    color: #4d6d83;
+}
+.lotusui30 .lotusBannerExt .lotusBreadcrumbMore {
+    background: none repeat scroll 0 0 #4d6d83;
+}
+#lotusBannerHomepage:after, #languageSelectorText:after {
+    background: none repeat scroll 0 0 rgba(243, 244, 245, 0.08);
+    box-shadow: 1px 0 rgba(0, 0, 0, 0.5);
+    content: "";
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 14px;
+    width: 1px;
+    z-index: -1;
+}
+#lotusBannerHomepage:hover:after, #lotusBannerHomepage:focus:after, #lotusBannerHomepage:active:after, #lotusBannerHomepage.lotusSelected:after, #languageSelectorText:hover:after, #languageSelectorText:focus:after, #languageSelectorText:active:after, #languageSelectorText.lotusSelected:after {
+    content: none;
+}
+.lotusui30 .lotusBanner ul li span.lotusUser {
+    color: #eee;
+    display: block;
+    font-weight: normal;
+}
+.lotusui_ie .lotusui30 .lotusBanner ul li span.lotusUser {
+    line-height: 1.25em;
+}
+.lotusui30 .lotusBanner ul li span.lotusUser {
+    margin: 5px 0 4px;
+    padding: 2px 10px;
+    text-shadow: 0 1px 2px #000;
+}
+.lotusui30 .lotusBanner ul li span.lotusUser {
+    color: #ccc;
+    margin: 0;
+    padding: 21px 18px;
+}
+.lotusui30 .lotusNavMenu {
+    border: 3px solid rgba(23, 23, 23, 0.8);
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.lotusui30 .lotusNavMenu table, .lotusui30 .lotusNavMenu th, .lotusui30 .lotusNavMenu td, .lotusui30 .lotusNavMenu table td, .lotusui30 .lotusNavMenu tr.lotusMenuSeparator + tr th, .lotusui30 .lotusNavMenu tr.lotusMenuSeparator + tr td {
+    padding: 0;
+}
+.lotusui30 .lotusNavMenu tr a {
+    display: block;
+    padding: 6px 10px;
+}
+.lotusui30 .lotusNavMenu tr a, .lotusui30 .lotusNavMenu tr a:visited {
+    color: #222;
+}
+.lotusui30 .lotusNavMenu tr a:hover, .lotusui30 .lotusNavMenu tr a:focus, .lotusui30 .lotusNavMenu tr a:active, .lotusui30 .lotusNavMenu tr a.lotusHover {
+    background-color: #e9f1f3;
+    text-decoration: none;
+}
+.lotusui30.lotusImagesOff .lotusNavMenu tr a:hover, .lotusui30.lotusImagesOff .lotusNavMenu tr a:focus, .lotusui30.lotusImagesOff .lotusNavMenu tr a:active, .lotusui30.lotusImagesOff .lotusNavMenu tr a.lotusHover {
+    text-decoration: underline;
+}
+.lotusui30 .lotusNavMenu .dijitTooltipContainer a:hover {
+    text-decoration: none;
+}
+.lotusui30 .lotusNavMenu tr span {
+    padding: 5px 10px;
+}
+.lotusui30 .lotusNavMenu tr.lotusMenuSeparator th, .lotusui30 .lotusNavMenu tr.lotusMenuSeparator td {
+    border-bottom-color: #f0f0f0;
+    padding-bottom: 0;
+}
+.lotusui30 .lotusNavMenu .lotusNavMenuConnector {
+    display: none;
+}
+.lotusui30 #lconnheadermenu-apps tr th img {
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.lotusui30 #lconnheadermenu-apps tr th a {
+    padding-left: 36px;
+}
+.lotusui_ie .lotusui30 #lconnheadermenu-apps tr th a, .lotusui30.lotusImagesOff #lconnheadermenu-apps tr th a {
+    padding-left: 10px;
+}
+.lotusui30 .lotusNavMenu tr .lotusInlinelist {
+    padding: 10px;
+    white-space: normal;
+}
+.lotusui30 .lotusNavMenu tr .lotusInlinelist a {
+    color: #222;
+    display: inline;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.lotusui30 .lotusNavMenu .lotusMenuFooter .lotusInlinelist {
+    color: #222;
+}
+.lotusui30 .lotusNavMenu .lotusMenuFooter .lotusInlinelist a, .lotusui30 .lotusNavMenu .lotusMenuFooter .lotusInlinelist a:visited {
+    color: #1970b0;
+}
+.lotusui30 .lotusNavMenu .lotusMenuFooter .lotusInlinelist a:hover, .lotusui30 .lotusNavMenu .lotusMenuFooter .lotusInlinelist a:focus, .lotusui30 .lotusNavMenu .lotusMenuFooter .lotusInlinelist a:active {
+    color: #05386b;
+}
+.lotusui30 .lotusNavMenu tr .lotusInlinelist a:hover, .lotusui30 .lotusNavMenu tr .lotusInlinelist a:focus, .lotusui30 .lotusNavMenu tr .lotusInlinelist a:active {
+    background-color: #fff;
+    text-decoration: underline;
+}
+.lotusui30 .lotusNavMenu .lotusSearch {
+    clear: both;
+    padding: 0 10px 10px;
+    position: relative;
+}
+.lotusui30 .lotusNavMenu .lotusSearch .lotusText {
+    background: -moz-linear-gradient(center top , #f4f4f4 25%, #f1f1f1 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    color: #666;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 4px 25px 4px 8px;
+    width: 480px;
+}
+.lotusui30 .lotusNavMenu .lotusSearch .lotusSearchButton {
+    background-image: url("/connections/resources/web/com.ibm.lconn.core.styles.oneui3/images/lotusHSprite-8bit.png?etag=20130828.201043");
+    background-position: -591px -8px;
+    color: #fff;
+    height: 16px;
+    position: absolute;
+    right: 16px;
+    top: 4px;
+    width: 16px;
+}
+.lotusui30 .lotusNavMenu .lotusSearch .lotusAltText {
+    display: none;
+}
+.lotusui30 .lotusNavMenu tr img.lotusLoading {
+    margin: 0 5px 0 0;
+}
+.lotusui30 .lotusFooter {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border-width: 0;
+    margin: 0 auto;
+    max-width: 1290px;
+    min-width: 980px;
+    padding: 0 5px;
+}
+.lotusui30 .lotusFooter ul {
+    background: none repeat scroll 0 0 #f0f0f0;
+    margin: 0 210px;
+    padding: 15px 0;
+}
+.lotusui30 .lotusFooter a {
+    color: #666;
+    display: inline-block;
+}
+.lotusui30 .lotusFooter a:hover, .lotusui30 .lotusFooter a:focus, .lotusui30 .lotusFooter a:active {
+    color: #05386b;
+}
+.lotusui30 .lotusTitleBar2, .lotusui30 .lotusTitleBar {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+.lotusui30 div.lotusTitleBar2 .lotusInner {
+    padding: 11px 0 10px;
+}
+.lotusui30 div.lotusTitleBar .lotusInner {
+    height: 4em;
+    position: relative;
+}
+.lotusui30 .lotusTitleBar2 .lotusTitleBarContent {
+    margin-right: 370px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading, .lotusui30 div.lotusTitleBar h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading, .lotusui30 div.lotusTitleBar h2, .lotusui30 .lotusTitleBar .lotusHeading a {
+    color: #484848;
+}
+.lotusui30 div.lotusTitleBar h2 {
+    padding: 14px 0 0;
+}
+.lotusui30 .lotusTitleBar h2.lotusEllipsis {
+    width: 220px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .lotusIcon, .lotusui30 .lotusTitleBar h2.lotusHeading img {
+    background-image: url("/connections/resources/web/com.ibm.oneui3.styles/css/images/Icons/ComponentsBlue/iconsComponentsBlue16-8bit.png?etag=20130828.201043");
+    background-position: 0 0;
+    float: none;
+    height: 16px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+    vertical-align: baseline;
+    width: 16px;
+}
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusHeading .lotusIcon, .lotusui_ie .lotusui30 .lotusTitleBar h2.lotusHeading img {
+    margin-bottom: -3px;
+}
+.lotusui30 .lotusTitleBar h2.lotusHeading img {
+    vertical-align: middle;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-ActivitiesBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-ActivitiesBlue24 {
+    background-position: 0 0;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-BlogsBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-BlogsBlue24 {
+    background-position: 0 -24px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-BookmarksBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-BookmarksBlue24 {
+    background-position: 0 -48px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-CalendarBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-CalendarBlue24 {
+    background-position: 0 -72px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-CommunitiesBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-CommunitiesBlue24 {
+    background-position: 0 -96px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-FilesBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-FilesBlue24 {
+    background-position: 0 -120px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-ForumsBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-ForumsBlue24 {
+    background-position: 0 -144px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-HomeBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-HomeBlue24 {
+    background-position: 0 -168px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-MailBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-MailBlue24 {
+    background-position: 0 -192px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-MetricsBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-MetricsBlue24 {
+    background-position: 0 -216px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-NewsFeedBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-NewsFeedBlue24 {
+    background-position: 0 -240px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-ProfilesBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-ProfilesBlue24 {
+    background-position: 0 -264px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-StatusUpdateBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-StatusUpdateBlue24 {
+    background-position: 0 -288px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-TodoBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-TodoBlue24 {
+    background-position: 0 -312px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .iconsComponentsBlue24-WikisBlue24, .lotusui30 .lotusTitleBar .lotusHeading .iconsComponentsBlue24-WikisBlue24 {
+    background-position: 0 -336px;
+}
+.lotusui30 .lotusTitleBar2 .lotusHeading .lotusText, .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText:visited, .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText:hover, .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText:focus, .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText:active {
+    color: #484848;
+}
+.lotusui30 .lotusTitleBar2.lotusTitleBar2Tabs .lotusInner {
+    border: 0 none;
+    padding: 0;
+}
+.lotusui30 .lotusTitleBar2.lotusTitleBar2Tabs .lotusHeading {
+    font-size: 1.5em;
+    padding-top: 9px;
+}
+.lotusui30 .lotusTitleBar2.lotusTitleBar2Tabs .lotusHeading .lotusIcon {
+    vertical-align: baseline;
+}
+.lotusui30 .lotusTitleBar2.lotusTitleBar2Tabs .lotusSearch {
+    margin: 0;
+}
+.lotusui30 .lotusTitleBar2.lotusTitleBar2Tabs .lotusSearch .lotusLayout {
+    background: none repeat scroll 0 0 #f3f3f3;
+    border-color: #e3e3e3;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs {
+    bottom: -3px;
+    margin-left: 220px;
+    padding-top: 11px;
+}
+.lotusui_ie .lotusui30 .lotusTitleBar2 ul.lotusNavTabs {
+    bottom: -1px;
+    padding-top: 13px;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    margin-right: -1px;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab, .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:visited {
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs .lotusTabInner {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    margin: 0 -1px;
+    padding: 0 20px;
+}
+.lotusui_ie6 .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab, .lotusui_ie6 .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:visited {
+    border-color: #f8f8f8 #f8f8f8 #d2d2d2;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab, .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:visited {
+    color: #484848;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:hover, .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:focus, .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:active, .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusHover a.lotusTab {
+    border-color: #dfdfdf #dfdfdf transparent;
+    color: #222;
+}
+.lotusui_ie6 .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:hover, .lotusui_ie6 .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:focus, .lotusui_ie6 .lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:active, .lotusui_ie6 .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusHover a.lotusTab {
+    border-color: #dfdfdf #dfdfdf #d2d2d2;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab, .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:hover, .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:focus, .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:active {
+    background: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 3%, #f0f0f0 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #d2d2d2 #d2d2d2 #f0f0f0;
+    color: #222;
+}
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab, .lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:visited, .lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:hover, .lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:focus, .lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:active, .lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTabInner, .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTabInner {
+    border-color: #d2d2d2 #d2d2d2 #f0f0f0;
+    color: #222;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected + li > div > a.lotusTab, .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected + li > div > a.lotusTab > .lotusTabInner {
+    border-left-color: #d2d2d2;
+}
+.lotusui30.lotusImagesOff .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab, .lotusImagesOff .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab {
+    border-bottom-width: 0;
+}
+.lotusui_ie6 .lotusui30 .lotusTitleBar2 .lotusNavTabs .lotusIcon {
+    margin-top: 0.1em;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusTabClosable .lotusTabInner {
+    padding-right: 32px;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs .lotusTabClose {
+    right: 13px;
+    top: 0.75em;
+}
+.lotusui30 .lotusTitleBar2 .lotusTabClose:hover, .lotusui30 .lotusTitleBar2 .lotusTabClose:focus, .lotusui30 .lotusTitleBar2 .lotusTabClose:active {
+    outline: medium none;
+}
+.lotusui30 .lotusTitleBar2 .lotusTabClose:hover img, .lotusui30 .lotusTitleBar2 .lotusTabClose:focus img, .lotusui30 .lotusTitleBar2 .lotusTabClose:active img {
+    background-position: -130px -9px;
+}
+.lotusui30 div.lotusTitleBar2 .lotusSearch, .lotusui30 div.lotusTitleBar .lotusSearch {
+    margin-top: 0;
+    right: 0;
+    top: 10px;
+}
+.lotusui30 .lotusTitleBar2 .lotusSearch .lotusLayout, .lotusui30 .lotusTitleBar .lotusSearch .lotusLayout {
+    background: -moz-linear-gradient(center top , #f4f4f4 25%, #f1f1f1 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #d6d6d6;
+    border-radius: 18px;
+    padding: 2px;
+}
+.lotusui30 .lotusTitleBar2 .lotusInner .lotusSearch .lotusScope, .lotusui30 .lotusTitleBar .lotusSearch .lotusScope {
+    background-color: transparent;
+    border-color: #e3e3e3;
+    border-width: 0 1px 0 0;
+    margin: 0 0 0 4px;
+    padding-right: 14px;
+}
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusSearch .lotusScope, .lotusui_ie .lotusui30 .lotusTitleBar .lotusSearch .lotusScope, .lotusui_ie8 .lotusui30 .lotusTitleBar2 .lotusSearch .lotusScope, .lotusui_ie8 .lotusui30 .lotusTitleBar .lotusSearch .lotusScope {
+    margin: 0;
+}
+.lotusui30 .lotusTitleBar2 .lotusSearch a.lotusScope:hover, .lotusui30 .lotusTitleBar .lotusSearch a.lotusScope:hover, .lotusui30 .lotusTitleBar2 .lotusSearch a.lotusScope:focus, .lotusui30 .lotusTitleBar .lotusSearch a.lotusScope:focus, .lotusui30 .lotusTitleBar2 .lotusSearch a.lotusScope:active, .lotusui30 .lotusTitleBar .lotusSearch a.lotusScope:active {
+    background-color: transparent;
+    background-position: 100% -1680px;
+}
+.lotusui30 .lotusTitleBar2 .lotusSearch .lotusScope .lotusAltText, .lotusui30 .lotusTitleBar .lotusSearch .lotusScope .lotusAltText {
+    top: -5px;
+}
+.lotusui30 .lotusTitleBar2 .lotusSearch .lotusText, .lotusui30 .lotusTitleBar .lotusSearch .lotusText {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #666;
+    padding: 4px 0 3px 4px;
+    width: 175px;
+}
+.lotusui30 .lotusTitleBar2 .lotusSearch .lotusText:focus, .lotusui30 .lotusTitleBar .lotusSearch .lotusText:focus, .lotusui30 .lotusTitleBar2 .lotusSearch .lotusText:active, .lotusui30 .lotusTitleBar .lotusSearch .lotusText:active {
+    color: #222;
+}
+.lotusui30 .lotusTitleBar2 .lotusSearch .lotusBtnImg, .lotusui30 .lotusTitleBar .lotusSearch .lotusBtnImg {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    margin: 1px 4px 1px 2px;
+    padding: 2px;
+}
+.lotusui30 .lotusTitleBarExt {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+.lotusui30 .lotusTitleBarExt .lotusInlinelist {
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+}
+.lotusui30.lotusImagesOff .lotusTitleBar .lotusBtnImg .lotusAltText, .lotusImagesOff .lotusui30 .lotusTitleBar .lotusBtnImg .lotusAltText {
+    color: #fff;
+}
+.lotusui30 .lotusTitleBar .lotusTabs {
+    bottom: -1px;
+    left: 220px;
+    overflow: visible;
+}
+.lotusui30.lotusImagesOff .lotusTitleBar ul.lotusTabs, .lotusImagesOff .lotusui30 .lotusTitleBar ul.lotusTabs {
+    bottom: -2px;
+}
+.lotusui30 .lotusTitleBar .lotusTabsIndented {
+    left: 220px;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    margin: 0 -1px 0 0;
+    position: relative;
+    z-index: 0;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected {
+    border: 0 none;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li a {
+    border-color: transparent #e5e5e5 #e0e0e0;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li a, .lotusui30 .lotusTitleBar .lotusTabs li a:visited {
+    color: #444;
+    font-size: 1em;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li a:hover, .lotusui30 .lotusTitleBar .lotusTabs li a:focus, .lotusui30 .lotusTitleBar .lotusTabs li a:active {
+    border-color: #d2d2d2 #d2d2d2 #d6d6d6;
+    color: #222;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected a, .lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected a:visited, .lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected a:hover, .lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected a:focus, .lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected a:active {
+    background: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 3%, #f0f0f0 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #d2d2d2 #d2d2d2 #f0f0f0;
+    color: #222;
+}
+.lotusui30.lotusImagesOff .lotusTitleBar .lotusTabs li.lotusSelected a, .lotusImagesOff .lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected a {
+    border-bottom-width: 0;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected + li > div > a {
+    border-left-color: #d2d2d2;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li:after {
+    background: none repeat scroll 0 0 #fff;
+    bottom: 1px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    width: 1px;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li:before {
+    background: none repeat scroll 0 0 #fff;
+    content: "";
+    height: 10px;
+    position: absolute;
+    width: 1px;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li a:after {
+    background: none repeat scroll 0 0 #fff;
+    bottom: 1px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 0;
+    width: 1px;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li a:before {
+    background: none repeat scroll 0 0 #fff;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected, .lotusui30 .lotusTitleBar .lotusTabs li:hover, .lotusui30 .lotusTitleBar .lotusTabs li:focus, .lotusui30 .lotusTitleBar .lotusTabs li:active, .lotusui30 .lotusTitleBar .lotusTabs li a:hover, .lotusui30 .lotusTitleBar .lotusTabs li a:focus, .lotusui30 .lotusTitleBar .lotusTabs li a:active {
+    z-index: 1;
+}
+.lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected:before, .lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected:after, .lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected a:before, .lotusui30 .lotusTitleBar .lotusTabs li.lotusSelected a:after, .lotusui30 .lotusTitleBar .lotusTabs li:hover:before, .lotusui30 .lotusTitleBar .lotusTabs li:hover:after, .lotusui30 .lotusTitleBar .lotusTabs li:focus:before, .lotusui30 .lotusTitleBar .lotusTabs li:focus:after, .lotusui30 .lotusTitleBar .lotusTabs li:active:before, .lotusui30 .lotusTitleBar .lotusTabs li:active:after, .lotusui30 .lotusTitleBar .lotusTabs li a:hover:before, .lotusui30 .lotusTitleBar .lotusTabs li a:hover:after, .lotusui30 .lotusTitleBar .lotusTabs li a:focus:before, .lotusui30 .lotusTitleBar .lotusTabs li a:focus:after, .lotusui30 .lotusTitleBar .lotusTabs li a:active:before, .lotusui30 .lotusTitleBar .lotusTabs li a:active:after {
+    content: none;
+}
+.lotusui30 .lotusAboutBox {
+    background-color: #057bb0;
+    background-image: -moz-linear-gradient(center top , #096da3 0%, #0189be 100%);
+    border: 0 none;
+    border-radius: 8px;
+}
+.lotusui30 .lotusAboutBox p, .lotusui30 .lotusAboutBox li, .lotusui30 .lotusAboutBox a, .lotusui30 .lotusAboutBox a:visited, .lotusui30 .lotusAboutBox a:hover, .lotusui30 .lotusAboutBox a:focus, .lotusui30 .lotusAboutBox a:active {
+    color: #fff;
+}
+.lotusui30 .lotusAboutBox .lotusHeading, .lotusui30 .lotusAboutBox .lotusHeading2 {
+    color: #fff;
+}
+.lotusAbout .lotusui30_layout .lotusLegal {
+    margin: 5px 25px 10px;
+}
+.lotusAbout .lotusui30_layout .lotusAboutBox h1, .lotusAbout .lotusui30_layout .lotusAboutBox h3 {
+    color: #fff;
+}
+.lotusui30 .lotusBoard .lotusStream {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px 5px 0 0;
+}
+.lotusui30 .lotusBoard ul.lotusStream {
+    border-left: 1px solid #d6d6d6;
+    border-radius: 0;
+    border-right: 1px solid #d6d6d6;
+}
+.lotusui30 .lotusBoard .loaderMain {
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+}
+.lotusui30 .lotusBoard .lotusStreamUpdate .lotusTextCollapsed.lotusText {
+    border: 1px solid #ccc;
+    height: 3em;
+}
+.lotusui_ie .lotusui30 .lotusBoard .lotusStreamUpdate .lotusTextCollapsed.lotusText {
+    border: 0 none;
+}
+.lotusui30 .lotusBoard .lotusStreamUpdate .lotusText {
+    padding: 8px 10px;
+}
+.lotusui30 .lotusBoard .lotusStream .lotusPost {
+    border-width: 1px 0;
+    padding: 10px;
+    position: relative;
+}
+.lotusui30 .lotusBoard .lotusStream .lotusPostContent {
+    margin-right: 30px;
+    max-width: 700px;
+    position: static;
+}
+.lotusui30 .lotusBoard .lotusStream .lotusPostContent .lotusPostContent {
+    margin-right: 0;
+    padding-right: 0;
+}
+.lotusui30 .lotusBoard .lotusStream .lotusPostHover, .lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
+    background-color: #e9f1f3;
+    border-color: #cad9e1;
+}
+.lotusui30 .lotusBoard .lotusCommentList {
+    border-top: 1px solid #ddd;
+    margin: 3px 0 0 65px;
+    max-width: 570px;
+    padding: 0;
+    position: relative;
+}
+.lotusui30 .lotusFlyoutInner {
+    background-color: #fff;
+}
+.lotusui30 .lotusFlyoutInner .lotusBoard .lotusCommentList {
+    margin-left: 0;
+}
+.lotusui30 .lotusBoard .lotusCommentItem > a.lotusMeta {
+    color: #1970b0;
+}
+.lotusui_ie6 .lotusui30 .lotusBoard .lotusCommentItem a.lotusMeta {
+    color: #1970b0;
+}
+.lotusui30 .lotusBoard .lotusStream .noContentItem {
+    border-bottom-width: 0;
+    padding: 10px;
+}
+.lotusui30 .lotusBoard .lotusStream .lotusPost .lotusPostIndicator a {
+    right: 10px;
+}
+.lotusui30 .lotusBoard .lotusStream .lotusPost .lotusDelete {
+    right: 10px;
+    top: 10px;
+}
+.lotusui30 .activityStreamImageUpload {
+    max-height: 250px;
+    max-width: 250px;
+}
+.lotusui30 .lotusForum .lotusPostDetails blockquote {
+    background-color: #eee;
+    border-color: #dfe4e9;
+}
+.lotusui30 .lotusForum .lotusPaging {
+    background-color: transparent;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px 0;
+    margin: 0;
+    padding-left: 0;
+}
+.lotusui30 .lotusForum .lotusPostContent {
+    border-width: 0;
+}
+.lotusui30 .lotusForum .lotusPostDetails blockquote {
+    width: auto;
+}
+.lotusui_ie6 .lotusui30 .lotusForum .lotusPostDetails blockquote {
+    width: 95%;
+}
+.lotusui30 .lotusForum .lotusPostAuthorInfo {
+    background-position: 100% -1373px;
+    background-repeat: no-repeat;
+    padding: 5px 10px 10px 15px;
+}
+.lotusui30 .lotusForum .lotusCaption {
+    background-color: transparent;
+    border-width: 0;
+    float: left;
+    margin-top: 0;
+}
+.lotusui30 .lotusForum .lotusFeeds {
+    float: right;
+}
+.lotusui30 .lotusForum .lotusPost {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px #eee;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.lotusui30 .lotusForum ul.lotusCommentList .lotusPost {
+    background-color: #fff;
+}
+.lotusui30 .lotusForum .lotusPostForm {
+    background-color: transparent !important;
+    border-width: 0 !important;
+    box-shadow: none;
+}
+.lotusui30 .lotusForum ul.lotusCommentList .lotusChild {
+    background-color: transparent;
+    border-top-width: 0;
+}
+.lotusui30 .lotusForum ul.lotusCommentList .lotusChild li {
+    background-color: transparent;
+    background-image: none;
+    background-repeat: repeat-y;
+    margin-left: 0;
+    padding: 0 0 0 5px;
+}
+.lotusui30 .lotusForum ul.lotusCommentList .lotusChild .lotusActions li {
+    border-width: 0 0 0 1px;
+    padding: 0 7px;
+}
+.lotusui30 .lotusForum ul.lotusCommentList .lotusChild .lotusActions li.lotusFirst {
+    border-left-width: 0;
+    padding-left: 0;
+}
+.lotusui30 .lotusForum ul.lotusCommentList li.lotusCommentItem, .lotusui30 .lotusForum ul.lotusCommentList > li {
+    border-width: 0;
+}
+.lotusui30 .lotusForum .lotusPostAuthorInfo {
+    text-align: left;
+}
+.lotusLogin2 .lotusui30_layout .lotusForm2 {
+    background-color: transparent;
+}
+.lotusui30_layout .lotusLoginBox, .lotusui30_layout .lotusErrorBox {
+    box-shadow: 0 2px 10px #eee;
+}
+.lotusui30_layout .lotusError h1 {
+    color: #444;
+    font-size: 2.2em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.lotusui30_layout .lotusErrorContent img {
+    left: 30px;
+    position: absolute;
+    top: 20px;
+}
+.lotusui30_layout .lotusLogin2 .lotusLoginBox h1 {
+    color: #444;
+    font-size: 1.83333em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 25px;
+    padding: 0;
+}
+.lotusui30_layout .lotusLogin2 .lotusLoginBox h2 {
+    color: #444;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 20px 0 5px;
+    padding: 0;
+}
+.lotusui30_layout .lotusLogin2 .lotusLoginBox h2:first-child {
+    margin-top: 0;
+}
+.lotusui30 .lotusAboutBox {
+    background: none repeat scroll 0 0 #1f7cae;
+    border: 1px solid #00619b;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #52acdb inset, 0 2px 2px #b2b2b2;
+}
+.lotusui30 .lotusWelcomeBox {
+    background: none repeat scroll 0 0 #1f7cae;
+    border: 1px solid #00619b;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #52acdb inset, 0 2px 2px #b2b2b2;
+    margin-left: 0;
+    padding: 10px 20px;
+}
+.lotusui30 .lotusWelcomeBox p, .lotusui30 .lotusWelcomeBox li, .lotusui30 .lotusWelcomeBox a, .lotusui30 .lotusWelcomeBox a:visited, .lotusui30 .lotusWelcomeBox a:hover, .lotusui30 .lotusWelcomeBox a:focus, .lotusui30 .lotusWelcomeBox a:active {
+    color: #fff;
+}
+.lotusui30 .lotusWelcomeBox .lotusHeading, .lotusui30_layout .lotusWelcomeBox h2 {
+    background: none repeat scroll 0 0 #0072a7;
+    border-bottom: 1px solid #00597e;
+    box-shadow: 0 1px 0 #58a3c0, 0 1px 2px #52acdb inset;
+    color: #fff;
+    font-size: 1.66667em;
+    font-weight: normal;
+    line-height: 1;
+    margin: -10px -20px 10px;
+    padding: 10px 20px;
+}
+.lotusui30 .lotusWelcomeBox ul {
+    padding-left: 20px;
+}
+.lotusui30 .lotusWelcomeBox a, .lotusui30 .lotusAboutBox a {
+    text-decoration: underline;
+}
+.lotusui30 .lotusWelcomeBox .lotusClose {
+    padding: 0;
+    right: 20px;
+    top: 12px;
+}
+.lotusui30 .lotusAboutBox .lotusClose input, .lotusui30 .lotusWelcomeBox .lotusClose input {
+    background-image: url("/connections/resources/web/com.ibm.lconn.core.styles.oneui3/images/lotusHSprite-8bit.png?etag=20130828.201043");
+    background-position: -573px -8px;
+    height: 16px;
+    opacity: 0.75;
+    width: 16px;
+}
+.lotusui30 .lotusWelcomeBox .lotusClose input:hover, .lotusui30 .lotusWelcomeBox .lotusClose input:focus, .lotusui30 .lotusWelcomeBox .lotusClose input:active {
+    opacity: 1;
+}
+.lotusui30 .lotusWelcomeBox a.lotusClose img, .lotusui30_layout .lotusWelcomeBox a.lotusClose img {
+    background-image: url("/connections/resources/web/com.ibm.lconn.core.styles.oneui3/images/lotusHSprite-8bit.png?etag=20130828.201043");
+    background-position: -573px -8px;
+    opacity: 0.75;
+}
+.lotusui30 .lotusWelcomeBox a.lotusClose:hover img, .lotusui30 .lotusWelcomeBox a.lotusClose:focus img, .lotusui30 .lotusWelcomeBox a.lotusClose:active img, .lotusui30_layout .lotusWelcomeBox a.lotusClose:hover img, .lotusui30_layout .lotusWelcomeBox a.lotusClose:focus img, .lotusui30_layout .lotusWelcomeBox a.lotusClose:active img {
+    opacity: 1;
+}
+.lotusui30 .lotusInfoBox {
+    background-color: #1d6784;
+    border-color: #25586c;
+    border-radius: 8px;
+    padding: 10px;
+}
+.lotusui30 .lotusHelp .lotusInfoBox {
+    background-color: #fff;
+    border-radius: 0;
+    border-width: 0;
+}
+.lotusui30 .lotusColLeft .lotusInfoBox, .lotusui30 .lotusColRight .lotusInfoBox {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 6px;
+    color: #444444;
+}
+.lotusui30 .lotusColLeft .lotusInfoBox {
+    border: 0 none;
+    box-shadow: 0 2px 2px #1b1b1b;
+    margin: 0 12px 20px;
+}
+.lotusui30 .lotusColRight .lotusInfoBox {
+    border: 1px solid #ccc;
+}
+.lotusui30 .lotusColLeft .lotusInfoBox h3, .lotusui30 .lotusColRight .lotusInfoBox h3 {
+    background: none repeat scroll 0 0 #e8e8e8;
+    border-bottom: 1px solid #dadada;
+    color: #444;
+    margin: -10px -10px 5px;
+    padding: 10px;
+}
+.lotusui30 .lotusColLeft .lotusInfoBox h4 {
+    color: #444;
+    margin: 2px 0;
+}
+.lotusui30 .lotusHelp .lotusInfoBox h3 {
+    color: #222;
+}
+.lotusui30 .lotusInfoBox h3 img {
+    margin: 0;
+    opacity: 0.45;
+}
+.lotusui30 .lotusInfoBox h3 a:hover img, .lotusui30 .lotusInfoBox h3 a:focus img, .lotusui30 .lotusInfoBox h3 a:active img {
+    margin: 0;
+    opacity: 0.75;
+}
+.lotusui30 .lotusInfoBox a, .lotusui30 .lotusInfoBox a:visited {
+    color: #1970b0;
+}
+.lotusui30 .lotusInfoBox a:hover, .lotusui30 .lotusInfoBox a:focus, .lotusui30 .lotusInfoBox a:active {
+    color: #05386b;
+}
+.lotusui30 .lotusInfoBox p {
+    margin: 5px 0 0;
+    padding: 0;
+}
+.lotusui30 .lotusInfoBox ul {
+    margin: 5px 0 0;
+}
+.lotusui30 .lotusHelp a, .lotusui30 .lotusHelp a:visited {
+    color: #1970b0;
+    text-decoration: none;
+}
+.lotusui30 .lotusHelp a:hover, .lotusui30 .lotusHelp a:focus, .lotusui30 .lotusHelp a:active {
+    color: #05386b;
+    text-decoration: underline;
+}
+.lotusui30 .lotusPlaceBar {
+    background: -moz-linear-gradient(center top , #f7f7f7 0%, #e8e8e8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #d2d2d2;
+    border-width: 0 0 1px;
+    margin: 0;
+    padding: 0;
+}
+.lotusui30 div.lotusPlaceBar .lotusInner {
+    background-color: transparent;
+    border: 0 none;
+    overflow: hidden;
+    padding: 3px 0;
+    position: relative;
+}
+.lotusui30 div.lotusPlaceBar h2 {
+    color: #2c2c2c;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 0;
+    text-shadow: 0 1px 0 #fff;
+}
+.lotusui30 div.lotusPlaceBar h2 a {
+    color: inherit;
+}
+.lotusui30 .lotusPlaceBar .lotusBtnContainer {
+    margin-right: -3px;
+    padding: 0;
+}
+.lotusui_ie .lotusui30 .lotusPlaceBar .lotusBtnContainer, .lotusui_ie8 .lotusui30 .lotusPlaceBar .lotusBtnContainer, .lotusui_ie9 .lotusui30 .lotusui30.lotusPlaceBar .lotusBtnContainer {
+    margin-right: -5px;
+}
+.lotusui30 .lotusPlaceBar .lotusBtnContainer {
+    margin: 0 0 0 1px;
+    overflow: visible;
+}
+.lotusui30 .lotusPlaceBar .lotusBtn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(center top , #fff 0%, #f2f2f2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: -moz-use-text-color #d2d2d2;
+    border-image: none;
+    border-radius: 0;
+    border-style: none solid;
+    border-width: 0 1px;
+    box-shadow: none;
+    color: #484848;
+    font-size: 1em;
+    margin: -3px 0 -3px -1px;
+    padding: 8px 18px;
+    text-shadow: 0 1px 0 #fff;
+}
+.lotusui30 .lotusPlaceBar .lotusBtn:hover, .lotusui30 .lotusPlaceBar .lotusBtn:focus, .lotusui30 .lotusPlaceBar .lotusBtn:active {
+    background: -moz-linear-gradient(center top , #f7f7f7 0%, #e4e4e4 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #222;
+}
+.lotusui30 .lotusPlaceBar .lotusBtn:active {
+    box-shadow: 0 0 1px 1px #adadad inset, 0 0 7px #c8c8c8 inset;
+}
+.lotusui30 .lotusPlaceBar .lotusInlinelist {
+    top: 7px;
+}
+.lotusui30 .lotusPlaceBar .lotusInlinelist.lotusRight {
+    color: #484848;
+    font-size: 0.916667em;
+    font-weight: bold;
+    margin: 0;
+    right: 0;
+    text-shadow: 0 1px 0 #fff;
+    top: 2px;
+}
+.lotusui30 .lotusPlaceBar .lotusInlinelist li {
+    border-left-color: #d2d2d2;
+    box-shadow: 1px 0 0 #fbfbfb inset;
+    margin-left: 18px;
+    padding: 0 0 0 18px;
+}
+.lotusui30 .lotusPlaceBar .lotusInlinelist li.lotusFirst {
+    box-shadow: none;
+}
+.lotusui30 .lotusPlaceBar .lotusInlinelist li a, .lotusui30 .lotusPlaceBar .lotusInlinelist li a:visited {
+    color: #666;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.lotusui30 .lotusMenu h3.lotusSelected {
+    background: none repeat scroll 0 0 #1f7cae;
+    border-right: 1px solid #222;
+    box-shadow: 0 1px 1px #52acdb inset, 0 -1px 0 #000 inset;
+    margin-top: 26px;
+    padding-top: 4px;
+}
+.lotusui30 .lotusMenu h3.lotusSelected:before {
+    top: -11px;
+}
+.lotusui30 .lotusMenu h3 a {
+    outline: medium none;
+}
+#bizCardNav a[style*="background-color"], .lotusui30 .lotusMenu h3 a {
+    background-color: transparent !important;
+}
+.lotusui30 .lotusSection .lotusSectionBody .topContainer > div[dojoattachpoint="recommendContainer"] {
+    padding: 0 !important;
+}
+.lotusui30 #gadgetDiv {
+    margin: 0 !important;
+}
+.lotusui30_body.cke_show_borders {
+    background-color: #fff;
+    margin-top: -1px;
+    padding-top: 1px;
+}
+.lotusui30 .personinlinemenu .lotusMenu .lotusMenuSubsection li a {
+    font-weight: bold;
+    text-shadow: 0 1px 1px #121212;
+}
+.lotusui30 .personinlinemenu .lotusMenu li a:active, .lotusui30 .personinlinemenu .lotusMenu li.lotusSelected a, .lotusui30 .personinlinemenu .lotusMenu li.lotusSelected a:visited, .lotusui30 .personinlinemenu .lotusMenu li.lotusSelected a:hover, .lotusui30 .personinlinemenu .lotusMenu li.lotusSelected a:focus, .lotusui30 .personinlinemenu .lotusMenu li.lotusSelected a:active, .lotusui30 .personinlinemenu .lotusMenu .lotusHeaderSelected {
+    text-shadow: 0 -1px 0 #121212;
+}
+.lotusui30 .lotusColLeft .lotusCommentBubbleBody {
+    background: none repeat scroll 0 0 #f2f2f2;
+    color: #222;
+    padding: 5px 10px;
+}
+.lotusui30 .lotusColLeft .lotusCommentBubble a, .lotusui30 .lotusColLeft .lotusCommentBubble a:visited {
+    color: #1970b0;
+}
+.lotusui_ie .lotusui30 .lotusColLeft .lotusCommentBubble .lotusMeta {
+    color: #222;
+}
+@media screen and (min-width: 1250px) {
+.lotusui30 .lotusBanner .lotusInner, .lotusui30 .lotusBannerExt .lotusWrapper, .lotusui30 .lotusTitleBar2 .lotusWrapper, .lotusui30 .lotusTitleBarExt .lotusWrapper, .lotusui30 .lotusTitleBar .lotusRightCorner, .lotusui30 .lotusPlaceBar .lotusRightCorner, .lotusui30_body .lotusMain {
+    max-width: 1560px;
+    min-width: 950px;
+    padding: 0 20px;
+}
+.lotusui30 .lotusTitleBarExt .lotusInlinelist {
+    right: 20px;
+}
+.lotusui30 .lotusPlaceBar .lotusRightCorner {
+    max-width: 1580px;
+    padding-left: 0;
+}
+.lotusui30 #paletteWrapper {
+    margin: 0 -20px;
+}
+.lotusui30_layout .lotusColLeft {
+    margin-left: -20px;
+}
+.lotusui30 .lotusFlyout {
+    left: -15px;
+    position: relative;
+}
+.lotusui30 .lotusFlyoutConnector {
+    left: -15px;
+}
+.lotusui30 .lotusSection2 .section2Content {
+    width: 232px;
+}
+}
+@media screen and (min-width: 1433px) {
+.lotusui30_layout .lotusColRight {
+    width: 312.5px;
+}
+.lotusui30 .lotusSection2 .section2Content {
+    width: 298px;
+}
+}
+@media screen and (min-width: 1600px) {
+.lotusui30_layout .lotusColRight {
+    width: 375px;
+}
+.lotusui30 .lotusSection2 .section2Content {
+    width: 360px;
+}
+}
+.lotusui30 div.lotusPlaceBar h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 65%;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeRow {
+    color: #bbb !important;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0;
+    outline: medium none;
+    overflow: hidden;
+    padding: 4px 20px;
+    text-overflow: ellipsis;
+    text-shadow: 0 1px 1px #121212;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeRow.lotusSelected {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #1f7cae;
+    border-color: -moz-use-text-color #222 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: none solid none none;
+    border-width: 0 1px 0 0;
+    box-shadow: 0 1px 1px #52acdb inset, 0 -1px 0 #000 inset;
+    color: #fff;
+    margin: 0;
+    padding: 4px 20px 4px 35px;
+    position: relative;
+    text-shadow: 0 -1px 0 #121212;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeRow a.dijitTreeLabel {
+    color: #bbb !important;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeRow.lotusSelected a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeExpando, .lotusui30 .lotusMenu .lotusTree .lotusSelected .dijitTreeExpando {
+    margin-left: 0;
+    position: relative;
+    right: -2px;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeExpandoOpened {
+    background-position: 4px -1256px;
+    opacity: 0.75;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeExpandoClosed {
+    background-position: 4px -1352px;
+    opacity: 0.75;
+}
+.lotusui30 .lotusMenu .lotusTree .lotusSelected .dijitTreeExpandoOpened {
+    background-position: 4px -1256px;
+    opacity: 1;
+}
+.lotusui30 .lotusMenu .lotusTree .lotusSelected .dijitTreeExpandoClosed {
+    background-position: 4px -1352px;
+    opacity: 1;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeRowUnselected.dijitTreeNodeHover .dijitTreeExpandoOpened {
+    opacity: 1;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeRowUnselected.dijitTreeNodeHover .dijitTreeExpandoClosed {
+    opacity: 1;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeRowUnselected.dijitTreeNodeHover {
+    background-color: #2a2c2f !important;
+    box-shadow: 0 1px 0 #242628 inset, 0 -1px 0 #242628 inset;
+}
+.lotusui30 .lotusMenu .lotusTree .dijitTreeRowUnselected.dijitTreeNodeHover a.dijitTreeLabel {
+    color: #fff !important;
+    text-decoration: none;
+}
+.lotusui30dojo .dijitTooltipContainer {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.lotusui30dojo .dijitMenuActive .dijitMenuItemHover, .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected {
+    background-color: #e9f1f3 !important;
+}
+.lotusui30dojo .lotusColLeft .lotusSection .dijitInputField input {
+    color: #000000;
+}
