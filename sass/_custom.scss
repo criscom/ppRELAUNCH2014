@@ -2,6 +2,195 @@
 // author: criscom
 // date: 20140711
 
-body {
+// setting the base font family
+body,
+.lotusui30_body,
+.lotusui30_body .lotusFrame {
 	font-family: $arial;
+	color: $gray;
+}
+
+body {
+	background: white;
+}
+
+.lotusui30 a[name] {
+	color: white;
+}
+
+//===========================================================
+// Banner
+
+.lotusui30 .lotusBanner {
+	background: $yellow;
+	border-bottom: 1px solid $yellow !important;
+	.lotusRightCorner {
+		border-bottom: 1px solid $yellow !important;
+		background: $blue !important;
+		color: white !important;
+	}
+}
+
+//===========================================================
+// Sidebar
+
+.lotusui30_body {
+	background: white;
+}
+
+.lotusui30_body .lotusFrame {
+	background: transparent;
+}
+
+.lotusui30_layout .lotusMain .lotusContent {
+	background: white !important;
+}
+
+// Sidebar background
+
+
+.lotusui30_layout .lotusMain .lotusContent:before {
+	  // background: none repeat scroll 0 0 #f0f0f0;
+	  background: none repeat scroll 0 0 #fbfbfb !important; // #fbfbfb
+    content: "";
+    height: 100%;
+    // left: 215px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    // width: 770px;
+    width: 216px;
+    z-index: -1;
+}
+
+.lotusui30 .lotusMenu .lotusMenuSection:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 175px;
+  height: 1px;
+  margin-left: 20px;
+  // background: #2b2d30;
+  background: #fbfbfb;
+    border-bottom: 1px solid #cccccc;
+  // border-bottom: 1px solid #434b4d;
+}
+
+.lotusui30_layout .lotusColLeft:after {
+    // background: none repeat scroll 0 0 #282a2d;
+    background: none repeat scroll 0 0 #fbfbfb;
+    border-left: 1000px solid #33363a;
+    border-right: 214px solid #363a3e;
+    bottom: 0;
+    box-shadow: -1px 0 0 #404749 inset;
+    content: "";
+    height: 100%;
+    margin-left: -1001px;
+    position: fixed;
+    width: 2px;
+    z-index: -2;
+}
+
+
+.lotusui30 .lotusMenu li a, .lotusui30 .lotusMenu li a:visited, .lotusui30 .lotusMenu li a:hover, .lotusui30 .lotusMenu li a:focus, .lotusui30 .lotusMenu li a:active {
+	font-family: $roboto;
+	box-shadow: none;
+	text-shadow: none;
+
+}
+
+.lotusui30 .lotusMenu li a {
+	color: $darkgray;
+}
+
+.lotusui30 .lotusMenu li.lotusSelected a:visited,
+.lotusui30 .lotusMenu li a:visited {
+	color: lighten($darkgray, 5%);
+	background-color: none;
+	background: none;
+}
+
+.lotusui30 .lotusMenu li.lotusSelected a,
+.lotusui30 .lotusMenu li a:hover, .lotusui30 .lotusMenu li a:focus, .lotusui30 .lotusMenu li a:active,
+.lotusui30 .lotusMenu li.lotusSelected a:hover, .lotusui30 .lotusMenu li.lotusSelected a:focus, .lotusui30 .lotusMenu li.lotusSelected a:active {
+	font-family: $roboto;
+	color: $yellow;
+	background-color: none;
+	background: none;
+	box-shadow: none;
+	text-shadow: none;
+	border-right: 0;
+}
+
+
+//===========================================================
+// Widgets
+
+// fonts and colors
+
+.lotusui30 {
+	a, a:visited {
+	color: $blue;
+	font-weight: 700;
+	text-decoration: underline;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+.lotusui30 .lotusSection2 .lotusHeading a, .lotusui30 .lotusSection h2 a, .lotusui30 .lotusWidget h2 a, .lotusui30 .lotusWidget2 h2 a {
+	color: $blue !important;
+	text-decoration: none;
+	font-family: $roboto !important;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	font-size: 20px;
+	font-size: 1.25rem;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2, .lotusui30 .dijitTitlePaneTitle {
+	border-bottom: 3px solid $yellow;
+	color: $blue !important;
+}
+
+.lotusui30 .lotusPortlet, .lotusui30 .lotusContent .lotusWidget {
+	@include border-radius(6px);
+}
+
+.lotusui30 .lotusWidget h3,
+.lotusui .lconnEmpty,
+.dijitReset,
+.dogAtomDate,
+.overline_todo span {
+	color: darken($gray, 10%);
+}
+
+// calendar
+
+#lconn_homepage_widgets_activities_ActivitiesCalendar_0 table {
+	width: 250px !important;
+}
+
+.lotusWidget .day {
+	color: $blue;
+}
+
+.activityInfo {
+	margin-left: 24px;
+	margin-left: 1.5rem;
+	h4 {
+	margin-bottom: 20px !important;
+	margin-bottom: 1.25rem !important;
+	}
+}
+
+// .lotusui30dojo .dijitMenuActive .dijitMenuItemHover, .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected,
+.lotusui30dojo .dijitMenuActive .dijitMenuItemHover, .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected
+ {
+	background-color: lighten($gray, 40%) !important;
 }
