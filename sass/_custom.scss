@@ -10,7 +10,7 @@ body,
 	color: $gray;
 }
 
-body {
+.lotusui30_body {
 	background: white;
 }
 
@@ -19,11 +19,51 @@ body {
 }
 
 //===========================================================
+// Pedersen Logo section
+
+.pedersenBanner {
+	height: 70px;
+	background: white !important;
+	.lotusInner {
+		max-width: 1560px;
+		min-width: 950px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+}
+
+.pedersenLogo {
+	background-image: url('img/Pedersen-logo.png') !important;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 221px 39px;
+	height: 70px;
+	width: 221px;
+	float: left;
+}
+
+.pgeLogo{
+	background-image: url('img/PGE-logo.png') !important;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 317px 18px;
+	height: 70px;
+	width: 317px;
+	float: right;
+}
+
+//===========================================================
 // Banner
+
+.lotusLogo,
+.lotusBranding img {
+	display: none !important;
+}
 
 .lotusui30 .lotusBanner {
 	background: $yellow;
-	border-bottom: 1px solid $yellow !important;
+	border-bottom: 3px solid $yellow !important;
+	// height: 50px;
 	.lotusRightCorner {
 		border-bottom: 1px solid $yellow !important;
 		background: $blue !important;
@@ -31,27 +71,93 @@ body {
 	}
 }
 
+// house icon
+
+.lotusui30 .lotusBanner .lconnBannerIcon {
+	background: url('../img/sprite16.png'); // for local development
+	background: url('img/sprite16.png');
+}
+
+.lotusui30 .lotusBanner ul.lotusLinks li.lotusSelected a,
+.lotusui30 .lotusBanner ul.lotusInlinelist #headerSharebox {
+	background: none;
+	filter: none;
+	border-color: black;
+	// box-shadow: 0;
+	// box-shadow: 0 0 6px #000 inset;
+	// box-shadow:  0 0 6px #fff inset, 0 0 -6px #fff inset;
+	box-shadow: 2px 0 2px -2px #fff inset, -2px 0 2px -2px #fff inset;
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:hover, 
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:focus, 
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:active, 
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a {
+	background: lighten($blue, 5%) !important;
+}
+
+
+.lotusui30 .lotusBanner ul.lotusLinks li a {
+	color: white !important;
+	font-size: 14px;
+	font-size: .875rem;
+}
+
+.lotusui30 .lotusBanner ul.lotusLinks li a:hover, 
+.lotusui30 .lotusBanner ul.lotusLinks li a:focus, 
+.lotusui30 .lotusBanner ul.lotusLinks li a:active, 
+.lotusui30 .lotusBanner ul.lotusLinks li.lotusHover {
+	color: $yellow;
+}
+
+.lotusui30 div.lotusBanner ul.lotusUtility li a {
+	color: white !important;
+	text-decoration: none;
+}
+
+// Share button
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn {
+	  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+  background-image: -o-linear-gradient(top, #fbb450, #f89406);
+  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #f89406;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  &:hover, &:focus {
+  	color: #ffffff;
+  	background-color: #f89406 !important;
+  	*background-color: #df8505 !important;
+  }
+}
+
 //===========================================================
 // Sidebar
 
-.lotusui30_body {
-	background: white;
-}
+// Sidebar map
 
-.lotusui30_body .lotusFrame {
-	background: transparent;
-}
-
-.lotusui30_layout .lotusMain .lotusContent {
-	background: white !important;
+.lotusui30_layout .lotusColLeft {
+	background-image: url('img/worldmap-slogan.png') !important;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 176px 118px;
+	padding-top: 138px;
 }
 
 // Sidebar background
 
-
 .lotusui30_layout .lotusMain .lotusContent:before {
 	  // background: none repeat scroll 0 0 #f0f0f0;
-	  background: none repeat scroll 0 0 #fbfbfb !important; // #fbfbfb
+	  background: none repeat scroll 0 0 $sidebargray !important; // $sidebargray
     content: "";
     height: 100%;
     // left: 215px;
@@ -72,18 +178,21 @@ body {
   height: 1px;
   margin-left: 20px;
   // background: #2b2d30;
-  background: #fbfbfb;
+  background: $sidebargray;
     border-bottom: 1px solid #cccccc;
   // border-bottom: 1px solid #434b4d;
 }
 
 .lotusui30_layout .lotusColLeft:after {
     // background: none repeat scroll 0 0 #282a2d;
-    background: none repeat scroll 0 0 #fbfbfb;
-    border-left: 1000px solid #33363a;
-    border-right: 214px solid #363a3e;
+    background: none repeat scroll 0 0 $sidebargray;
+    // border-left: 1000px solid #33363a;
+    // border-right: 214px solid #363a3e;
+    border-left: 1000px solid $sidebargray !important;
+    border-right: 214px solid $sidebargray !important;
     bottom: 0;
-    box-shadow: -1px 0 0 #404749 inset;
+    // box-shadow: -1px 0 0 #404749 inset;
+    box-shadow: -1px 0 0 darken($sidebargray, 10%) inset;
     content: "";
     height: 100%;
     margin-left: -1001px;
@@ -123,11 +232,33 @@ body {
 	border-right: 0;
 }
 
+//===========================================================
+// Title bar
+
+.lotusTitleBar2 .lotusHeading {
+	font-family: $roboto !important;
+	font-weight: 300 !important;
+	font-size: 28px !important;
+	font-size: 1.75rem !important;
+	color: $blue !important;
+	img {
+		display: none;
+	}
+	.lotusText {
+		font-weight: 100 !important;
+		color: $blue !important;
+	}
+}
+
+.lotusui30 .lotusTitleBar2 .lotusHeading .lotusText:visited, .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText:hover, .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText:focus, .lotusui30 .lotusTitleBar2 .lotusHeading .lotusText:active {
+	color: $blue !important;
+}
 
 //===========================================================
 // Widgets
 
 // fonts and colors
+
 
 .lotusui30 {
 	a, a:visited {
@@ -153,21 +284,40 @@ body {
 	}
 }
 
-.lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2, .lotusui30 .dijitTitlePaneTitle {
+.lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2, .lotusui30 .dijitTitlePaneTitle,
+.lotusui30 .lotusHeader .lotusHeading, .lotusui30 .lotusHeader h1  {
 	border-bottom: 3px solid $yellow;
 	color: $blue !important;
+}
+
+// other pages 
+.lotusui30 .lotusMain .lotusBoard .lotusHeader a.asHeaderLink {
+	color: $blue;
+	font-family: $roboto;
+}
+
+.lotusui30 .lotusHeader .lotusHeading, .lotusui30 .lotusHeader h1 {
+	padding-bottom: 12px;
+	padding-bottom: .75rem;
 }
 
 .lotusui30 .lotusPortlet, .lotusui30 .lotusContent .lotusWidget {
 	@include border-radius(6px);
 }
 
+// main font color settings
 .lotusui30 .lotusWidget h3,
 .lotusui .lconnEmpty,
 .dijitReset,
 .dogAtomDate,
-.overline_todo span {
+.overline_todo span,
+.lotusui30 .lotusHeader .lotusDetails p,
+.lotusui30 .lotusSearch .lotusScope {
 	color: darken($gray, 10%);
+}
+
+.lotusui30 .lotusTitleBarExt .lotusInlinelist li a, .lotusui30 .lotusTitleBarExt .lotusInlinelist li a:hover, .lotusui30 .lotusTitleBarExt .lotusInlinelist li a:focus, .lotusui30 .lotusTitleBarExt .lotusInlinelist li a:active {
+	color: $blue;
 }
 
 // calendar
@@ -193,4 +343,27 @@ body {
 .lotusui30dojo .dijitMenuActive .dijitMenuItemHover, .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected
  {
 	background-color: lighten($gray, 40%) !important;
+}
+
+// Sidebar right / Sections
+
+.lotusui30 .lotusSection2 .lotusHeading, .lotusui30 .lotusSection2 .lotusHeading2 {
+	color: $blue !important;
+}
+
+// Rufen Sie Aktualisierungen ab 
+
+.lotusui30 .lotusWelcomeBox {
+	background: lighten($blue, 5%);
+	border-bottom: darken($blue, 10%);
+	// box-shadow: 0 1px 2px #52acdb inset, 0 2px 2px #b2b2b2;
+	box-shadow: 0 1px 2px lighten($blue, 10%) inset, 0 2px 2px #b2b2b2;
+
+}
+
+.lotusui30 .lotusWelcomeBox .lotusHeading, .lotusui30_layout .lotusWelcomeBox h2 {
+	background: $blue !important;
+	border-bottom: darken($blue, 10%);
+	// box-shadow: 0 1px 0 #58a3c0, 0 1px 2px #52acdb inset;
+	box-shadow: 0 1px 0 lighten($blue, 10%), 0 1px 2px lighten($blue, 20%) inset;
 }
