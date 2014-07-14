@@ -226,11 +226,13 @@ body,
     background: none repeat scroll 0 0 $sidebargray;
     // border-left: 1000px solid #33363a;
     // border-right: 214px solid #363a3e;
-    border-left: 1000px solid $sidebargray !important;
-    border-right: 214px solid $sidebargray !important;
+    // border-left: 1000px solid $sidebargray !important;
+    border-left: 1000px solid white !important;
+    border-right: 214px solid $sidebargray !important; 
+
     bottom: 0;
     // box-shadow: -1px 0 0 #404749 inset;
-    box-shadow: -1px 0 0 darken($sidebargray, 10%) inset, 2px 0 3px 0 darken($sidebargray, 5%);
+    box-shadow: -1px 0 0 darken($sidebargray, 10%) inset, 2px 0 3px 0 darken($sidebargray, 5%); 
     content: "";
     height: 100%;
     margin-left: -1001px;
