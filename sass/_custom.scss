@@ -33,7 +33,7 @@ body,
 }
 
 .pedersenLogo {
-	background-image: url('img/Pedersen-logo.png') !important;
+	background-image: url('img/retina/Pedersen-logo-retina.png') !important;
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 221px 39px;
@@ -43,7 +43,7 @@ body,
 }
 
 .pgeLogo{
-	background-image: url('img/PGE-logo.png') !important;
+	background-image: url('img/retina/PGE-logo-retina.png') !important;
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: 317px 18px;
@@ -124,11 +124,20 @@ body,
 	text-decoration: none;
 }
 
+// Username next to share button
+
+#usernameText {
+	font-family: $roboto;
+	font-size: 14px;
+}
+
 // Share button
 
 .lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn {
 	font-family: $roboto;
 	color: #ffffff;
+	font-weight: 400 !important;
+	font-size: 14px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); // #fbb450, #f89406
   background-color: #faa732;
   background-image: -moz-linear-gradient(top, #ffcb62, #ff9900); // #fbb450, #f89406
@@ -174,11 +183,12 @@ body,
 // Sidebar map
 
 .lotusui30_layout .lotusColLeft {
-	background-image: url('img/worldmap-slogan.png') !important;
+	background-image: url('img/retina/worldmap-slogan-retina.png') !important;
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 176px 118px;
 	padding-top: 138px;
+	margin-top: 36px;
 }
 
 // Sidebar background
@@ -445,6 +455,15 @@ background-position: -384px 0; //-416px 0;
 
 .lotusui30 .lotusSection2 .lotusHeading, .lotusui30 .lotusSection2 .lotusHeading2 {
 	color: $blue !important;
+}
+
+// Sidbare widget
+
+.lotusSection2,
+.lotusSection2.homepage-widget {
+	border: 1px solid lighten($gray, 40%) !important;
+	@include border-radius(6px);
+	padding: 10px;
 }
 
 // Rufen Sie Aktualisierungen ab 
