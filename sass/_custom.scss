@@ -55,8 +55,9 @@ body,
 //===========================================================
 // Banner
 
-.lotusLogo,
-.lotusBranding img {
+.lotusui30 .lotusBanner .lotusLogo,
+.lotusBranding img,
+.lotusui30 .lotusBanner .lotusIBMLogo {
 	display: none !important;
 }
 
@@ -67,8 +68,15 @@ body,
 	.lotusRightCorner {
 		border-bottom: 1px solid $yellow !important;
 		background: $blue !important;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003465', endColorstr='#003465', GradientType=0) !important; // For IE9
 		color: white !important;
 	}
+}
+
+// banner icons
+// remove border in internet explorer
+.lconnBannerIcon {
+	border: none!important;
 }
 
 // house icon
@@ -101,6 +109,7 @@ body,
 	color: white !important;
 	font-size: 14px;
 	font-size: .875rem;
+	font-family: $roboto !important;
 }
 
 .lotusui30 .lotusBanner ul.lotusLinks li a:hover, 
@@ -118,26 +127,45 @@ body,
 // Share button
 
 .lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn {
-	  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	font-family: $roboto;
+	color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); // #fbb450, #f89406
   background-color: #faa732;
-  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
-  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
-  background-image: -o-linear-gradient(top, #fbb450, #f89406);
-  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-image: -moz-linear-gradient(top, #ffcb62, #ff9900); // #fbb450, #f89406
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffcb62), to(#ff9900));
+  background-image: -webkit-linear-gradient(top, #ffcb62, #ff9900);
+  background-image: -o-linear-gradient(top, #ffcb62, #ff9900);
+  background-image: linear-gradient(to bottom, #ffcb62, #ff9900);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
-  border-color: #f89406 #f89406 #ad6704;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#ffff9900', GradientType=0);
+  border-color: #ff9900 #ff9900 #ad6704;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #f89406;
+  *background-color: #ff9900; //#f89406
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   &:hover, &:focus {
   	color: #ffffff;
-  	background-color: #f89406 !important;
+  	background-color: #ff9900 !important; // #f89406
   	*background-color: #df8505 !important;
   }
+}
+
+// dropdown menu
+
+.lotusui30 .lotusNavMenu {
+    // border: 3px solid rgba(23, 23, 23, 0.8);
+    border: 1px solid rgb(170,170,170) !important; // rgba(23, 23, 23, 0.8); //lighten($gray, 30%)
+    // border-radius: 3px;
+    border-radius: 0px;
+    // box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0;
+}
+
+.lotusui30 .lotusNavMenu tr a {
+	font-family: $roboto !important;
+	font-weight: 400;
+	text-decoration: none;
+	color: $darkgray;
 }
 
 //===========================================================
@@ -201,9 +229,15 @@ body,
     z-index: -2;
 }
 
+.lotusui30 .lotusMenu li.lotusSelected a:visited,
+.lotusui30 .lotusMenu li a:visited {
+	color: lighten($darkgray, 5%);
+	background-color: none;
+	background: none;
+}
 
 .lotusui30 .lotusMenu li a, .lotusui30 .lotusMenu li a:visited, .lotusui30 .lotusMenu li a:hover, .lotusui30 .lotusMenu li a:focus, .lotusui30 .lotusMenu li a:active {
-	font-family: $roboto;
+	font-family: $roboto !important;
 	box-shadow: none;
 	text-shadow: none;
 
@@ -213,23 +247,71 @@ body,
 	color: $darkgray;
 }
 
-.lotusui30 .lotusMenu li.lotusSelected a:visited,
-.lotusui30 .lotusMenu li a:visited {
-	color: lighten($darkgray, 5%);
-	background-color: none;
-	background: none;
-}
-
 .lotusui30 .lotusMenu li.lotusSelected a,
 .lotusui30 .lotusMenu li a:hover, .lotusui30 .lotusMenu li a:focus, .lotusui30 .lotusMenu li a:active,
 .lotusui30 .lotusMenu li.lotusSelected a:hover, .lotusui30 .lotusMenu li.lotusSelected a:focus, .lotusui30 .lotusMenu li.lotusSelected a:active {
-	font-family: $roboto;
-	color: $yellow;
+	font-family: $roboto !important;
+	color: $yellow !important;
 	background-color: none;
 	background: none;
 	box-shadow: none;
 	text-shadow: none;
 	border-right: 0;
+}
+
+// Icons in Sidebar
+// Change the active state sprite from light to dark gray
+
+// 1. First steps
+.lotusui30 .lotusMenu .lconnHomepageGettingStarted.lotusSelected a .lconnStreamIcon {
+background-position: 0 0; // -32px 0
+}
+
+// 2. I follow
+
+.lotusui30 .lotusMenu .lconnHomepageImFollowing.lotusSelected a .lconnStreamIcon {
+background-position: -48px 0; // -80px 0
+}
+
+// 3. Status updates
+
+.lotusui30 .lotusMenu .lconnHomepageStatusUpdates.lotusSelected a .lconnStreamIcon {
+background-position: -96px 0; //-128px 0
+}
+
+// 4. Messages (Benachrichtigungen)
+
+.lotusui30 .lotusMenu .lconnHomepageMyNotifications.lotusSelected a .lconnStreamIcon {
+background-position: -240px 0; //-272px 0;
+}
+
+// 5. Mentions
+
+.lotusui30 .lotusMenu .lconnHomepageAtMentions.lotusSelected a .lconnStreamIcon {
+background-position: -144px 0; //-176px 0;
+}
+
+// 6. Action required
+
+.lotusui30 .lotusMenu .lconnHomepageActionRequired.lotusSelected a .lconnStreamIcon {
+background-position: -192px 0; //-224px 0;
+}
+
+// 7. Saved
+
+.lotusui30 .lotusMenu .lconnHomepageSaved.lotusSelected a .lconnStreamIcon {
+background-position: -288px 0; // -320px 0;
+}
+// 8. Find
+
+.lotusui30 .lotusMenu .lconnHomepageDiscover.lotusSelected a .lconnStreamIcon {
+background-position: -336px 0; // -368px 0;
+}
+
+// 9. My page
+
+.lotusui30 .lotusMenu .lconnHomepageMyPage.lotusSelected a .lconnStreamIcon {
+background-position: -384px 0; //-416px 0;
 }
 
 //===========================================================
@@ -293,7 +375,7 @@ body,
 // other pages 
 .lotusui30 .lotusMain .lotusBoard .lotusHeader a.asHeaderLink {
 	color: $blue;
-	font-family: $roboto;
+	font-family: $roboto !important;
 }
 
 .lotusui30 .lotusHeader .lotusHeading, .lotusui30 .lotusHeader h1 {
@@ -320,6 +402,16 @@ body,
 	color: $blue;
 }
 
+// hide icons in bookmarks
+
+.lotusWidget .entry .icons {
+	display: none !important;
+}
+
+.entryBodySmall {
+	margin-left: 0; // margin-left: 25px;
+}
+
 // calendar
 
 #lconn_homepage_widgets_activities_ActivitiesCalendar_0 table {
@@ -339,9 +431,13 @@ body,
 	}
 }
 
+// javascript dropdown windows
 // .lotusui30dojo .dijitMenuActive .dijitMenuItemHover, .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected,
-.lotusui30dojo .dijitMenuActive .dijitMenuItemHover, .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected
+.lotusui30dojo .dijitMenuActive .dijitMenuItemHover, .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected, // Calendar
+.lotusui30 .lotusNavMenu tr a:hover, .lotusui30 .lotusNavMenu tr a:focus, .lotusui30 .lotusNavMenu tr a:active, .lotusui30 .lotusNavMenu tr a.lotusHover // Banner section
  {
+ 	  // background-color: #e9f1f3; // light blue default color
+  text-decoration: none !important;
 	background-color: lighten($gray, 40%) !important;
 }
 
@@ -366,4 +462,12 @@ body,
 	border-bottom: darken($blue, 10%);
 	// box-shadow: 0 1px 0 #58a3c0, 0 1px 2px #52acdb inset;
 	box-shadow: 0 1px 0 lighten($blue, 10%), 0 1px 2px lighten($blue, 20%) inset;
+}
+
+// footer
+
+// background color from gray to white
+
+.lotusui30 .lotusFooter ul {
+	background: white; //#f0f0f0;
 }
