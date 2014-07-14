@@ -226,7 +226,7 @@ body,
   border-left: 1000px solid #fbfbfb !important;
   border-right: 214px solid #fbfbfb !important;
   bottom: 0;
-  box-shadow: -1px 0 0 #e2e2e2 inset;
+  box-shadow: -1px 0 0 #e2e2e2 inset, 2px 0 3px 0 #eeeeee;
   content: "";
   height: 100%;
   margin-left: -1001px;

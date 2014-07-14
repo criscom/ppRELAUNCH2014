@@ -230,7 +230,7 @@ body,
     border-right: 214px solid $sidebargray !important;
     bottom: 0;
     // box-shadow: -1px 0 0 #404749 inset;
-    box-shadow: -1px 0 0 darken($sidebargray, 10%) inset;
+    box-shadow: -1px 0 0 darken($sidebargray, 10%) inset, 2px 0 3px 0 darken($sidebargray, 5%);
     content: "";
     height: 100%;
     margin-left: -1001px;
