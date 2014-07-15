@@ -207,6 +207,8 @@ body,
     z-index: -1;
 }
 
+.lotusui30 .lotusMenu .lotusMenuHeader::before, // activities, aktivitäten
+.lotusui30 .lotusMenu .lotusMenuHeader .lotusHeading::before, .lotusui30 .lotusMenu h3::before, // activities, aktivitäten
 .lotusui30 .lotusMenu .lotusMenuSection:before {
   content: "";
   position: absolute;
@@ -248,6 +250,8 @@ body,
 	background: none;
 }
 
+.lotusui30 .lotusMenu h3, // activities, aktivitäten
+.lotusui30 .lotusColLeft .lotusSection h2, // activities, aktivitäten
 .lotusui30 .lotusMenu li a, .lotusui30 .lotusMenu li a:visited, .lotusui30 .lotusMenu li a:hover, .lotusui30 .lotusMenu li a:focus, .lotusui30 .lotusMenu li a:active {
 	font-family: $roboto !important;
 	box-shadow: none;
@@ -255,9 +259,14 @@ body,
 
 }
 
+.lotusui30 .lotusMenu h3, // activities, aktivitäten
+.lotusui30 .lotusColLeft .lotusSection h2, // activities, aktivitäten
 .lotusui30 .lotusMenu li a {
-	color: $darkgray;
+	color: $darkgray !important;
+	text-shadow: none;
 }
+
+
 
 .lotusui30 .lotusMenu li.lotusSelected a,
 .lotusui30 .lotusMenu li a:hover, .lotusui30 .lotusMenu li a:focus, .lotusui30 .lotusMenu li a:active,
@@ -326,6 +335,24 @@ background-position: -336px 0; // -368px 0;
 background-position: -384px 0; //-416px 0;
 }
 
+// activities, aktivitäten ==> tags
+
+.lotusui30 .lotusSection .lconnTagCloudContent {
+	margin-top: 8px;
+	background: lighten($gray, 40%);
+	border-top: darken($sidebargray, 10%);
+	border-bottom: darken($sidebargray, 10%);
+	color: $gray; 
+}
+
+
+// TAGS heading
+.lotusui30 .lotusColLeft .lotusSection h2 {
+	padding-top: 10px;
+	border-bottom: 0;
+	border-top: 1px solid #cccccc;
+}
+
 //===========================================================
 // Title bar
 
@@ -384,13 +411,22 @@ background-position: -384px 0; //-416px 0;
 	color: $blue !important;
 }
 
-// other pages 
-.lotusui30 .lotusMain .lotusBoard .lotusHeader a.asHeaderLink {
+// other pages headers
+.lotusui30 .lotusMain .lotusBoard .lotusHeader a.asHeaderLink,
+.lotusui30 .lotusHeader h1 // MEine Aktivitäten 
+{
 	color: $blue;
 	font-family: $roboto !important;
 }
 
-.lotusui30 .lotusHeader .lotusHeading, .lotusui30 .lotusHeader h1 {
+.lotusui30 .lotusHeader h1 // MEine Aktivitäten 
+{
+	margin-bottom: 8px;
+	margin-bottom: .5rem;
+}
+
+.lotusui30 .lotusHeader .lotusHeading, .lotusui30 .lotusHeader h1
+ {
 	padding-bottom: 12px;
 	padding-bottom: .75rem;
 }
@@ -484,6 +520,81 @@ background-position: -384px 0; //-416px 0;
 	// box-shadow: 0 1px 0 #58a3c0, 0 1px 2px #52acdb inset;
 	box-shadow: 0 1px 0 lighten($blue, 10%), 0 1px 2px lighten($blue, 20%) inset;
 }
+
+// tabs 
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab, 
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:visited, 
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:hover, 
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:focus, 
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:active, 
+.lotusui_ie .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTabInner, 
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTabInner,
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab,
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab {
+	color: $gray !important;
+	font-family: $roboto !important;
+	font-weight: 400 !important;
+	font-size: 14px !important;
+}
+
+.lotusui30 .lotusTitleBar2 .lotusNavTabs .lotusTabInner {
+	border: none;
+}
+
+ .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab,
+ .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:hover, 
+ .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:focus,
+ .lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected a.lotusTab:active
+  {
+  	color: $gray !important;
+  	font-weight: 400 !important;
+  	background: white;
+  	// filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f0f0f0', GradientType=0);
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+  	border-bottom: 0;
+  	-webkit-border-top-left-radius: 3px;
+		-webkit-border-top-right-radius: 3px;
+		-moz-border-radius-topleft: 3px;
+		-moz-border-radius-topright: 3px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+  	padding-bottom: 8px;
+  }
+
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab,
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusHover,
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:hover, 
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:focus, 
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:active, 
+{
+	border-color: #dfdfdf #dfdfdf transparent !important;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding-bottom: 6px;
+}
+
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab {
+	margin-left: 3px;
+	background: lighten($gray, 50%);
+}
+
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li:first-child a.lotusTab {
+	margin-left: 0;
+}
+
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusHover,
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:hover, 
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:focus, 
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li a.lotusTab:active {
+	background: white;
+}
+
+// TABS end
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 // footer
 
