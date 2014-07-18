@@ -27,11 +27,11 @@ div.block-search-api-page .content {
 
 div.block-search-api-page input[type="image"]:focus {
   width: auto !important;
+  background: white !important;
 }
 
 .form-item-keys-1 {
 	  display: inline-block;
-	  border-right: 0;
 }
 
 .form-item-keys-1 input[type="text"] {
@@ -41,6 +41,7 @@ div.block-search-api-page input[type="image"]:focus {
   width: 180px;
   height: 32px;
   height: 2rem;
+  border-right: 0 !important; // hides the right border left of the loupe ==> remove to get old styling back
 }
 
 #search-api-page-search-form-search-content .form-actions {
@@ -51,10 +52,10 @@ div.block-search-api-page input[type="image"]:focus {
 	border-radius: 0 14px 14px 0;
 	position: relative;
 	top: -4px;
-	margin-left: -5px;
+	margin-left: -7px;
 	border: 1px solid #cccccc;
 	border-left: 0;
-	background-color: transparent;
+	background: white !important; // hides the pill effect for the loupe background
 }
 
 
