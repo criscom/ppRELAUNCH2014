@@ -98,25 +98,20 @@ $font-monospace:   $courier;
 //
 
 
-$blue: rgb(0,52,101); // #003465; // main color used for backgrounds and headings
-$yellow: rgb(250,166,26);//#faa61a; // main color used for backgrounds
-$yellow-text: rgb(250,167,0); //faa700; text for breadcrumb
-$underline: #003366; // shade of blue
-$gray: rgb(119,119,119); // #777777; ==> main font color
+$blue: rgb(0,52,101); // #003465; // background header / footer
+$yellow: rgb(250,166,20);//#faa61a; // main color used for backgrounds
+$yellowtext: rgb(250,167,0); //faa700; text for breadcrumb
 
-
-$darkgray: #333333;
-$lightgray: #eeeeee;
-$sidebargray: #fbfbfb;
+$blueheader: rgb(0,51,102); //#003366 ==> main menu und headings color
+$gray: rgb(102,102,102); // #666666; ==> main body text font color
+$graydropdown: rgb(153,153,153); // #999999 ==> inactive dropdown links
 
 
 // Gradient colors
 $yellowtop: #ffcb62;
-$yellowbottom: #ff9900; // text for links
+$yellowbottom: #ff9900;
 
-//
-// Fontsizes
-//
+
 
 
 

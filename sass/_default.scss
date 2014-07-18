@@ -31,7 +31,7 @@ div.block-search-api-page input[type="image"]:focus {
 
 .form-item-keys-1 {
 	  display: inline-block;
-
+	  border-right: 0;
 }
 
 .form-item-keys-1 input[type="text"] {
@@ -60,6 +60,42 @@ div.block-search-api-page input[type="image"]:focus {
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+
+
+
+//===========================================================
+// Submenu
+
+ul.dropdown-menu {
+	// box-shadow: none !important;
+	top: 100%; // default value
+	// top: 46px; // doesn't work because of hover effect that gets lost
+	// top: 2.875rem;
+	border-radius: 0 !important;
+	background-color: white !important;
+	border-top: 3px solid $yellow !important;
+
+	li {
+		> a {
+			border-bottom: 0;
+			&:hover {
+				background-color: none !important;
+			}
+		}
+		&:first-child {
+			
+		}
+		&:last-child {
+				padding-bottom: 10px;
+				padding-bottom: .625rem;
+		}
+	}
+}
+
+// remove the gray background when a menu item is hovered
+nav ul.nav-main ul.dropdown-menu li:hover > a {
+	background: transparent !important;
+}
 
 
 
