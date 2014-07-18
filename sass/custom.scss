@@ -8,13 +8,13 @@
 
 /* Import Sass mixins, variables, Compass modules, etc. */
 @import "init";
-// @import "mixins";
+@import "mixins";
 
 /*Import additional mixins, variables */
 // @import "einstern";
 
 /* HTML element (SMACSS base) rules */
-// @import "normalize";
+@import "normalize";
 
 /* Layout rules */
 // @import "layouts/responsive";
@@ -27,4 +27,5 @@
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
-@import "custom.scss";
+@import "default.scss";
+@import "fonts.scss";

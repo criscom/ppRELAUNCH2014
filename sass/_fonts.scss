@@ -1,0 +1,62 @@
+/*
+// Specific stylings for fonts 
+* Font family
+* Sizes ==> see also init.scss
+* Font color
+*/
+
+//===========================================================
+// Headings
+
+// Font Family
+h1, h2, h3, h4 {
+	font-family: $roboto;
+}
+
+// colors and weight
+h1  {
+	color: white;
+	font-weight: 100 !important;
+	.front & {
+		color: $blue;
+	}
+}
+
+section.page-top h1 {
+	font-size: $h1-font-size !important;
+}
+
+h2, h3, h4 {
+	color: $blue;
+	font-weight: 300 !important;
+}
+
+//===========================================================
+// Main menu
+
+.menu-name-main-menu li a {
+	font-family: $roboto !important;
+	// font-size: 14px !important;
+	// font-size: .875rem !important;
+	font-size: $base-font-size !important;
+	text-transform: none !important;
+	color: $blue;
+	font-weight: 400 !important;
+}
+
+nav ul.nav-main ul.dropdown-menu, 
+nav ul.nav-main li.dropdown.open a.dropdown-toggle, 
+nav ul.nav-main li.active a
+ {
+	background: none;
+}
+
+.nav-pills > .active > a, 
+.nav-pills > .active > a:hover, 
+.nav-pills > .active > a:focus,
+nav ul.nav-main li a:hover,
+nav ul.nav-main li a:focus {
+	color: $yellowbottom;
+	background: none;
+}
+
