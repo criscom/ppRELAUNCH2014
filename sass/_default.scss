@@ -18,6 +18,15 @@ body {
 }
 
 //===========================================================
+// Header
+
+header {
+	@media only screen and (min-width: 980px) {
+	height: 120px;
+	}
+}
+
+//===========================================================
 // Search Form
 
 div.block-search-api-page .content {
@@ -65,6 +74,55 @@ div.block-search-api-page input[type="image"]:focus {
 
 
 //===========================================================
+// Main menu
+
+// white space/margin between main menu and blue heading section
+nav ul.nav-main {
+	@media only screen and (min-width: 980px) {
+		margin-top: -35px!important;
+	}
+	@media only screen and (min-width: 980px) and (max-width: 1199px) {
+		margin-top: -58px !important;
+		margin-right: -10px !important;
+	}
+}
+
+.menu-block-22 .nav-pills>li:first-child {
+	>a {
+		background-image: url("../images/home-icon-retina.png");
+		background-position: center 5px;
+		background-size: 21px 19px;
+		background-repeat: no-repeat;
+		text-indent: -9999px;
+		margin-right: 16px;
+		margin-right: 1rem;
+	}
+}
+
+.menu-block-22 .nav-main li {
+	a {
+		@media only screen and (min-width: 1200px) {
+			margin-right: 5px;
+			margin-left: 5px;
+		}
+	}
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+	.nav-pills > li > a {
+		padding-right: 8px !important;
+			padding-left: 8px !important;
+		}
+	.nav-pills > li:first-child > a {
+		padding-right: 12px !important;
+		padding-left: 12px !important;
+	}
+	}
+
+
+
+
+//===========================================================
 // Submenu
 
 ul.dropdown-menu {
@@ -97,6 +155,33 @@ ul.dropdown-menu {
 nav ul.nav-main ul.dropdown-menu li:hover > a {
 	background: transparent !important;
 }
+
+
+
+
+//===========================================================
+// Breadcrumb and page header section
+
+
+section.page-top {
+	background-color: $blue;
+	border-top: 0;
+	border-bottom-color: $yellow;
+	border-width: 8px;
+	
+	h1 {
+		border-bottom: 0;
+	}
+	ul.breadcrumb {
+		margin-top: -7px !important;
+		margin-bottom: 4px !important;
+	}
+}
+
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
 
 
 
