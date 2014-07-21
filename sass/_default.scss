@@ -4,6 +4,8 @@
 ========================================================================
 */
 
+/* holds all general, non-media-query styles */
+
 //===========================================================
 // BASE STYLES
 
@@ -21,9 +23,7 @@ body {
 // Header
 
 header {
-	@media only screen and (min-width: 980px) {
-	height: 120px;
-	}
+
 }
 
 //===========================================================
@@ -77,15 +77,15 @@ div.block-search-api-page input[type="image"]:focus {
 // Main menu
 
 // white space/margin between main menu and blue heading section
-nav ul.nav-main {
-	@media only screen and (min-width: 980px) {
-		margin-top: -35px!important;
-	}
-	@media only screen and (min-width: 980px) and (max-width: 1199px) {
-		margin-top: -58px !important;
-		margin-right: -10px !important;
-	}
-}
+// nav ul.nav-main {
+// 	@media only screen and (min-width: 980px) {
+// 		margin-top: -35px!important;
+// 	}
+// 	@media only screen and (min-width: 980px) and (max-width: 1199px) {
+// 		margin-top: -58px !important;
+// 		margin-right: -10px !important;
+// 	}
+// }
 
 .menu-block-22 .nav-pills>li:first-child {
 	>a {
@@ -99,24 +99,24 @@ nav ul.nav-main {
 	}
 }
 
-.menu-block-22 .nav-main li {
-	a {
-		@media only screen and (min-width: 1200px) {
-			margin-right: 5px;
-			margin-left: 5px;
-		}
-	}
-}
+// .menu-block-22 .nav-main li {
+// 	a {
+// 		@media only screen and (min-width: 1200px) {
+// 			margin-right: 5px;
+// 			margin-left: 5px;
+// 		}
+// 	}
+// }
 
 @media only screen and (min-width: 980px) and (max-width: 1199px) {
-	.nav-pills > li > a {
-		padding-right: 8px !important;
-			padding-left: 8px !important;
-		}
-	.nav-pills > li:first-child > a {
-		padding-right: 12px !important;
-		padding-left: 12px !important;
-	}
+	// .nav-pills > li > a {
+	// 	padding-right: 8px !important;
+	// 		padding-left: 8px !important;
+	// 	}
+	// .nav-pills > li:first-child > a {
+	// 	padding-right: 12px !important;
+	// 	padding-left: 12px !important;
+	// 	}
 	}
 
 
@@ -168,7 +168,7 @@ section.page-top {
 	border-top: 0;
 	border-bottom-color: $yellow;
 	border-width: 8px;
-	
+
 	h1 {
 		border-bottom: 0;
 	}
@@ -184,6 +184,183 @@ section.page-top {
 
 
 
+
+//===========================================================
+// Slideshow Front
+
+
+
+
+/* FRONTPAGE Royal Slider */
+/* 1st row */
+#block-views-frontpage-slider-block .royalSlider {
+  width: 100% !important;
+  max-height: 420px;
+  text-align: center;
+  background: white;
+}
+
+#block-views-frontpage-slider-block .rsDefault .rsOverflow {
+	position: relative;
+}
+
+#block-views-frontpage-slider-block .rsDefault .rsOverflow,
+#block-views-frontpage-slider-block .rsDefault .rsSlide {
+	background: white !important;
+}
+
+.field-name-field-slideshow-image img {
+	max-width: 1280px;
+	width: 100%;
+	height: auto;
+}
+
+.rsDefault.rsHor .rsArrowLeft {
+	left: 20% !important;
+}
+.rsDefault.rsHor .rsArrowRight {
+	right: 20% !important;
+}
+
+// background for Royal Slider
+
+.rsBg {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 50;
+}
+
+.rsBgimg {
+		background-image: url('../images/shadow.png');
+		background-size: 1280px 20px;
+		background-position: center top;
+		background-repeat: no-repeat;
+		height: 20px;
+		top: 0;
+		left: 50%;
+}
+
+/* Map for 3rd row front */
+
+div.map-section {
+	background: none;
+	padding-top: 0;
+}
+
+section.featured.map {
+	background-image: url('../images/homepage-background.png');
+	// background-color: rgba(255,255,255,0.3) !important;
+	background-repeat: no-repeat;
+}
+
+/* Flexslider Press Releases */
+/* LATEST NEWS */
+
+.flexslider {
+	background: transparent !important;
+	border: 0 !important;
+}
+
+.flex-viewport {
+	/*margin-right: 70px;*/
+}
+
+.flexslider .views-row {
+	// margin-right: 12px;
+	// margin-right: .75rem;
+	.span4 {
+		margin-left: 0 !important;
+	}
+}
+
+/* Royal Slider Press Releases */
+/* 3rd row */
+.view-press-frontpage .rsDefault,
+.view-press-frontpage .rsDefault .rsOverflow,
+.view-press-frontpage .rsDefault .rsSlide,
+.view-frontpage-consultant-spotlight .rsDefault,
+.view-frontpage-consultant-spotlight .rsDefault .rsOverflow,
+.view-frontpage-consultant-spotlight .rsDefault .rsSlide {
+	background: transparent !important;
+	color: #777 !important;
+}
+
+.view-press-frontpage .royalSlider{
+	width: 100% !important;
+	text-align: left;
+}
+
+/* Navigation Bullets */
+.view-press-frontpage .rsDefault .rsBullets {
+	background: transparent;
+	text-align: left;
+}
+
+.view-press-frontpage .rsDefault .rsBullet span {
+	background: rgba(119,119,119, 0.3) !important;
+}
+
+.view-press-frontpage .rsDefault .rsBullet.rsNavSelected span {
+	background: #777 !important;
+}
+
+.view-frontpage-consultant-spotlight .field-name-field-image-page img {
+		/*max-height: 60px;*/
+		border: 4px white solid;
+		border-radius: 6px;
+}
+
+// Consultant spotlight slider
+
+.view-frontpage-consultant-spotlight .field-name-field-image-page {
+	img {
+		width: 60px;
+	}
+}
+
+
+/* Royal Slider */
+/* Contact us page */
+
+/* Worldcarouselslider */
+#block-block-40 .royalSlider {
+	width: 100% !important;
+	max-height: 540px;
+}
+
+#block-block-40 .royalSlider img {
+}
+
+/* Worldcarouselslider */
+#block-block-40 .rsDefault .rsOverflow,
+#block-block-40 .rsDefault .rsSlide {
+	background: white !important;
+}
+
+
+/* QUICKTABS Effect */
+
+.quicktabs-hide {
+display: block;
+opacity: 0 !important;
+position: absolute;
+top: -999999px;
+}
+
+.quicktabs-tabpage,
+.quicktabs-ui-wrapper {
+-webkit-transition:all 1s ease 0.1s;
+-moz-transition:all 1s ease 0.1s;
+-o-transition:all 1s ease 0.1s;
+transition:all 1s ease 0.1s;
+}
+
+/* Submit your CV form */
+
+div.querytable {
+	background-color: #eeeeee !important;
+}
 
 //===========================================================
 // Button Find an office location 
@@ -372,151 +549,7 @@ ul.nav>li:last-child {
 	display: none;
 }
 
-/* Royal Slider */
-/* Contact us page */
 
-/* Worldcarouselslider */
-#block-block-40 .royalSlider {
-	width: 100% !important;
-	max-height: 540px;
-}
-
-#block-block-40 .royalSlider img {
-}
-
-/* Worldcarouselslider */
-#block-block-40 .rsDefault .rsOverflow,
-#block-block-40 .rsDefault .rsSlide {
-	background: white !important;
-}
-
-/* Royal Slider */
-/* 1st row */
-#block-views-frontpage-slider-block .royalSlider {
-  width: 100% !important;
-  max-height: 420px;
-  text-align: center;
-}
-
-
-#block-views-frontpage-slider-block .rsDefault .rsOverflow,
-#block-views-frontpage-slider-block .rsDefault .rsSlide {
-	background: white !important;
-}
-
-.field-name-field-slideshow-image img {
-	max-width: 1280px;
-	width: 100%;
-	height: auto;
-}
-
-.rsDefault.rsHor .rsArrowLeft {
-	left: 20% !important;
-}
-.rsDefault.rsHor .rsArrowRight {
-	right: 20% !important;
-}
-
-/* Map for 3rd row front */
-
-div.map-section {
-	background: none;
-	padding-top: 0;
-}
-
-section.featured.map {
-	background-image: url('../images/homepage-background.png') !important;
-	background-color: rgba(255,255,255, 0.1);
-	background-repeat: no-repeat;
-}
-
-/* Flexslider Press Releases */
-/* LATEST NEWS */
-
-.flexslider {
-	background: transparent !important;
-	border: 0 !important;
-}
-
-.flex-viewport {
-	/*margin-right: 70px;*/
-}
-
-.flexslider .views-row {
-	// margin-right: 12px;
-	// margin-right: .75rem;
-	.span4 {
-		margin-left: 0 !important;
-	}
-}
-
-/* Royal Slider Press Releases */
-/* 3rd row */
-.view-press-frontpage .rsDefault,
-.view-press-frontpage .rsDefault .rsOverflow,
-.view-press-frontpage .rsDefault .rsSlide,
-.view-frontpage-consultant-spotlight .rsDefault,
-.view-frontpage-consultant-spotlight .rsDefault .rsOverflow,
-.view-frontpage-consultant-spotlight .rsDefault .rsSlide {
-	background: transparent !important;
-	color: #777 !important;
-}
-
-.view-press-frontpage .royalSlider{
-	width: 100% !important;
-	text-align: left;
-}
-
-/* Navigation Bullets */
-.view-press-frontpage .rsDefault .rsBullets {
-	background: transparent;
-	text-align: left;
-}
-
-.view-press-frontpage .rsDefault .rsBullet span {
-	background: rgba(119,119,119, 0.3) !important;
-}
-
-.view-press-frontpage .rsDefault .rsBullet.rsNavSelected span {
-	background: #777 !important;
-}
-
-.view-frontpage-consultant-spotlight .field-name-field-image-page img {
-		/*max-height: 60px;*/
-		border: 4px white solid;
-		border-radius: 6px;
-}
-
-// Consultant spotlight slider
-
-.view-frontpage-consultant-spotlight .field-name-field-image-page {
-	img {
-		width: 60px;
-	}
-}
-
-/* QUICKTABS Effect */
-
-.quicktabs-hide {
-display: block;
-opacity: 0 !important;
-position: absolute;
-top: -999999px;
-}
-
-.quicktabs-tabpage,
-.quicktabs-ui-wrapper {
--webkit-transition:all 1s ease 0.1s;
--moz-transition:all 1s ease 0.1s;
--o-transition:all 1s ease 0.1s;
-transition:all 1s ease 0.1s;
-}
-
-/* Submit your CV form */
-
-div.querytable {
-	background-color: #eeeeee !important;
-}
 
 /* News detail page */
 

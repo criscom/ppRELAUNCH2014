@@ -29,3 +29,8 @@
 /* @import "theme-B"; */
 @import "default.scss";
 @import "fonts.scss"; // contains all font specific declarations like family, size and color
+@import "minwidth0-767.scss"; // contains all media queries for screen widths from 0px to 767px;
+@import "minwidth768.scss"; // contains all media queries for screen widths from 768px and beyond;
+@import "minwidth768-979.scss"; // contains all media queries for screen widths from 768px to 979px;
+@import "minwidth980-1199.scss"; // contains all media queries for screen widths from 980px to 1199px;
+@import "minwidth1200.scss"; // contains all media queries for screen widths from 1200px and beyond

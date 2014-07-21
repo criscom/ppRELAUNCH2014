@@ -1,0 +1,38 @@
+/* Einstern_2014 for Pedersen & Partners */
+/* holds all styles for screen widths of 980 px to 1199px */
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+
+//===========================================================
+// Header
+
+	header {
+		height: 120px;
+	}
+
+
+	//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// Main menu
+
+// white space/margin between main menu and blue heading section
+	nav.ul.nav-main {
+		margin-top: -58px !important;
+		margin-right: -10px !important;
+	}
+
+	.nav-pills > li > a {
+		padding-right: 8px !important;
+			padding-left: 8px !important;
+		}
+
+	.nav-pills > li:first-child > a {
+		padding-right: 12px !important;
+		padding-left: 12px !important;
+		}
+
+}
