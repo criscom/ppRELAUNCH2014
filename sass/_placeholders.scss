@@ -1,0 +1,14 @@
+
+
+// Read more link
+
+%read-more {
+	display: block !important;
+	margin-top: 12px;
+	margin-top: .75rem;
+	text-decoration: underline;
+	color: $blue;
+		&:hover, &:focus {
+		text-decoration: none;
+		}
+}

@@ -186,6 +186,33 @@ section.page-top {
 
 
 //===========================================================
+// Frontpage Panel
+
+.front .panel-col {
+	padding-top: 24px;
+	padding-top: 1.55rem;
+	background-image: url('../images/shadow.png');
+	background-size: 1280px 20px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 20px;
+	h1 {
+		margin-bottom: 0;
+	}
+	.field-name-body {
+		p {
+			margin-top: -14px;
+			margin-top: -0.875rem;
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+
+
+
+//===========================================================
 // Slideshow Front
 
 
@@ -194,8 +221,10 @@ section.page-top {
 /* FRONTPAGE Royal Slider */
 /* 1st row */
 #block-views-frontpage-slider-block .royalSlider {
-  width: 100% !important;
-  max-height: 420px;
+  // width: 100% !important;
+  width: 1170px !important;
+  // max-height: 420px;
+  max-height: 384px !important;
   text-align: center;
   background: white;
 }
@@ -215,11 +244,21 @@ section.page-top {
 	height: auto;
 }
 
-.rsDefault.rsHor .rsArrowLeft {
-	left: 20% !important;
+// Arrows - navigation
+
+.view-frontpage-slider {
+	.rsDefault.rsHor .rsArrow .rsArrowIcn {
+		border-radius: 24px !important;
+	}
 }
-.rsDefault.rsHor .rsArrowRight {
-	right: 20% !important;
+
+.view-frontpage-slider .rsDefault.rsHor {
+	.rsArrowLeft {
+		top: 18% !important;
+	}
+	.rsArrowRight {
+		top: 18% !important;
+	}
 }
 
 // background for Royal Slider
@@ -291,6 +330,15 @@ section.featured.map {
 	text-align: left;
 }
 
+#royal-slider-front-consultant {
+	width: 370px;
+	height: 240px;
+}
+
+.view-frontpage-consultant-spotlight .rsDefault .rsOverflow {
+	height: 240px !important;
+}
+
 /* Navigation Bullets */
 .view-press-frontpage .rsDefault .rsBullets {
 	background: transparent;
@@ -311,11 +359,88 @@ section.featured.map {
 		border-radius: 6px;
 }
 
+
+//===========================================================
+// Frontpage Featured Section
+// LATEST NEWS (PRESS) CONSULTANT SPOTLIGHT
+
+.front section.featured {
+	padding: 2px 0 16px;
+	border-bottom: 8px solid $yellow;
+	.span4 h2 {
+		margin-bottom: 30px;
+		margin-bottom: 1.875rem;
+	}
+	.span8 h2 {
+		margin-bottom: 22px;
+		margin-bottom: 1.375rem;
+	}
+	.span8 h4 {
+		margin-top: 0;
+		a {
+			color: $blue;
+		}
+	}
+	span.day {
+		color: $blue !important;
+	}
+	span.month {
+		background-color: $blue !important;
+	}
+	.read-more {
+		@extend %read-more
+	}
+}
+
+// > icon after read more link
+a [class^="icon-"], a [class*=" icon-"] {
+	text-decoration: none !important;
+	margin-left: 6px;
+	margin-left: .375rem;
+}
+
 // Consultant spotlight slider
 
-.view-frontpage-consultant-spotlight .field-name-field-image-page {
-	img {
-		width: 60px;
+.view-frontpage-consultant-spotlight {
+	.field-name-field-image-page {
+	float: left;
+		img {
+			width: 60px;
+			margin-bottom: 12px;
+			margin-bottom: .75rem;
+		}
+	}
+}
+
+.view-frontpage-consultant-spotlight {
+	.views-field-title > div.span3, .job-title {
+		margin-left: 8px !important;
+		margin-left: .75rem !important;
+		a {
+			text-decoration: underline;
+			color: $blue !important;
+			&:hover, &:focus {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.view-frontpage-consultant-spotlight {
+	.job-title {
+		margin-bottom: 12px;
+		margin-bottom: .75rem;
+	}
+}
+
+.view-frontpage-consultant-spotlight .field-name-body {
+	margin-top: 12px;
+	margin-top: .75rem;
+	margin-left: 0;
+	clear: both;
+	a.more-link {
+		@extend %read-more;
+		text-align: left;
 	}
 }
 
@@ -337,6 +462,68 @@ section.featured.map {
 #block-block-40 .rsDefault .rsSlide {
 	background: white !important;
 }
+
+
+
+
+//===========================================================
+// FOOTER
+
+footer {
+	background-color: white !important;
+	border-top: 0;
+	background-image: url('../images/shadow.png');
+	background-size: 1280px 20px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 20px;
+	padding-top: 24px;
+	input[type="checkbox"] {
+		height: 20px;
+		width: 16px;
+		margin-top: -4px;
+	}
+	input[type="text"] {
+		height: 30px;
+		height: 1.875rem;
+	}
+	#block-block-35 p:first-child {
+		margin-top: 16px !important;
+		margin-top: 1rem !important;
+	}
+	ul.tweet_list {
+		padding-left: 0 !important;
+		margin-top: 17px;
+		margin-top: 1.0625rem;
+	}
+	.tweet_avatar {
+		display: none;
+	}
+	ul.menu {
+		padding-left: 0;
+		margin-top: 10px;
+		margin-top: .625rem;
+		li {
+			padding-left: 0;
+			list-style: none;
+		}
+	}
+	ul.social-icons {
+		margin-top: 24px;
+		margin-top: 1.5rem;
+	}
+	div.footer-copyright {
+		margin-top: -12px;
+		margin-top: -0.75rem;
+		background: $blue;
+	}
+}
+
+
+
+
+
+
 
 
 /* QUICKTABS Effect */

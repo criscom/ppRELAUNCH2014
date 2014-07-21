@@ -33,12 +33,50 @@
 		.content .row .span12 {
 		margin-left: 12px; 
 		}
+		// About, Services, Practice Groups
 		.panel-col .span4 {
 			margin-left: 19px;
+		}
+		// Consultant spotlight
+		section.featured .span4 {
+			margin-left: 10px;
 		}
 	}
 
 
+
+
+
+//===========================================================
+// Slideshow Front
+
+// Image Slideshow Top
+.view-frontpage-slider {
+	margin-left: 18px;
+	.rsDefault.rsHor {
+		.rsArrowLeft {
+		// left: 16% !important;
+		}
+		.rsArrowRight {
+		// right: 16% !important;
+		}
+	}
+} 
+
+// Press Releases
+
+.flexslider ul.slides {
+	// margin-left: 30px;
+}
+
+.flexslider ul.slides>li>div.span4 {
+	margin-left: 30px;
+}
+
+.flexslider ul.slides>li:nth-child(2)>div.span4,
+.flexslider ul.slides>li:nth-child(4)>div.span4 {
+	margin-left: 20px !important;
+}
 
 
 
