@@ -512,6 +512,8 @@ a [class^="icon-"], a [class*=" icon-"] {
 }
 
 
+
+
 //===========================================================
 // FOOTER
 
@@ -575,6 +577,55 @@ footer {
 	margin-top: 35px;
 }
 
+
+
+
+//===========================================================
+// SIDEBAR MENU
+
+.block-menu-block ul.menu {
+	padding-left: 0;
+	li.collapsed,
+	li.expanded,
+	li.leaf {
+		padding-top: 9px;
+		padding-bottom: 8px;
+		list-style-image: none !important;
+		list-style-type: none !important;
+		background-image: url("../images/menu-leaf.png");
+		background-position: left 17px;
+		background-size: 5px 6px;
+		background-repeat: no-repeat;
+	}
+	li.collapsed,
+	li.leaf {
+		padding-left: 24px;
+		border-bottom: 1px solid $grayborder !important;
+		a.active {
+			color: $yellow;
+		}
+	}
+	// SIDEBAR SUBMENU - 2nd LEVEL
+	li.expanded{
+		>a.active-trail {
+			display: block;
+			padding-bottom: 8px;
+			padding-left: 24px;
+			color: $yellow;
+		}
+			>ul {
+			padding-left: 0;
+			li.leaf {
+				margin-left: 0;
+				padding-left: 48px;
+				background-position: 24px 17px;
+			}
+			li.first {
+				border-top: 1px solid $grayborder !important;
+			}
+		}
+	}
+}	
 
 
 
@@ -655,19 +706,32 @@ div.querytable {
 // Team view
 
 
-.view-partners .views-row,
-.view-consultant .views-row,
-.view-senior-consultant .views-row,
-.view-consultant2 .views-row,
-.view-research-consultant .views-row,
-.view-practice-group .views-row,
-.view-by-location .views-row,
-.view-managers .views-row,
-.team-list .views-row {
+.view-partners,
+.view-consultant,
+.view-senior-consultant,
+.view-consultant2,
+.view-research-consultant,
+.view-practice-group,
+.view-by-location,
+.view-managers,
+.team-list {
+		.views-row {
 	float: left;
 	width: 275px;
 	margin-right: 15px;
 	min-height: 470px;
+	.field-name-field-linkedin,
+	.views-field-title {
+		margin-top: 14px;
+	}
+	.field-name-field-linkedin {
+		float: left;
+		margin-right: 6px;
+		}
+	.view-field-field-job-title {
+		clear: left;
+	}
+	}
 }
 
 .view-partners .views-row-3,

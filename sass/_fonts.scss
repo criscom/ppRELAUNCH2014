@@ -63,6 +63,77 @@ h3 {
 
 
 
+// ASSURANCES
+
+.page-node-8 {
+	.field-name-body {
+		p {
+			font-family: $roboto;
+			color: $blue;
+			font-size: $h3-font-size;
+			font-weight: 300;
+		}
+	}
+}
+
+
+
+
+
+// TEAM VIEW
+
+.view-partners,
+.view-consultant,
+.view-senior-consultant,
+.view-consultant2,
+.view-research-consultant,
+.view-practice-group,
+.view-by-location,
+.view-managers,
+.team-list {
+		.views-row {
+		font-size: 14px;
+		.views-field-title span a {
+			color: $blue;
+			font-weight: 700;
+			text-decoration: none;
+			&:hover, &:focus {
+				text-decoration: underline;
+			}
+		}
+		.views-field-view-node span a,
+		.field-name-field-email-person a {
+			color: $blue;
+			text-decoration: underline;
+			&:hover, &:focus {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+//===========================================================
+// SIDEBAR MENU
+
+.block-menu-block ul.menu {
+	li.collapsed,
+	li.expanded,
+	li.leaf {
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+
 
 //===========================================================
 // LINKS
