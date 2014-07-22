@@ -996,6 +996,99 @@ a [class^="icon-"], a [class*=" icon-"] {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003520}}
+#sidebar-left div.span3,
+div.span3 .region-sidebar-right,
+body.page-team .view,
+.field-name-field-pg-image {
+  margin-top: 12px;
+  margin-top: .75rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003531}}
+body.node-type-references .field-name-body {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003540}}
+div.span3.references1 {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003545}}
+div.span3.references1 p,
+div.span3.references2 p {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003557}}
+body.node-type-offices .city-country-wrapper {
+  display: inline-block;
+  padding-left: 56px;
+  padding-left: 3.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003564}}
+body.node-type-offices .region-sidebar-right .block-views {
+  margin-top: -14px;
+  margin-top: -0.875rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003567}}
+body.node-type-offices .region-sidebar-right .block-views .views-field-title {
+  margin-bottom: 6px;
+  margin-bottom: .375rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003571}}
+body.node-type-offices .region-sidebar-right .block-views h4 {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003579}}
+body.node-type-offices .region-sidebar-right .views-row {
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003586}}
+body.node-type-offices .field-name-body {
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003593}}
+body.node-type-offices .group-office-address h3 {
+  margin-bottom: 12px;
+  margin-bottom: .75rem;
+  padding-left: 32px;
+  padding-left: 2rem;
+  background-image: url(../images/pin.png);
+  background-size: 17px 23px;
+  background-repeat: no-repeat;
+  background-position: left 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003604}}
+body.node-type-offices .field-name-field-office-address p:nth-child(1) {
+  margin-top: 18px;
+  margin-top: 1.125rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003608}}
+body.node-type-offices .field-name-field-office-address p:nth-child(2) {
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003614}}
+.field-name-field-email-office .btn-warning {
+  width: 163px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003623}}
 footer {
   background-color: white !important;
   border-top: 0;
@@ -1006,49 +1099,49 @@ footer {
   padding-top: 24px;
   border-top: 8px solid #faa614;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003633}}
 footer input[type="checkbox"] {
   height: 20px;
   width: 16px;
   margin-top: -4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003638}}
 footer input[type="text"] {
   height: 30px;
   height: 1.875rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003539}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003642}}
 footer #block-block-35 p:first-child {
   margin-top: 16px !important;
   margin-top: 1rem !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003646}}
 footer ul.tweet_list {
   padding-left: 0 !important;
   margin-top: 17px;
   margin-top: 1.0625rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003651}}
 footer .tweet_avatar {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003551}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003654}}
 footer ul.menu {
   padding-left: 0;
   margin-top: 10px;
   margin-top: .625rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003658}}
 footer ul.menu li {
   margin-left: 0;
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003663}}
 footer ul.social-icons {
   margin-top: 24px;
   margin-top: 1.5rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003564}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003667}}
 footer div.footer-copyright {
   margin-top: -12px;
   margin-top: -0.75rem;
@@ -1056,16 +1149,16 @@ footer div.footer-copyright {
   padding-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003576}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003679}}
 .not-front footer {
   margin-top: 35px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003689}}
 .region-sidebar-left .block-menu-block ul.menu {
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003590}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003693}}
 .region-sidebar-left .block-menu-block ul.menu li.collapsed,
 .region-sidebar-left .block-menu-block ul.menu li.expanded,
 .region-sidebar-left .block-menu-block ul.menu li.leaf {
@@ -1078,41 +1171,41 @@ footer div.footer-copyright {
   background-size: 5px 6px;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003704}}
 .region-sidebar-left .block-menu-block ul.menu li.collapsed,
 .region-sidebar-left .block-menu-block ul.menu li.leaf {
   padding-left: 24px;
   border-bottom: 1px solid #cccccc !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003707}}
 .region-sidebar-left .block-menu-block ul.menu li.collapsed a.active,
 .region-sidebar-left .block-menu-block ul.menu li.leaf a.active {
   color: #faa614;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003610}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003713}}
 .region-sidebar-left .block-menu-block ul.menu li.expanded > a.active-trail {
   display: block;
   padding-bottom: 8px;
   padding-left: 24px;
   color: #faa614;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003616}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003719}}
 .region-sidebar-left .block-menu-block ul.menu li.expanded > ul {
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003618}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003721}}
 .region-sidebar-left .block-menu-block ul.menu li.expanded > ul li.leaf {
   margin-left: 0;
   padding-left: 48px;
   background-position: 24px 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003623}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003726}}
 .region-sidebar-left .block-menu-block ul.menu li.expanded > ul li.first {
   border-top: 1px solid #cccccc !important;
 }
 
 /* QUICKTABS Effect */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003634}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003737}}
 .quicktabs-hide {
   display: block;
   opacity: 0 !important;
@@ -1120,7 +1213,7 @@ footer div.footer-copyright {
   top: -999999px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003745}}
 .quicktabs-tabpage,
 .quicktabs-ui-wrapper {
   -webkit-transition: all 1s ease 0.1s;
@@ -1130,24 +1223,24 @@ footer div.footer-copyright {
 }
 
 /* Submit your CV form */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003754}}
 div.querytable {
   background-color: #eeeeee !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003763}}
 .region-sidebar-left .btn-warning,
 .region-sidebar-right .btn-warning {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003681}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003784}}
 .image img {
   border: solid 1px #ddd;
   box-shadow: 2px 2px 3px #888888;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003795}}
 .picframe img {
   padding: 4px;
   border: solid 1px #ddd;
@@ -1155,7 +1248,7 @@ div.querytable {
   border-radius: 3px 3px 3px 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003718}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003821}}
 .view-partners .views-row,
 .view-consultant .views-row,
 .view-senior-consultant .views-row,
@@ -1171,7 +1264,7 @@ div.querytable {
   min-height: 470px;
   margin-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003725}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003828}}
 .view-partners .views-row .field-name-field-linkedin,
 .view-partners .views-row .views-field-title,
 .view-consultant .views-row .field-name-field-linkedin,
@@ -1192,7 +1285,7 @@ div.querytable {
 .team-list .views-row .views-field-title {
   margin-top: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003728}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003831}}
 .view-partners .views-row .field-name-field-linkedin,
 .view-consultant .views-row .field-name-field-linkedin,
 .view-senior-consultant .views-row .field-name-field-linkedin,
@@ -1205,7 +1298,7 @@ div.querytable {
   float: left;
   margin-right: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003835}}
 .view-partners .views-row .view-field-field-job-title,
 .view-consultant .views-row .view-field-field-job-title,
 .view-senior-consultant .views-row .view-field-field-job-title,
@@ -1217,7 +1310,7 @@ div.querytable {
 .team-list .views-row .view-field-field-job-title {
   clear: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003838}}
 .view-partners .views-row .views-row-last,
 .view-consultant .views-row .views-row-last,
 .view-senior-consultant .views-row .views-row-last,
@@ -1230,46 +1323,53 @@ div.querytable {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003742}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003848}}
+.view-practice-group .views-row,
+.view-by-location .views-row,
+.view-managers .views-row {
+  min-height: 380px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003854}}
 .pagination {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003757}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003869}}
 .node-type-team .region-content .field-name-body p:nth-child(1) {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003761}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003873}}
 .node-type-team .region-content .picframe {
   float: left;
   margin-right: 16px;
   margin-right: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003765}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003877}}
 .node-type-team .region-content .picframe img {
   width: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003774}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003886}}
 .linkedin-profile-inner {
   float: left;
   margin-right: 6px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003893}}
 .field-name-field-email-person,
 .views-field-view-node,
 .field-name-field-email-biography p {
   clear: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003783}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003895}}
 .field-name-field-email-person a,
 .views-field-view-node a,
 .field-name-field-email-biography p a {
   color: #003465;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003786}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003898}}
 .field-name-field-email-person a:hover, .field-name-field-email-person a:focus,
 .views-field-view-node a:hover,
 .views-field-view-node a:focus,
@@ -1278,63 +1378,63 @@ div.querytable {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003795}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003907}}
 .region-sidebar-right .picframe {
   margin-bottom: 16px;
   margin-bottom: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003799}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003911}}
 .region-sidebar-right .field-name-field-email-biography p {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003811}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003923}}
 .field-name-field-pg-image p {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003823}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003935}}
 ul.social-icons li {
   border-radius: 0;
   -webkit-border-radius: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003828}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003940}}
 ul.social-icons li.facebook {
   background-position: 0 -150px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003832}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003944}}
 ul.social-icons li.facebook:hover {
   background-position: 0 -120px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003948}}
 ul.social-icons li.twitter {
   background-position: 0 -1170px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003840}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003952}}
 ul.social-icons li.twitter:hover {
   background-position: 0 -1140px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003844}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003956}}
 ul.social-icons li.linkedin {
   background-position: 0 -570px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003848}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003960}}
 ul.social-icons li.linkedin:hover {
   background-position: 0 -540px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003852}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003964}}
 ul.social-icons li.googleplus {
   background-position: 0 -330px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003856}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003968}}
 ul.social-icons li.googleplus:hover {
   background-position: 0 -300px;
 }
@@ -1354,13 +1454,13 @@ ul.social-icons li.googleplus:hover {
 [class*="span"] {
 	margin-left: 10px;
 }*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003991}}
 .form-type-select label {
   display: none;
 }
 
 /* Hide Menu link "Sidebar" in main menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003885}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003997}}
 ul.nav > li:last-child {
   display: none;
 }
@@ -1378,7 +1478,7 @@ ul.nav > li:last-child {
 /* RETINA SPECIFIC STYLINGS */
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   /* on retina, use image that's scaled by 2 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003911}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\000031023}}
   section.featured.map {
     background: url("../images/homepage-background2x.png");
   }
@@ -1560,48 +1660,86 @@ h3 {
 .region-sidebar-right .views-field-nothing,
 .region-sidebar-right .views-field-view-node,
 .region-sidebar-right .field-name-field-email-biography {
-  font-size: 14px;
-  font-size: .875rem;
+  font-size: 0.875em;
+  line-height: 1.71429em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003145}}
 .block-menu-block ul.menu li.collapsed,
 .block-menu-block ul.menu li.expanded,
 .block-menu-block ul.menu li.leaf {
   font-size: 14px;
+  font-size: .875rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003158}}
+span.city-country {
+  font-family: Roboto, sans-serif;
+  font-size: 1.875em;
+  line-height: 1.6em;
+  color: #003465;
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003165}}
+span.city {
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003170}}
+.node-offices h3 {
+  line-height: 1.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003175}}
+.field-name-field-email-office .btn-warning {
+  font-style: 12px;
+  font-size: .75rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003183}}
+body.node-type-offices .views-field-title span a {
+  color: #003465;
+  font-size: 16px;
+  font-size: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003190}}
+body.node-type-offices .views-field-created span {
+  font-size: 12px;
+  font-size: .75rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003204}}
 .field-name-body a, .field-name-body li > a, .field-name-body p > a {
   color: #003465;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003207}}
 .field-name-body a:hover, .field-name-body a:focus, .field-name-body li > a:hover, .field-name-body li > a:focus, .field-name-body p > a:hover, .field-name-body p > a:focus {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003221}}
 footer h2 {
   color: #003465 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003227}}
 footer p a,
 footer .tweet_text,
 footer .tweet_text a,
 footer ul.menu > li > a {
   color: #666666 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003230}}
 footer .tweet_time a {
   color: #faa614 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003234}}
 footer .footer-copyright p, footer .footer-copyright a {
   color: white !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003249}}
 .region-header-menu .menu-name-main-menu li a {
   font-family: Roboto, sans-serif !important;
   font-size: 16px !important;
@@ -1610,14 +1748,14 @@ footer .footer-copyright p, footer .footer-copyright a {
   font-weight: 400 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003262}}
 nav ul.nav-main ul.dropdown-menu,
 nav ul.nav-main li.dropdown.open a.dropdown-toggle,
 nav ul.nav-main li.active a {
   background: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003270}}
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus,
@@ -1627,26 +1765,26 @@ nav ul.nav-main li a:focus {
   background: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003283}}
 ul.dropdown-menu li > a {
   color: #999999 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003285}}
 ul.dropdown-menu li > a:visited {
   color: #8c8c8c !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003288}}
 ul.dropdown-menu li > a:hover, ul.dropdown-menu li > a:focus, ul.dropdown-menu li > a:active, ul.dropdown-menu li > a.active {
   color: #003465 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003305}}
 ul.breadcrumb li a {
   color: white;
   font-size: 14px;
   font-size: .875rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\00003309}}
 ul.breadcrumb li a.active {
   color: #faa700;
 }

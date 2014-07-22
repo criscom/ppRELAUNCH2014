@@ -511,6 +511,109 @@ a [class^="icon-"], a [class*=" icon-"] {
 	}
 }
 
+// Adjusting top spacing for left and right sidebar
+
+#sidebar-left div.span3,
+div.span3 .region-sidebar-right,
+body.page-team .view, // all team overview pages
+.field-name-field-pg-image // top image on PG pages
+ {
+	margin-top: 12px;
+	margin-top: .75rem;
+}
+
+
+
+//===========================================================
+// Practice Groups
+
+body.node-type-references {
+	.field-name-body {
+		margin-bottom: 16px;
+		margin-bottom: 1rem;
+		padding-bottom: 16px;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid $grayborder;
+	}
+}
+
+div.span3.references1 {
+	margin-left: 0;
+}
+div.span3.references1,
+div.span3.references2 {
+	p {
+		margin-top: 0;
+	}
+}
+
+
+
+
+//===========================================================
+// Offices
+
+body.node-type-offices {
+	.city-country-wrapper {
+		display: inline-block;
+		padding-left: 56px;
+		padding-left: 3.5rem;
+		span.city-country {
+		}
+	}
+	.region-sidebar-right .block-views {
+		margin-top: -14px;
+		margin-top: -0.875rem;
+			.views-field-title {
+		margin-bottom: 6px;
+		margin-bottom: .375rem; 
+	}
+		h4 {
+			margin-bottom: 16px;
+			margin-bottom: 1rem;
+		}
+	}
+}
+
+body.node-type-offices {
+	.region-sidebar-right .views-row {
+	margin-bottom: 12px;
+	margin-bottom: 0.75rem;
+	padding-bottom: 12px;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid $grayborder;
+	}
+	.field-name-body {
+	margin-bottom: 12px;
+	margin-bottom: 0.75rem;
+	padding-bottom: 12px;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid $grayborder;
+	}
+	.group-office-address h3 {
+		margin-bottom: 12px;
+		margin-bottom: .75rem;
+		padding-left: 32px;
+		padding-left: 2rem;
+		background-image: url(../images/pin.png);
+		background-size: 17px 23px;
+		background-repeat: no-repeat;
+		background-position: left 5px;
+	}
+	.field-name-field-office-address {
+		p:nth-child(1) {
+			margin-top: 18px;
+			margin-top: 1.125rem;
+		}
+		p:nth-child(2) {
+			font-weight: 700;
+		}
+	}
+}
+
+.field-name-field-email-office .btn-warning {
+	width: 163px;
+}
 
 
 
@@ -735,6 +838,15 @@ div.querytable {
 		.views-row-last {
 			margin-bottom: 0;
 		}
+	}
+}
+
+
+.view-practice-group,
+.view-by-location,
+.view-managers {
+	.views-row {
+		min-height: 380px; 
 	}
 }
 

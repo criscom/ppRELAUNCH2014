@@ -126,8 +126,9 @@ h3 {
 	.views-field-nothing, // Title
 	.views-field-view-node, // Link to biography
 	.field-name-field-email-biography {
-		font-size: 14px;
-		font-size: .875rem;
+		// font-size: 14px;
+		// font-size: .875rem;
+		@include adjust-font-size-to( 14px );
 	}
 }
 
@@ -143,12 +144,55 @@ h3 {
 	li.expanded,
 	li.leaf {
 		font-size: 14px;
+		font-size: .875rem;
+
 	}
 }
 
 
 
 
+//===========================================================
+// OFFICES
+
+span.city-country {
+	font-family: $roboto;
+	@include adjust-font-size-to( $h2-font-size );
+	color: $blue;
+	font-weight: 300;
+}
+
+span.city {
+	font-weight: 700;
+}
+
+.node-offices {
+		h3 {
+		line-height: 1.25em;
+		}
+}
+
+.field-name-field-email-office .btn-warning {
+	font-style: 12px;
+	font-size: .75rem;
+}
+
+// sidebar
+body.node-type-offices {
+	.views-field-title {
+		span a {
+			color: $blue;
+			font-size: 16px;
+			font-size: 1rem;
+		}
+	}
+	.views-field-created {
+		span {
+			font-size: 12px;
+			font-size: .75rem;
+		}
+	}
+}
 
 
 
