@@ -1824,24 +1824,35 @@ ul.breadcrumb li a.active {
     margin-right: .75rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003134}}
-  .flexslider .flex-viewport ul li {
-    width: 480px !important;
-    margin-left: -2px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003138}}
-  .flexslider .flex-viewport ul li > div.span4 {
-    width: 480px !important;
-    margin-right: 10px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003132}}
+  section.featured .container .row .span8 {
+    width: 724px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003136}}
   .flexslider.unstyled {
-    width: 480px !important;
+    width: 724px !important;
     margin-left: 12px !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003144}}
+  .flexslider .flex-viewport ul li {
+    width: 360px !important;
+    margin-left: -2px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003149}}
+  .flexslider .flex-viewport ul li > div.span4 {
+    width: 355px !important;
+    margin-right: 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003157}}
+  .flex-control-nav li:nth-child(3),
+  .flex-control-nav li:nth-child(4) {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003180}}
   .view-partners .views-row,
   .view-consultant .views-row,
   .view-senior-consultant .views-row,
@@ -1855,13 +1866,13 @@ ul.breadcrumb li a.active {
     margin-right: 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003194}}
   .region-sidebar-left select {
     width: 161px;
     /* 166px - 5px */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768-979\.scss}line{font-family:\00003209}}
   .region-sidebar-left .btn-warning,
   .region-sidebar-right .btn-warning {
     width: 136px;

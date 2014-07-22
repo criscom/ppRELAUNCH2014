@@ -129,22 +129,36 @@ section.featured {
 //===========================================================
 // Latest News
 
+section.featured .container .row .span8 {
+	width: 724px;
+}
+
+.flexslider.unstyled {
+	// width: 480px !important;
+	width: 724px !important;
+	margin-left: 12px !important;
+}
+
 	.flexslider .flex-viewport ul {
 	li,
 	 {
-		width: 480px !important;
+		// width: 480px !important;
+		width: 360px !important;
 		margin-left: -2px;
 	}
 	li>div.span4 {
-		width: 480px !important;
+		// width: 480px !important;
+		width: 355px !important;
 		margin-right: 10px;
 	}
 }
 
-.flexslider.unstyled {
-	width: 480px !important;
-	margin-left: 12px !important;
-}
+	.flex-control-nav li:nth-child(3),
+	.flex-control-nav li:nth-child(4) {
+		display: none;
+	}
+
+
 
 
 
