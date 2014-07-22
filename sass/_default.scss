@@ -583,7 +583,7 @@ footer {
 //===========================================================
 // SIDEBAR MENU
 
-.block-menu-block ul.menu {
+.region-sidebar-left .block-menu-block ul.menu {
 	padding-left: 0;
 	li.collapsed,
 	li.expanded,
@@ -736,37 +736,8 @@ div.querytable {
 			margin-bottom: 0;
 		}
 	}
-
 }
 
-.view-partners .views-row-3,
-.view-consultant .views-row-3,
-.view-senior-consultant .views-row-3,
-.view-consultant2 .views-row-3,
-.view-research-consultant .views-row-3,
-.view-practice-group .views-row-3,
-.view-by-location .views-row-3,
-.view-managers .views-row-3
-.view-partners .views-row-6,
-.view-consultant .views-row-6,
-.view-senior-consultant .views-row-6,
-.view-consultant2 .views-row-6,
-.view-research-consultant .views-row-6,
-.view-practice-group .views-row-6,
-.view-by-location .views-row-6,
-.view-managers .views-row-6,
-.view-partners .views-row-9,
-.view-consultant .views-row-9,
-.view-senior-consultant .views-row-9,
-.view-consultant2 .views-row-9,
-.view-research-consultant .views-row-9,
-.view-practice-group .views-row-9,
-.view-by-location .views-row-9,
-.view-managers .views-row-9,
-.team-list .views-row-3,
-.team-list .views-row-6,
-.team-list .views-row-9 {
-}
 
 .pagination {
 	clear: both;
@@ -775,6 +746,41 @@ div.querytable {
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+
+
+
+//===========================================================
+// Biography pages -- TEAM detail
+
+.node-type-team .region-content {
+	.field-name-body {
+		p:nth-child(1) { // removes padding of the first paragraph on team pages
+			margin-top: 0;
+		}
+	}
+	.picframe {
+		float: left;
+		margin-right: 16px;
+		margin-right: 1rem;
+		img {
+			width: none !important;
+		}
+	}
+	.linkedin-profile-inner {
+		float: left;
+		margin-right: 6px;
+	}
+	.field-name-field-email-person {
+		clear: left;
+		a {
+			color: $blue;
+			text-decoration: underline;
+			&:hover, &:focus {
+				text-decoration: none;
+			}
+		}
+	}
+}
 
 
 

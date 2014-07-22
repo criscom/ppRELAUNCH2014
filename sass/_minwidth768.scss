@@ -31,6 +31,28 @@
 
 
 
+		//===========================================================
+// Team view
+
+
+.view-partners,
+.view-consultant,
+.view-seniorconsultant,
+.view-consultatn2,
+.view-research-consultant,
+.view-practice-group, 
+.view-by-location,
+.view-managers
+{
+	.views-row-3,
+	.views-row-6,
+	.views-row-9 {
+		margin-right: 0 !important;
+	}
+}
+
+
+
 // aligning Follow us with consultant spotlight
 
 footer .container .row .span4 {

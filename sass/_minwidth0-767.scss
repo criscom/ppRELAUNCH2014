@@ -16,4 +16,38 @@
 	}
 
 
+		//===========================================================
+// Team view
+
+
+.view-partners,
+.view-consultant,
+.view-senior-consultant,
+.view-consultant2,
+.view-research-consultant,
+.view-practice-group,
+.view-by-location,
+.view-managers,
+.team-list {
+		.views-row {
+		margin-right: 20px;
+		// min-height: 470px;
+	}
+}
+
+.view-partners,
+.view-consultant,
+.view-seniorconsultant,
+.view-consultatn2,
+.view-research-consultant,
+.view-practice-group, 
+.view-by-location,
+.view-managers
+{
+	.views-row-even {
+		margin-right: 0 !important;
+	}
+}
+
+
 } // end media query

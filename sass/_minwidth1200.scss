@@ -126,21 +126,23 @@
 	}
 }
 
-.view-partners,
-.view-consultant,
-.view-seniorconsultant,
-.view-consultatn2,
-.view-research-consultant,
-.view-practice-group, 
-.view-by-location,
-.view-managers
-{
-	.views-row-3,
-	.views-row-6,
-	.views-row-9 {
-		margin-right: 0 !important;
+
+
+//===========================================================
+// Biography pages -- TEAM detail
+
+.node-type-team .region-content {
+	.field-name-body {
+		margin-left: 272px;
+	}
+	.field-name-field-linkedin  {
+		margin-left: 272px;
+	}
+	.field-name-field-email-person {
+		margin-left: 272px;
 	}
 }
+
 
 
 
