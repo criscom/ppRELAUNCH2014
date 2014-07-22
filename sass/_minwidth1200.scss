@@ -4,6 +4,10 @@
 
 @media only screen and (min-width: 1200px) {
 
+	header .logo {
+		margin-top: 36px !important;
+	}
+
 //===========================================================
 // Main menu
 
@@ -29,6 +33,12 @@
 //===========================================================
 // Frontpage Panels
 
+// bottom shadow for the image slideshow on frontpage
+	.front .panel-col {
+		background-size: 1170px 20px;
+	}
+
+
 	.front {
 		.content .row .span12 {
 		margin-left: 12px; 
@@ -50,6 +60,14 @@
 //===========================================================
 // Slideshow Front
 
+
+/* FRONTPAGE Royal Slider */
+/* 1st row */
+#block-views-frontpage-slider-block .royalSlider {
+  width: 1170px !important;
+  // max-height: 420px;
+}
+
 // Image Slideshow Top
 .view-frontpage-slider {
 	margin-left: 18px;
@@ -61,7 +79,17 @@
 		// right: 16% !important;
 		}
 	}
-} 
+}
+
+// top and bottom shadow for the image slideshow on frontpage
+	.rsBgBottom,
+	.rsBgimg {
+		background-size: 1280px 20px;
+	}
+	
+	.rsBgBottom {
+		bottom: -20px;
+	} 
 
 // Press Releases
 
@@ -79,5 +107,17 @@
 }
 
 
+
+
+//===========================================================
+// Quick Select Menu
+
+
+.region-sidebar-left select {
+	width: 265px; /* needs to be adjusted for breakpoints */
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 } // closes media query from line 5

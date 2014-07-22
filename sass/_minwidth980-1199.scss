@@ -10,19 +10,21 @@
 		height: 120px;
 	}
 
+	header .logo {
+		margin-top: 36px !important;
+	}
+
 
 	//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
-
-
-//===========================================================
+	//===========================================================
 // Main menu
 
 // white space/margin between main menu and blue heading section
-	nav.ul.nav-main {
-		margin-top: -58px !important;
-		margin-right: -10px !important;
+	nav ul.nav-main {
+		margin-top: -43px !important;
+		margin-right: -13px !important;
 	}
 
 	.nav-pills > li > a {
@@ -35,4 +37,97 @@
 		padding-left: 12px !important;
 		}
 
+
+
+
+
+
+//===========================================================
+// Slideshow Front
+
+
+
+
+/* FRONTPAGE Royal Slider */
+/* 1st row */
+	#block-views-frontpage-slider-block .royalSlider {
+  	width: 940px !important;
+  	max-height: 308px !important;
+	}
+
+	#block-views-frontpage-slider-block {
+		margin-left: 8px;
+	}
+
+	// top and bottom shadow for the image slideshow on frontpage
+	.rsBgBottom,
+	.rsBgimg {
+		background-size: 940 16px;
+	}
+
+	.rsBgBottom {
+		bottom: -14px;
+	} 
+
+
+// Arrows - navigation
+
+	.view-frontpage-slider .rsDefault.rsHor {
+		.rsArrowLeft {
+			top: 24% !important;
+		}
+		.rsArrowRight {
+			top: 24% !important;
+		}
+	}
+
+
+
+
+//===========================================================
+// Frontpage Panels
+
+// bottom shadow for the image slideshow on frontpage
+	.front .panel-col {
+		background-size: 940px 16px;
+	}
+
+	.front {
+		.content .row .span12 {
+		margin-left: 12px; 
+		}
+		// About, Services, Practice Groups
+		.panel-col .span4 {
+			margin-left: 8px;
+		}
+		// Consultant spotlight
+		section.featured .span4 {
+			margin-left: 10px;
+		}
+	}
+
+//===========================================================
+// Consultant Spotlights
+
+#royal-slider-front-consultant {
+	width: 300px;
 }
+
+//===========================================================
+// Latest News
+
+	section.featured .recent-posts {
+		.row {
+			margin-left: -10px;
+		}
+	}
+
+	.flexslider {
+		width: 620px;
+	}
+
+	.flexslider .flex-viewport ul>li {
+		width: 310px !important;
+	}
+
+} // end media query

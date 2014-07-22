@@ -1,2 +1,19 @@
 /* Einstern_2014 for Pedersen & Partners */
 /* holds all styles for screen widths of 0 px to 767px */
+
+@media only screen and (max-width: 767px) {
+
+//===========================================================
+// Slider LATEST NEWS
+
+	.front section.featured {
+		// margin-right: 0;
+		// margin-left: 0;
+	}
+
+	.flexslider ul.slides li {
+		// max-width: 380px !important;
+	}
+
+
+} // end media query

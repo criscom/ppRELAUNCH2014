@@ -1,2 +1,100 @@
 /* Einstern_2014 for Pedersen & Partners */
 /* holds all styles for screen widths of 768 px to 979px */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+
+	//===========================================================
+// Main menu
+
+// white space/margin between main menu and blue heading section
+
+	nav ul.nav-main {
+		margin-top: -15px !important;
+		margin-right: -3px !important;
+		margin-bottom: 15px !important;
+	}
+
+
+
+
+
+//===========================================================
+// Slideshow Front
+
+
+/* FRONTPAGE Royal Slider */
+/* 1st row */
+	#block-views-frontpage-slider-block .royalSlider {
+  	width: 724px !important;
+  	max-height: 238px !important;
+	}
+
+	#block-views-frontpage-slider-block {
+		margin-left: 8px;
+	}
+
+
+// top shadow for the image slideshow on frontpage
+	.rsBgBottom,
+	.rsBgimg {
+		background-size: 724px 32px;
+	} 
+
+	.rsBgBottom {
+		bottom: -20px;
+	} 
+
+
+// Arrows - navigation
+
+	.view-frontpage-slider .rsDefault.rsHor {
+		.rsArrowLeft {
+			top: 24% !important;
+		}
+		.rsArrowRight {
+			top: 24% !important;
+		}
+	}
+
+
+	.front {
+		.content .row .span12 {
+		margin-left: 12px; 
+		}
+		// About, Services, Practice Groups
+		.panel-col .span4 {
+			margin-left: 8px;
+		}
+		// Consultant spotlight
+		section.featured .span4 {
+			margin-left: 10px;
+		}
+	}
+
+
+
+
+//===========================================================
+// Frontpage Panels
+
+// bottom shadow for the image slideshow on frontpage
+	.front .panel-col {
+		background-size: 724px 32px;
+	}
+
+
+
+
+	//===========================================================
+// Consultant Spotlights
+
+	#royal-slider-front-consultant {
+		width: 228px;
+	}
+
+
+
+
+
+} // end media query

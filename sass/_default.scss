@@ -188,14 +188,11 @@ section.page-top {
 //===========================================================
 // Frontpage Panel
 
+
+// bottom shadow for the image slideshow on frontpage
 .front .panel-col {
 	padding-top: 24px;
 	padding-top: 1.55rem;
-	background-image: url('../images/shadow.png');
-	background-size: 1280px 20px;
-	background-position: center top;
-	background-repeat: no-repeat;
-	height: 20px;
 	h1 {
 		margin-bottom: 0;
 	}
@@ -221,8 +218,8 @@ section.page-top {
 /* FRONTPAGE Royal Slider */
 /* 1st row */
 #block-views-frontpage-slider-block .royalSlider {
-  // width: 100% !important;
-  width: 1170px !important;
+  width: 100% !important;
+  // width: 1170px !important;
   // max-height: 420px;
   max-height: 384px !important;
   text-align: center;
@@ -231,6 +228,7 @@ section.page-top {
 
 #block-views-frontpage-slider-block .rsDefault .rsOverflow {
 	position: relative;
+	overflow: visible;
 }
 
 #block-views-frontpage-slider-block .rsDefault .rsOverflow,
@@ -254,15 +252,16 @@ section.page-top {
 
 .view-frontpage-slider .rsDefault.rsHor {
 	.rsArrowLeft {
-		top: 18% !important;
+		top: 25% !important;
 	}
 	.rsArrowRight {
-		top: 18% !important;
+		top: 25% !important;
 	}
 }
 
 // background for Royal Slider
 
+.rsBgBottom,
 .rsBg {
 	height: 100%;
 	position: absolute;
@@ -270,14 +269,21 @@ section.page-top {
 	z-index: 50;
 }
 
+.rsBgBottom,	
 .rsBgimg {
 		background-image: url('../images/shadow.png');
-		background-size: 1280px 20px;
-		background-position: center top;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		height: 20px;
-		top: 0;
-		left: 50%;
+		
+}
+.rsBgimg {
+	background-position: center top;
+	top: 0;
+}
+.rsBgBottom {
+	
+	background-position: center bottom;
 }
 
 /* Map for 3rd row front */
@@ -285,16 +291,24 @@ section.page-top {
 div.map-section {
 	background: none;
 	padding-top: 0;
+	clear: both;
 }
 
 section.featured.map {
 	background-image: url('../images/homepage-background.png');
 	// background-color: rgba(255,255,255,0.3) !important;
 	background-repeat: no-repeat;
+	clear: both;
+	.container {
+		// overflow: hidden;
+	}
 }
 
 /* Flexslider Press Releases */
-/* LATEST NEWS */
+//===========================================================
+// Latest News
+
+
 
 .flexslider {
 	background: transparent !important;
@@ -366,7 +380,6 @@ section.featured.map {
 
 .front section.featured {
 	padding: 2px 0 16px;
-	border-bottom: 8px solid $yellow;
 	.span4 h2 {
 		margin-bottom: 30px;
 		margin-bottom: 1.875rem;
@@ -476,8 +489,9 @@ footer {
 	background-size: 1280px 20px;
 	background-position: center top;
 	background-repeat: no-repeat;
-	height: 20px;
+	// height: 20px;
 	padding-top: 24px;
+	border-top: 8px solid $yellow;
 	input[type="checkbox"] {
 		height: 20px;
 		width: 16px;
@@ -504,7 +518,7 @@ footer {
 		margin-top: 10px;
 		margin-top: .625rem;
 		li {
-			padding-left: 0;
+			margin-left: 0;
 			list-style: none;
 		}
 	}
@@ -566,16 +580,7 @@ div.querytable {
 
 
 
-//===========================================================
-// Quick Select Menu
 
-
-.region-sidebar-left select {
-	width: 265px; /* needs to be adjusted for breakpoints */
-}
-
-
-//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
 
