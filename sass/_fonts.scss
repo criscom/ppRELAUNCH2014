@@ -93,6 +93,7 @@ h3 {
 .team-list {
 		.views-row {
 		font-size: 14px;
+		font-size: .875rem;
 		.views-field-title span a {
 			color: $blue;
 			font-weight: 700;
@@ -112,6 +113,23 @@ h3 {
 	}
 }
 
+
+
+
+
+//===========================================================
+// LinkedIn sidebar
+// when linkedIn appears in right sidebar
+
+.region-sidebar-right {
+	.views-field-title, // Name of person
+	.views-field-nothing, // Title
+	.views-field-view-node, // Link to biography
+	.field-name-field-email-biography {
+		font-size: 14px;
+		font-size: .875rem;
+	}
+}
 
 
 

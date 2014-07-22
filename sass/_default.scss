@@ -766,22 +766,40 @@ div.querytable {
 			width: none !important;
 		}
 	}
-	.linkedin-profile-inner {
-		float: left;
-		margin-right: 6px;
+}
+
+
+// LinkedIn specific stylings
+
+.linkedin-profile-inner {
+	float: left;
+	margin-right: 6px;
 	}
-	.field-name-field-email-person {
-		clear: left;
-		a {
-			color: $blue;
-			text-decoration: underline;
-			&:hover, &:focus {
-				text-decoration: none;
-			}
+
+.field-name-field-email-person,
+.views-field-view-node,
+.field-name-field-email-biography p {
+	clear: left;
+	a {
+		color: $blue;
+		text-decoration: underline;
+		&:hover, &:focus {
+			text-decoration: none;
 		}
 	}
 }
 
+// when linkedIn appears in right sidebar
+
+.region-sidebar-right {
+	.picframe {
+		margin-bottom: 16px;
+		margin-bottom: 1rem;
+	}
+	.field-name-field-email-biography p {
+		margin-top: 0;
+	}
+}
 
 
 //===========================================================
