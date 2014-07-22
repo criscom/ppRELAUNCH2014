@@ -9,11 +9,23 @@
 	.front section.featured {
 		// margin-right: 0;
 		// margin-left: 0;
+		padding-left: 20px;
 	}
 
 	.flexslider ul.slides li {
 		// max-width: 380px !important;
 	}
+
+// Slider Consultant Spotlight
+
+#royal-slider-front-consultant {
+	// width: 570px;
+	width: 100%;
+	.field-name-field-image-page {
+		margin-right: 12px;
+		margin-right: .75rem;
+	}
+}
 
 
 		//===========================================================

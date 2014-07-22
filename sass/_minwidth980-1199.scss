@@ -122,12 +122,19 @@
 		}
 	}
 
-	.flexslider {
-		width: 620px;
+	.flexslider.unstyled {
+		width: 620px !important;
 	}
 
 	.flexslider .flex-viewport ul>li {
 		width: 310px !important;
+	}
+
+
+
+	.flex-control-nav li:nth-child(3),
+	.flex-control-nav li:nth-child(4) {
+		display: none;
 	}
 
 

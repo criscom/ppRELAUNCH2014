@@ -97,14 +97,30 @@
 	// margin-left: 30px;
 }
 
-.flexslider ul.slides>li>div.span4 {
-	margin-left: 30px;
-}
+// .flexslider ul.slides>li>div.span4 {
+// 	margin-left: 30px;
+// }
 
-.flexslider ul.slides>li:nth-child(2)>div.span4,
-.flexslider ul.slides>li:nth-child(4)>div.span4 {
-	margin-left: 20px !important;
-}
+// .flexslider ul.slides>li:nth-child(2)>div.span4,
+// .flexslider ul.slides>li:nth-child(4)>div.span4 {
+// 	margin-left: 20px !important;
+// }
+
+	.flexslider.unstyled {
+		width: 770px !important;
+		margin-left: 20px !important;
+	}
+
+	.flexslider .flex-viewport ul>li {
+		width: 385px !important;
+	}
+
+
+
+	.flex-control-nav li:nth-child(3),
+	.flex-control-nav li:nth-child(4) {
+		display: none;
+	}
 
 
 //===========================================================
@@ -142,6 +158,19 @@
 		margin-left: 272px;
 	}
 }
+
+
+
+//===========================================================
+// Adjusting biographies in right sidebar
+
+.region-sidebar-right .block {
+	margin-left: 14px;
+	margin-left: .875rem;
+}
+
+
+
 
 
 

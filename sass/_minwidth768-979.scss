@@ -89,9 +89,63 @@
 	//===========================================================
 // Consultant Spotlights
 
-	#royal-slider-front-consultant {
-		width: 228px;
+// 	#royal-slider-front-consultant {
+// 		width: 228px;
+// 		.views-row {
+// 			div.span3 {
+// 				width: 146px !important;
+// 			}
+// 		}
+// 	}
+
+// 	.view-frontpage-consultant-spotlight .rsDefault .rsOverflow {
+// 	height: 310px !important;
+// }
+
+// shifting consultant spotlight below Latest News
+section.featured {
+	div.span4 {
+		clear: left;
+		width: 760px;
 	}
+}
+
+// Slider Consultant Spotlight
+
+#royal-slider-front-consultant {
+	width: 480px;
+	.views-field-title div.span3 {
+		width: 360px;
+	}
+	.field-name-field-image-page {
+		margin-right: 12px;
+		margin-right: .75rem;
+	}
+	.job-title {
+	}
+}
+
+
+//===========================================================
+// Latest News
+
+	.flexslider .flex-viewport ul {
+	li,
+	 {
+		width: 480px !important;
+		margin-left: -2px;
+	}
+	li>div.span4 {
+		width: 480px !important;
+		margin-right: 10px;
+	}
+}
+
+.flexslider.unstyled {
+	width: 480px !important;
+	margin-left: 12px !important;
+}
+
 
 
 
