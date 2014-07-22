@@ -130,4 +130,40 @@
 		width: 310px !important;
 	}
 
+
+
+
+	//===========================================================
+// Quick Select Menu
+
+
+.region-sidebar-left select {
+	width: 225px; /* 220px - 5px */
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// Button Find an office location 
+
+
+.region-sidebar-left .btn-warning,
+.region-sidebar-right .btn-warning {
+	width: 190px; /* 220px - 30px */
+	text-align: left;
+	margin: 12px 0 24px 0;
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+
+
 } // end media query

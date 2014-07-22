@@ -36,6 +36,11 @@ h2, h3, h4 {
 	font-weight: 300 !important;
 }
 
+h3 {
+	font-size: $h3-font-size;
+	text-transform: none;
+}
+
 // Latest News / Consultant Spotlight
 
 .front section.featured {
@@ -56,6 +61,27 @@ h2, h3, h4 {
 	}
 }
 
+
+
+
+//===========================================================
+// LINKS
+
+.field-name-body {
+	a, li>a, p>a {
+		color: $blue;
+		text-decoration: underline;
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+
+
+//===========================================================
 // FOOTER
 
 footer {

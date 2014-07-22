@@ -96,5 +96,36 @@
 
 
 
+		//===========================================================
+// Quick Select Menu
+
+
+.region-sidebar-left select {
+	width: 161px; /* 166px - 5px */
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// Button Find an office location 
+
+
+.region-sidebar-left .btn-warning,
+.region-sidebar-right .btn-warning {
+	width: 136px; /* 166px - 30px */
+	text-align: left;
+	margin: 12px 0 24px 0;
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
 
 } // end media query

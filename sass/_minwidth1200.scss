@@ -114,7 +114,24 @@
 
 
 .region-sidebar-left select {
-	width: 265px; /* needs to be adjusted for breakpoints */
+	width: 265px; /* 270px - 5px */
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// Button Find an office location 
+
+
+.region-sidebar-left .btn-warning,
+.region-sidebar-right .btn-warning {
+	width: 240px; /* 270px - 30px */
+	text-align: left;
+	margin: 12px 0 24px 0;
 }
 
 

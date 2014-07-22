@@ -168,7 +168,8 @@ section.page-top {
 	border-top: 0;
 	border-bottom-color: $yellow;
 	border-width: 8px;
-
+	position: relative;
+	margin-bottom: 0; // remove margin-bottom: 35px; to include background shadow.png
 	h1 {
 		border-bottom: 0;
 	}
@@ -177,6 +178,26 @@ section.page-top {
 		margin-bottom: 4px !important;
 	}
 }
+
+// Background under header section
+.not-front .main #content {
+	background-image: url('../images/shadow.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 28px; // padding for the main content in order for the shadow.png to work
+}
+
+
+// make breadcrumb Link active on landing pages
+// eg. Home / Services
+
+ul.breadcrumb li:nth-child(2) {
+	a {
+		color: $yellow;
+	}
+}
+
 
 
 
@@ -480,6 +501,18 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 
 //===========================================================
+// NOT-FRONT MAIN CONTENT 
+
+// Align Headings which were added in the editor
+// e.g. about-us
+.region-content .content .field-name-body {
+	h2 {
+		margin-top: 0;
+	}
+}
+
+
+//===========================================================
 // FOOTER
 
 footer {
@@ -530,12 +563,17 @@ footer {
 		margin-top: -12px;
 		margin-top: -0.75rem;
 		background: $blue;
+		padding-bottom: 0;
 	}
 }
 
 
+// NOT FRONT
+// space between main content und footer on content pages
 
-
+.not-front footer {
+	margin-top: 35px;
+}
 
 
 
@@ -569,9 +607,9 @@ div.querytable {
 
 .region-sidebar-left .btn-warning,
 .region-sidebar-right .btn-warning {
-	width: 240px; /* needs to be adjusted for breakpoints */
+	// width: 240px; /* needs to be adjusted for breakpoints */
 	text-align: left;
-	margin: 12px 0 24px 0;
+	// margin: 12px 0 24px 0;
 }
 
 
