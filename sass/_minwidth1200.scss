@@ -203,4 +203,37 @@
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+
+
+
+//===========================================================
+// CONTACT By Region By City By country
+
+
+.quicktabs-ui-wrapper,
+ul.ui-tabs-nav {
+	width: 870px !important;
+}
+
+ul.ui-tabs-nav li.ui-state-default /* By city */
+{
+	padding-left: 17px;
+	/*padding-right: 155px!important;*/
+	/*padding-left: 2%;*/
+	/*width: 33%;*/
+	width: 268px;
+	margin-right: 4px;
+}
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+	margin-right: 0 !important;
+	width: 269px;
+}
+
+
+
+
+
+
+
 } // closes media query from line 5

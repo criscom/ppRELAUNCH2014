@@ -714,7 +714,9 @@ body.node-type-offices {
 //===========================================================
 // SIDEBAR MENU
 
-.region-sidebar-left .block-menu-block ul.menu {
+#block-block-41 .content ul.worldcarouselmenu, // Our offices Contact page
+.region-sidebar-left .block-menu-block ul.menu // team
+{
 	padding-left: 0;
 	li.collapsed,
 	li.expanded,
@@ -1165,6 +1167,113 @@ background-position: 0 -300px;
 
 
 
+
+
+//===========================================================
+// SIDEBAR Blocks
+
+.region-sidebar-left,
+.region-sidebar-right {
+	#block-block-31 h3 // Premium Compensation Database
+	 {
+	}
+}
+
+
+
+//===========================================================
+// CONTACT By Region By City By country
+
+#block-block-41 { // Position the Our Office menu
+	margin-top: 70px;
+	margin-top: 4.375rem;
+}
+
+#block-block-40 { // Block of RS worldmap
+	max-height: 470px;
+}
+
+body.page-node-904 {
+	#block-pedersenandpartners-navigation-navigation {
+		margin-top: 76px;
+		margin-top: 4.75rem;
+	}
+}
+
+ul.ui-tabs-nav li.ui-state-default /* By city */
+{
+	padding-left: 17px;
+	/*padding-right: 155px!important;*/
+	/*padding-left: 2%;*/
+	width: 28.5%;
+	// width: 157px; // 211px; // 267px
+	margin-right: 1%;
+}
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+	margin-right: 0 !important;
+	// width: 158px; // 212px; //268px
+	width: 28%;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	padding: 0.5em 0;
+}
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	background: $locationmap;
+	&:hover, &:focus {
+		background: lighten($locationmap, 1%);
+	}
+}
+
+.ui-state-active {
+	background: white !important;
+}
+
+#block-views-contact-us-block,
+#block-views-contact-us-block-2,
+#block-views-contact-us-block-1 {
+	div.content div.view div.view-content {
+	position: relative;
+	margin: 28px 0px 0px 0px;
+	}
+}
+
+#quicktabs-tabpage-contact_us_landing_page-1 div.view-id-contact_us div.view-content div.item-list h3,
+#quicktabs-tabpage-contact_us_landing_page-2 div.view-id-contact_us div.view-content div.item-list h3,
+.view-contact-us .view-content div.item-list h3,
+#block-views-contact-us-block-1 .view-contact-us .view-content div.item-list p
+
+{
+	float: left;
+	margin: 0px!important;
+	clear: both; /* added 09.11.2012 for chrome browsers on Mac OSX; floating did not work there; the .view-contact-us.view-content div.item-list { clear: both } notation would not work */
+}
+
+ul.-field_city {
+	clear: left;
+}
+
+#block-views-contact-us-block-1 {
+	.view .item-list {
+		h3 {
+			// display: block;
+			// height: 32px;
+			// height: 2rem;
+			padding-right: 12px;
+			padding-right: .75rem;
+			margin-top: -3px !important;
+		}
+		ul {
+			height: 32px;
+			height: 2rem;
+			margin-bottom: 0 !important;
+		}
+	}
+}
 
 
 //===========================================================

@@ -198,5 +198,60 @@
 
 
 
+//===========================================================
+// CONTACT By Region By City By country
+
+
+.quicktabs-ui-wrapper,
+ul.ui-tabs-nav {
+	width: 700px !important; // 870px
+}
+
+ul.ui-tabs-nav li.ui-state-default /* By city */
+{
+	padding-left: 17px;
+	/*padding-right: 155px!important;*/
+	/*padding-left: 2%;*/
+	/*width: 33%;*/
+	width: 211px; // 267px
+	margin-right: 4px;
+}
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+	margin-right: 0 !important;
+	width: 212px; //268px
+}
+
+
+
+
+
+//===========================================================
+// CONTACT By Region By City By country
+
+
+.quicktabs-ui-wrapper,
+ul.ui-tabs-nav {
+	width: 700px !important; // 700px - 870px
+}
+
+ul.ui-tabs-nav li.ui-state-default /* By city */
+{
+	padding-left: 17px;
+	/*padding-right: 155px!important;*/
+	/*padding-left: 2%;*/
+	/*width: 33%;*/
+	width: 211px; // 267px
+	margin-right: 4px;
+}
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+	margin-right: 0 !important;
+	width: 212px; //268px
+}
+
+
+
+
 
 } // end media query

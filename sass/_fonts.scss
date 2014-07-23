@@ -352,6 +352,69 @@ h2.news-header {
 	@extend .btn-warning;
 }
 
+
+
+
+
+//===========================================================
+// CONTACT By Region By City By country
+
+.ui-state-default a, 
+.ui-state-default a:link, 
+.ui-state-default a:visited,
+.ui-state-default a:hover,
+.ui-state-default a:active,
+.ui-state-default a:focus,
+.ui-state-hover a,
+.ui-state-hover a:link,
+.ui-state-hover a:visited, 
+.ui-state-hover a:hover,
+.ui-state-hover a:active,
+.ui-state-hover a:focus,
+.ui-state-active a, 
+.ui-state-active a:link, 
+.ui-state-active a:visited,
+.ui-state-active a:hover,
+.ui-state-active a:active,
+.ui-state-active a:focus {
+	font-family: $roboto;
+	font-size: 20px;
+	font-size: 1.25rem;
+	color: $blue;
+	font-weight: 300;
+}
+
+
+#quicktabs-tabpage-contact_us_landing_page-1 div.view-id-contact_us div.view-content div.item-list h3,
+#quicktabs-tabpage-contact_us_landing_page-2 div.view-id-contact_us div.view-content div.item-list h3,
+.view-contact-us .view-content div.item-list h3,
+#block-views-contact-us-block-1 .view-contact-us .view-content div.item-list p
+
+{
+
+	font-size: 16px!important;
+	font-size: 1rem;
+	color: $blue;
+	font-weight: 700!important;
+/*	line-height: 26px;*/
+}
+
+#quicktabs-contact_us_landing_page div div div .content .cols-3  span.field-content a,
+.view-contact-us table.cols-3 tr td div.views-field-title span a,
+.view-contact-us div.views-field-title a
+
+{
+	font-weight: 300;
+	text-decoration: none;
+	color: $gray;
+	font-size: 16px;
+	font-size: 1rem;
+	&:hover, &:focus {
+		text-decoration: underline;
+	}
+}
+
+
 //===========================================================
 // FOOTER
 
