@@ -14,6 +14,12 @@ h1, h2, h3, h4 {
 	font-family: $roboto;
 }
 
+// BUTTON btn-warning
+
+.btn-warning {
+	@include background-image(linear-gradient($yellowtop, $yellowbottom));
+}
+
 // colors and weight
 h1  {
 	color: white;
@@ -218,6 +224,28 @@ body.node-type-offices {
 	}
 }
 
+
+
+
+//===========================================================
+// LinkedIn specific
+
+.field-name-field-email-person,
+.views-field-view-node,
+.field-name-field-email-biography p {
+	a {
+		color: $blue;
+		text-decoration: underline;
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+
+
 //===========================================================
 // LINKS
 
@@ -234,6 +262,77 @@ body.node-type-offices {
 
 
 
+//===========================================================
+// NEWS landing page
+
+
+#quicktabs-news {
+	ul.quicktabs-tabs {
+		li {
+			a {
+				font-family: $roboto;
+				color: $blue;
+			}
+			&.active a {
+					color: $yellow;
+			}
+		}
+	}
+	.views-row {
+		span {
+			font-size: 14px;
+			font-size: .875rem;
+		}
+	}
+}
+
+h2.news-header {
+	line-height: 1.25em;
+	a {
+		color: $blue;
+		&:hover, &:focus {
+			text-decoration: underline;
+		}
+	}
+}
+
+.btn-news a {
+	font-size: 12px;
+	font-size: .75rem;
+	color: white !important;
+	text-decoration: none;
+	:hover, :focus {
+		text-decoration: none;
+	}
+}
+
+
+// pagination
+
+.pagination {
+	ul {
+		li {
+			a {
+				color: $grayborder; //$pagination
+				&:hover, &:focus {
+					color: white !important;
+				}
+			}
+		}
+		li.active {
+			a {
+				color: white;
+			}
+		}
+	}
+}
+
+.pagination ul > li > a:hover, 
+.pagination ul > li > a:focus, 
+.pagination ul > .active > a, 
+.pagination ul > .active > span {
+	@extend .btn-warning;
+}
 
 //===========================================================
 // FOOTER

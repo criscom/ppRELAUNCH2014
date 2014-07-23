@@ -707,69 +707,6 @@ body.node-type-offices {
 	}
 }
 
-//===========================================================
-// FOOTER
-
-footer {
-	background-color: white !important;
-	border-top: 0;
-	background-image: url('../images/shadow.png');
-	background-size: 1280px 20px;
-	background-position: center top;
-	background-repeat: no-repeat;
-	// height: 20px;
-	padding-top: 24px;
-	border-top: 8px solid $yellow;
-	input[type="checkbox"] {
-		height: 20px;
-		width: 16px;
-		margin-top: -4px;
-	}
-	input[type="text"] {
-		height: 30px;
-		height: 1.875rem;
-	}
-	#block-block-35 p:first-child {
-		margin-top: 16px !important;
-		margin-top: 1rem !important;
-	}
-	ul.tweet_list {
-		padding-left: 0 !important;
-		margin-top: 17px;
-		margin-top: 1.0625rem;
-	}
-	.tweet_avatar {
-		display: none;
-	}
-	ul.menu {
-		padding-left: 0;
-		margin-top: 10px;
-		margin-top: .625rem;
-		li {
-			margin-left: 0;
-			list-style: none;
-		}
-	}
-	ul.social-icons {
-		margin-top: 24px;
-		margin-top: 1.5rem;
-	}
-	div.footer-copyright {
-		margin-top: -12px;
-		margin-top: -0.75rem;
-		background: $blue;
-		padding-bottom: 0;
-	}
-}
-
-
-// NOT FRONT
-// space between main content und footer on content pages
-
-.not-front footer {
-	margin-top: 35px;
-}
-
 
 
 
@@ -794,6 +731,7 @@ footer {
 	li.leaf {
 		padding-left: 24px;
 		border-bottom: 1px solid $grayborder !important;
+		a.active-trail,
 		a.active {
 			color: $yellow;
 		}
@@ -821,8 +759,9 @@ footer {
 }	
 
 
-
+//===========================================================
 /* QUICKTABS Effect */
+
 
 .quicktabs-hide {
 display: block;
@@ -838,6 +777,140 @@ top: -999999px;
 -o-transition:all 1s ease 0.1s;
 transition:all 1s ease 0.1s;
 }
+
+
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// NEWS landing page
+
+
+#quicktabs-news {
+	ul.quicktabs-tabs {
+		margin-top: 8px;
+		margin-top: .5rem;
+		padding-bottom: 21px;
+		padding-bottom: 1.3125rem;
+		border-bottom: 1px solid $grayborder;
+		margin-bottom: 18px;
+		margin-bottom: 1.125rem;
+		li {
+			margin-right: 24px !important;
+			margin-right: 1.5rem !important;
+		}
+	}
+	.views-field-view-node { // floats read more button to right
+		float: right;
+		margin-top: -36px;
+		margin-top: -2.25rem;
+	}
+	.views-row {
+		margin-bottom: 22px;
+		margin-bottom: 1.375rem;
+		padding-bottom: 28px; // 38px
+		padding-bottom: 1.75rem;
+		border-bottom: 1px solid $grayborder;
+		.field-name-body {
+			p, div {
+				margin-bottom: 16px;
+			}
+		}
+	}
+}
+
+h2.news-header {
+	margin-top: 0 !important;
+	// margin-top: 0.25rem !important;
+}
+
+
+// publishing date in views currently disabled
+.views-field-created-1 {
+	background-image: url('../images/icon-date.png');
+	background-size: 17px 14px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 20px;
+	span {
+		padding-left: 24px;
+		padding-left: 1.5rem;
+	}
+}
+
+// enable when views field is set to plain text
+/* .news-tags {
+	// enable margin-left when the date field is visible;
+	// publishing date in views currently disabled
+	// margin-left: 20px;
+	// margin-left: 1.25rem;
+	background-image: url('../images/icon-tags.png');
+	background-size: 17px 14px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 20px;
+	padding-left: 24px;
+	padding-left: 1.5rem;
+} */
+
+
+// views field is set to list style
+.news-tags {
+	ul {
+		list-style: none;
+		list-style-type: none;
+		list-style-image: none;
+		margin-right: 15%;
+		li {
+			display: inline;
+			background-image: url('../images/icon-tags.png');
+			background-size: 17px 14px;
+			background-position: left center;
+			background-repeat: no-repeat;
+			height: 20px;
+			padding-left: 22px;
+			padding-left: 1.375rem;
+			padding-right: 16px;
+			padding-right: 1rem;
+		}
+		li.first {
+		}
+	}
+}
+
+
+// Add this toolbox on NEWS detail pages
+
+#block-block-32 {
+	margin-top: 8px;
+	margin-top: .5rem;
+	#share {
+	float: left;
+	margin-right: 16px;
+	margin-right: 1rem;
+	}
+	.addthis_toolbox {
+		padding-top: 2px;
+		padding-top: .125rem;
+	}
+}
+
+// Portrait image on NEWS detail pages
+
+.group-portrait-wrapper.span2 {
+	margin-left: 0 !important;
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
 
 /* Submit your CV form */
 
@@ -982,13 +1055,6 @@ div.querytable {
 .views-field-view-node,
 .field-name-field-email-biography p {
 	clear: left;
-	a {
-		color: $blue;
-		text-decoration: underline;
-		&:hover, &:focus {
-			text-decoration: none;
-		}
-	}
 }
 
 // when linkedIn appears in right sidebar
@@ -1059,6 +1125,75 @@ ul.social-icons li.googleplus:hover {
 background-position: 0 -300px;
 }
 
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+
+//===========================================================
+// FOOTER
+
+footer {
+	background-color: white !important;
+	border-top: 0;
+	background-image: url('../images/shadow.png');
+	background-size: 1280px 20px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	// height: 20px;
+	padding-top: 24px;
+	border-top: 8px solid $yellow;
+	input[type="checkbox"] {
+		height: 20px;
+		width: 16px;
+		margin-top: -4px;
+	}
+	input[type="text"] {
+		height: 30px;
+		height: 1.875rem;
+	}
+	#block-block-35 p:first-child {
+		margin-top: 16px !important;
+		margin-top: 1rem !important;
+	}
+	ul.tweet_list {
+		padding-left: 0 !important;
+		margin-top: 17px;
+		margin-top: 1.0625rem;
+	}
+	.tweet_avatar {
+		display: none;
+	}
+	ul.menu {
+		padding-left: 0;
+		margin-top: 10px;
+		margin-top: .625rem;
+		li {
+			margin-left: 0;
+			list-style: none;
+		}
+	}
+	ul.social-icons {
+		margin-top: 24px;
+		margin-top: 1.5rem;
+	}
+	div.footer-copyright {
+		margin-top: -12px;
+		margin-top: -0.75rem;
+		background: $blue;
+		padding-bottom: 0;
+	}
+}
+
+
+// NOT FRONT
+// space between main content und footer on content pages
+
+.not-front footer {
+	margin-top: 35px;
+}
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
