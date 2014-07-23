@@ -159,6 +159,19 @@ h3 {
 
 
 //===========================================================
+// SIDEBAR Blocks
+
+.region-sidebar-left,
+.region-sidebar-right {
+	h3 {
+		line-height: 1.125em;
+	}
+}
+
+
+
+
+//===========================================================
 // OFFICES
 
 span.city-country {
@@ -262,6 +275,7 @@ body.node-type-offices {
 
 
 
+
 //===========================================================
 // NEWS landing page
 
@@ -304,6 +318,10 @@ h2.news-header {
 	:hover, :focus {
 		text-decoration: none;
 	}
+}
+
+.news-tags {
+	color: $blue;
 }
 
 
