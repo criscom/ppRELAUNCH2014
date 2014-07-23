@@ -173,8 +173,15 @@ span.city {
 }
 
 .field-name-field-email-office .btn-warning {
-	font-style: 12px;
+	font-size: 12px;
 	font-size: .75rem;
+}
+
+.location-map h3 span a {
+	color: $blue;
+	&:hover, &:focus {
+		text-decoration: underline;
+	}
 }
 
 // sidebar
@@ -195,7 +202,21 @@ body.node-type-offices {
 }
 
 
-
+body.node-type-offices {
+	.view-office-team-members {
+		.views-row {
+			.views-field-title span a {
+				font-weight: 700;
+			}
+			div span a,
+			.views-field-field-email-person div div a,
+			.field-name-field-job-title {
+				font-size: 14px;
+				font-size: .875rem;
+			}
+		}
+	}
+}
 
 //===========================================================
 // LINKS

@@ -561,6 +561,21 @@ body.node-type-offices {
 		span.city-country {
 		}
 	}
+	.field-name-body {
+		p:nth-child(1) {
+			margin-top: 21px;
+			margin-top: 1.3125rem;
+			margin-bottom: 16px;
+			margin-bottom: 1rem;
+		}
+	}
+	h3 {
+		margin-top: 18px;
+		margin-top: 1.125rem;
+	}
+}
+
+body.node-type-offices {
 	.region-sidebar-right .block-views {
 		margin-top: -14px;
 		margin-top: -0.875rem;
@@ -573,9 +588,6 @@ body.node-type-offices {
 			margin-bottom: 1rem;
 		}
 	}
-}
-
-body.node-type-offices {
 	.region-sidebar-right .views-row {
 	margin-bottom: 12px;
 	margin-bottom: 0.75rem;
@@ -611,11 +623,89 @@ body.node-type-offices {
 	}
 }
 
+// E-Mail Office
 .field-name-field-email-office .btn-warning {
 	width: 163px;
 }
 
+// Location map Google Map
 
+.location-map {
+		margin-top: 46px;
+		margin-top: 2.875rem;
+		margin-bottom: 40px;
+		margin-bottom: 2.5rem;
+	
+	h3 {
+		// height: 38px;
+		background-color: $locationmap;
+		margin-top: 0 !important;
+		margin-bottom: 0;
+		padding: 10px 0 10px 16px;
+		padding: .625rem 0 .625rem 1rem;
+		border: 1px solid $grayborder;
+		a  {
+			display: block;
+			background-image: url('../images/map-open.png');
+			background-position: 98% center;
+			background-repeat: no-repeat;
+			background-size: 18px 11px;
+		}
+	}
+	.gm {
+		margin-top: 28px;
+		margin-top: 1.75rem;
+	}
+}
+
+.location-map {
+	&.collapsed {
+		margin-bottom: 46px;
+		margin-bottom: 2.875rem;
+		h3 {
+			a {
+				background-image: url('../images/map-closed.png');
+				background-position: 98% center;
+				background-repeat: no-repeat;
+				background-size: 11px 17px;
+			}
+		}
+	}
+}
+
+
+// Office Team members
+
+h3.team-members {
+	padding-top: 20px;
+	padding-top: 1.25rem;
+	margin-bottom: 36px;
+	margin-bottom: 2.25rem;
+	border-top: 1px solid $grayborder;
+}
+
+body.node-type-offices {
+	.view-office-team-members {
+		.views-row {
+			float: left;
+			width: 163px;
+			min-height: 363px;
+			margin-right: 32px;
+			.field-name-field-linkedin,
+			.views-field-title {
+				margin-top: 16px;
+				margin-top: 1rem;
+			}
+		}
+		.views-row-3,
+		.views-row-6,
+		.views-row-9,
+		.views-row-12,
+		.views-row-15 {
+			margin-right: 0;
+		}
+	}
+}
 
 //===========================================================
 // FOOTER
@@ -791,7 +881,7 @@ div.querytable {
 //===========================================================
 // Team images
 
-
+.picframe iframe,
 .picframe img {
 	padding: 4px;
 	border: solid 1px #ddd;
