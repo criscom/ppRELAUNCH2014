@@ -29,6 +29,7 @@ h1  {
 	}
 	.front .panel-col & {
 		font-size: $h3-font-size; // 24px;
+		font-weight: 300 !important;
 	}
 }
 
@@ -413,6 +414,41 @@ h2.news-header {
 		text-decoration: underline;
 	}
 }
+
+
+
+
+
+//===========================================================
+// Search Results
+
+.search-api-page-results {
+	p {
+	}
+	>h2 {
+		font-family: $roboto;
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+}
+
+ol.search-results {
+	h2 {
+		a {
+			font-family: $roboto;
+			color: $blue;
+		}
+	}
+	.more-link {
+		display: block;
+		text-align: left;
+	}
+	.field-name-field-tags {
+		font-size: 12px;
+	}
+}
+
+
 
 
 //===========================================================

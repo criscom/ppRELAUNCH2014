@@ -23,11 +23,23 @@ body {
 // Header
 
 header {
+	.container
+	{
+		position: relative;
+	}
 
+}
+
+
+#header-top {
+	height: 60px;
 }
 
 //===========================================================
 // Search Form
+
+#search-api-page-search-form-search-content {
+}
 
 div.block-search-api-page .content {
 	float: right;
@@ -287,7 +299,7 @@ ul.breadcrumb li:nth-child(2) {
 	height: 100%;
 	position: absolute;
 	width: 100%;
-	z-index: 50;
+	z-index: 20;
 }
 
 .rsBgBottom,	
@@ -583,10 +595,12 @@ body.node-type-offices {
 		margin-bottom: 6px;
 		margin-bottom: .375rem; 
 	}
-		h3 {
-			margin-top: 0 !important;
-			margin-bottom: 16px;
-			margin-bottom: 1rem;
+		h3 { // Regional news
+			// margin-top: 0 !important;
+			margin-top: 20px;
+			margin-top: 1.25rem;
+			margin-bottom: 32px;
+			margin-bottom: 2rem;
 		}
 	}
 	.region-sidebar-right .views-row {
@@ -1162,6 +1176,14 @@ ul.social-icons li.googleplus:hover {
 background-position: 0 -300px;
 }
 
+ul.social-icons li.rss {
+background-position: 0 -930px;
+}
+
+ul.social-icons li.rss:hover {
+background-position: 0 -900px;
+}
+
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -1276,6 +1298,29 @@ ul.-field_city {
 }
 
 
+
+
+//===========================================================
+// Search Results
+
+ol.search-results {
+	padding-left: 0;
+	.field-name-field-tags {
+		margin-top: 16px;
+		margin-top: 1rem;
+	}
+}
+
+.view-mode-search {
+	padding-bottom: 32px;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid $grayborder;
+}
+
+
+
+
+
 //===========================================================
 // FOOTER
 
@@ -1292,7 +1337,7 @@ footer {
 	input[type="checkbox"] {
 		height: 20px;
 		width: 16px;
-		margin-top: -4px;
+		// margin-top: -4px;
 	}
 	input[type="text"] {
 		height: 30px;
