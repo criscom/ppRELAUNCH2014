@@ -748,8 +748,7 @@ ul.breadcrumb li:nth-child(2) a {
 /* 1st row */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\00003253}}
 #block-views-frontpage-slider-block .royalSlider {
-  width: 1170px !important;
-  max-height: 420px;
+  width: 100% !important;
   max-height: 384px !important;
   text-align: center;
   background: white;
