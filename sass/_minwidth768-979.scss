@@ -59,7 +59,7 @@
 
 
 	.front {
-		.content .row .span12 {
+		.content>div.container>div.row>div.span12 {
 		margin-left: 12px; 
 		}
 		// About, Services, Practice Groups
@@ -68,7 +68,7 @@
 		}
 		// Consultant spotlight
 		section.featured .span4 {
-			margin-left: 10px;
+			// margin-left: 10px;
 		}
 	}
 
@@ -129,26 +129,32 @@ section.featured {
 //===========================================================
 // Latest News
 
-section.featured .container .row .span8 {
+section.featured .container .row .span8,
+section.featured .container .row .span4 {
 	width: 724px;
 }
 
 .flexslider.unstyled {
 	// width: 480px !important;
 	width: 724px !important;
-	margin-left: 12px !important;
+	// margin-left: 12px !important;
+	margin-left: 4px !important;
 }
 
 	.flexslider .flex-viewport ul {
-	li,
+	li
 	 {
 		// width: 480px !important;
 		width: 360px !important;
-		margin-left: -2px;
+		// margin-left: -2px;
+	}
+	li:nth-child(1) {
+
 	}
 	li>div.span4 {
 		// width: 480px !important;
-		width: 355px !important;
+		// width: 355px !important;
+		width: 360px !important;
 		margin-right: 10px;
 	}
 }

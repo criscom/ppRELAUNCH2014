@@ -123,18 +123,21 @@
 	}
 
 	.flexslider.unstyled {
-		width: 620px !important;
+		// width: 620px !important; // 2 slides
+		width: 300px !important;
+
 	}
 
 	.flexslider .flex-viewport ul>li {
-		width: 310px !important;
+		// width: 310px !important; // 2 slides
+		width: 300px !important;
 	}
 
 
 
 	.flex-control-nav li:nth-child(3),
 	.flex-control-nav li:nth-child(4) {
-		display: none;
+		// display: none; // 2 slides
 	}
 
 

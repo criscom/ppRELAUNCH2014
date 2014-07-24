@@ -1,0 +1,32 @@
+<div class="map-section">
+	<section class="featured footer map">
+		<div class="container">
+			<div class="row">
+				<div class="span4">
+					<h2>Consultant Spotlight</h2>
+<?php echo views_embed_view('frontpage_consultant_spotlight', 'block');?>	
+				</div>	
+				<div class="span4">
+					<h2>Latest News</h2>
+					<div class="recent-posts">
+				    <?php echo views_embed_view('press_frontpage', 'block_3');?>	
+					</div>
+				</div>
+				<div class="span4">
+				<h2>Newsletter</h2>
+					<p>Keep up to date with Pedersen & Partners by subscribing to our e-newsletter.</p>
+					<p><input id="consent-emails" type="checkbox" name="consent-emails" aria-required="true" class="xspCheckBox"><span class="consent-text"> I consent to receiving emails from Pedersen & Partners.</span></p>
+					
+					<form class="form-inline" id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" novalidate="novalidate">
+						<div class="control-group">
+							<div class="input-append">
+								<input class="span2" placeholder="Email Address" name="email" id=	"email" type="text">
+								<button class="btn" type="submit">Go!</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

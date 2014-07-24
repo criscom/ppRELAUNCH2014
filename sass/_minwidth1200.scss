@@ -47,8 +47,8 @@
 		.panel-col .span4 {
 			margin-left: 19px;
 		}
-		// Consultant spotlight
-		section.featured .span4 {
+		// Latest news
+		section.featured .flexslider ul.slides .span4 {
 			margin-left: 10px;
 		}
 	}
@@ -107,19 +107,21 @@
 // }
 
 	.flexslider.unstyled {
-		width: 770px !important;
+		// width: 770px !important; // 2 slides
+		width: 370px !important;
 		margin-left: 20px !important;
 	}
 
 	.flexslider .flex-viewport ul>li {
-		width: 385px !important;
+		// width: 385px !important; // 2 slides
+		width: 370px !important;
 	}
 
 
 
 	.flex-control-nav li:nth-child(3),
 	.flex-control-nav li:nth-child(4) {
-		display: none;
+		// display: none;
 	}
 
 
