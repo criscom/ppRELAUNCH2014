@@ -2471,11 +2471,6 @@ ul.breadcrumb li a.active {
   .region-sidebar-right #block-block-31 h3 {
     margin-right: -1px;
   }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth768\.scss}line{font-family:\0000370}}
-  footer .container .row .span4 {
-    margin-left: 11px !important;
-  }
 }
 /* Einstern_2014 for Pedersen & Partners */
 /* holds all styles for screen widths of 768 px to 979px */
@@ -2855,14 +2850,6 @@ ul.breadcrumb li a.active {
     background-size: 1170px 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth1200\.scss}line{font-family:\0000343}}
-  .front .content .row .span12 {
-    margin-left: 12px;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth1200\.scss}line{font-family:\0000347}}
-  .front .panel-col .span4 {
-    margin-left: 19px;
-  }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth1200\.scss}line{font-family:\0000351}}
   .front section.featured .flexslider ul.slides .span4 {
     margin-left: 10px;
@@ -2873,11 +2860,6 @@ ul.breadcrumb li a.active {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth1200\.scss}line{font-family:\0000366}}
   #block-views-frontpage-slider-block .royalSlider {
     width: 1170px !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth1200\.scss}line{font-family:\0000372}}
-  .view-frontpage-slider {
-    margin-left: 18px;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth1200\.scss}line{font-family:\0000386}}
