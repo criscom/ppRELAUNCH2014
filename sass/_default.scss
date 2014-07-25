@@ -43,7 +43,8 @@ header {
 
 div.block-search-api-page .content {
 	float: right;
-	min-width: 206px;
+	// min-width: 206px;
+	min-width: 168px;
 }
 
 div.block-search-api-page input[type="image"]:focus {
@@ -59,7 +60,8 @@ div.block-search-api-page input[type="image"]:focus {
 	-webkit-border-radius: 14px 0 0 14px;
   -moz-border-radius: 14px 0 0 14px;
   border-radius: 14px 0 0 14px;
-  width: 180px;
+  // width: 180px;
+  width: 138px;
   height: 32px;
   height: 2rem;
   // border-right: 0 !important; // hides the right border left of the loupe ==> remove to get old styling back
@@ -227,6 +229,7 @@ ul.breadcrumb li:nth-child(2) {
 	padding-top: 24px;
 	padding-top: 1.55rem;
 	h1 {
+		margin-top: 6px !important;
 		margin-bottom: 0;
 	}
 	.field-name-body {
@@ -236,6 +239,12 @@ ul.breadcrumb li:nth-child(2) {
 			margin-bottom: 0;
 		}
 	}
+}
+
+.about-country-front .form-select.jquery-once-3-processed {
+	margin-top: 2px;
+	width: 350px;
+	height: 40px;
 }
 
 
@@ -325,6 +334,18 @@ div.map-section {
 	background: none;
 	padding-top: 0;
 	clear: both;
+	margin-top: 36px;
+	.span4 {
+		padding-top: 4px;
+	}
+	ul.slides li .span4 { // remove padding on news slider
+		padding-top: 0;
+		margin-top: -8px;
+		article p { // push text closer to news heading
+			margin-top: 16px;
+			margin-top: 1rem;
+		}
+	}
 }
 
 section.featured.map {
@@ -369,7 +390,8 @@ section.featured.map {
 }
 
 #royal-slider-front-consultant {
-	width: 370px;
+	// width: 370px;
+	width: 358px;
 	height: 240px;
 }
 
@@ -1338,8 +1360,8 @@ footer {
 	background-position: center top;
 	background-repeat: no-repeat;
 	// height: 20px;
-	padding-top: 24px;
-	border-top: 8px solid $yellow;
+	padding-top: 20px;
+	border-top: 12px solid $yellow;
 	input[type="checkbox"] {
 		height: 20px;
 		width: 16px;

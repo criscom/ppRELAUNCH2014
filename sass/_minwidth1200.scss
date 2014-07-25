@@ -27,33 +27,51 @@
 	}
 
 
-
-
-
 //===========================================================
-// Frontpage Panels
+//Main grid settings
 
-// bottom shadow for the image slideshow on frontpage
-	.front .panel-col {
-		background-size: 1170px 20px;
-	}
+// setting the container width from 1170px to 1138px;
+.container, 
+.navbar-static-top .container, 
+.navbar-fixed-top .container, 
+.navbar-fixed-bottom .container {
+	width: 1138px !important;
+}
 
+.span12 {
+	width: 1138px !important;
+}
 
-	.front {
-		.content .row .span12 {
-		// margin-left: 12px; 
-		}
-		// About, Services, Practice Groups
-		.panel-col .span4 {
-			// margin-left: 19px;
-		}
-		// Latest news
-		section.featured .flexslider ul.slides .span4 {
-			margin-left: 10px;
-		}
-	}
+.span9 {
+	width: 846px !important;
+}
 
+.span6 {
+	width: 551px !important;
+}
 
+.span4 {
+	width: 358px !important;
+}
+
+// right margin +2 for certain spans
+
+.span4-mr,
+.span3-mr {
+	margin-right: 2px;
+}
+
+// Sidebars
+
+// left sidebar
+#sidebar-left div.sapn3 {
+	width: 260px !important;
+}
+
+// right-sidebar
+div.span3.span-r {
+	width: 263px !important;
+}
 
 
 
@@ -64,22 +82,11 @@
 /* FRONTPAGE Royal Slider */
 /* 1st row */
 #block-views-frontpage-slider-block .royalSlider {
-  width: 1170px !important;
+  width: 1138px !important;
   // max-height: 420px;
 }
 
-// Image Slideshow Top
-.view-frontpage-slider {
-	// margin-left: 18px;
-	.rsDefault.rsHor {
-		.rsArrowLeft {
-		// left: 16% !important;
-		}
-		.rsArrowRight {
-		// right: 16% !important;
-		}
-	}
-}
+
 
 // top and bottom shadow for the image slideshow on frontpage
 	.rsBgBottom,
@@ -88,33 +95,61 @@
 	}
 	
 	.rsBgBottom {
-		bottom: -20px;
+		bottom: -8px;
 	} 
 
-// Press Releases
 
-.flexslider ul.slides {
-	// margin-left: 30px;
+//===========================================================
+// Frontpage Panels
+
+// bottom shadow for the image slideshow on frontpage
+	.front .panel-col {
+		background-size: 1138px 20px;
+	}
+
+div.about-country-front.span4 {
+	margin-left: 0;
 }
 
-// .flexslider ul.slides>li>div.span4 {
-// 	margin-left: 30px;
+// div.about-country-front.span4,
+// div.services-front.span4,
+// div.practice-groups-front.span4 {
+// 	width: 358px !important;
 // }
 
-// .flexslider ul.slides>li:nth-child(2)>div.span4,
-// .flexslider ul.slides>li:nth-child(4)>div.span4 {
-// 	margin-left: 20px !important;
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+//===========================================================
+// SLIDER SECTION FRONT 
+
+
+// .featured .span4 {
+// 	width: 358px !important;
 // }
+
+
+// consultant spotlight
+
+
+// Latest news
+	.flexslider ul.slides .span4 {
+			margin-left: 10px !important;
+		}
 
 	.flexslider.unstyled {
 		// width: 770px !important; // 2 slides
-		width: 370px !important;
+		// width: 370px !important;
+		width: 358px !important;
 		margin-left: 20px !important;
 	}
 
 	.flexslider .flex-viewport ul>li {
 		// width: 385px !important; // 2 slides
-		width: 370px !important;
+		// width: 370px !important;
+		width: 358px !important;
+		overflow: hidden;
 	}
 
 
@@ -182,7 +217,8 @@
 
 
 .region-sidebar-left select {
-	width: 265px; /* 270px - 5px */
+	// width: 265px; /* 270px - 5px */
+	width: 255px; /* 260 px - 5px */
 }
 
 
@@ -197,9 +233,17 @@
 
 .region-sidebar-left .btn-warning,
 .region-sidebar-right .btn-warning {
-	width: 240px; /* 270px - 30px */
 	text-align: left;
 	margin: 12px 0 24px 0;
+}
+
+.region-sidebar-left .btn-warning {
+	// width: 240px; /* 270px - 30px */
+	width: 234px;
+}
+
+.region-sidebar-right .btn-warning {
+	width: 238px;
 }
 
 
@@ -231,7 +275,6 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 	margin-right: 0 !important;
 	width: 269px;
 }
-
 
 
 

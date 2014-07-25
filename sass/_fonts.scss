@@ -48,6 +48,16 @@ h3 {
 	text-transform: none;
 }
 
+p {
+	color: $gray;
+}
+
+// Select country front
+
+.about-country-front .form-select.jquery-once-3-processed {
+	color: $gray;
+}
+
 // Latest News / Consultant Spotlight
 
 .front section.featured {
