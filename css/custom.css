@@ -2915,12 +2915,12 @@ ul.breadcrumb li a.active {
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth1200\.scss}line{font-family:\0000367}}
-  #sidebar-left div.sapn3 {
+  #sidebar-left div.span3 {
     width: 260px !important;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_minwidth1200\.scss}line{font-family:\0000372}}
-  div.span3.span-r {
+  div.span3.span3-r {
     width: 263px !important;
   }
 
