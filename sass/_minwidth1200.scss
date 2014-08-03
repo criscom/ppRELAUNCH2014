@@ -141,14 +141,14 @@ div.about-country-front.span4 {
 	.flexslider.unstyled {
 		// width: 770px !important; // 2 slides
 		// width: 370px !important;
-		width: 358px !important;
+		width: 366px !important; //358px
 		margin-left: 20px !important;
 	}
 
 	.flexslider .flex-viewport ul>li {
 		// width: 385px !important; // 2 slides
 		// width: 370px !important;
-		width: 358px !important;
+		width: 366px !important; // 358px
 		overflow: hidden;
 	}
 
@@ -231,11 +231,11 @@ div.about-country-front.span4 {
 // Button Find an office location 
 
 
-.region-sidebar-left .btn-warning,
-.region-sidebar-right .btn-warning {
-	text-align: left;
-	margin: 12px 0 24px 0;
-}
+// .region-sidebar-left .btn-warning,
+// .region-sidebar-right .btn-warning {
+// 	text-align: left;
+// 	margin: 12px 0 24px 0;
+// }
 
 .region-sidebar-left .btn-warning {
 	// width: 240px; /* 270px - 30px */
@@ -243,7 +243,7 @@ div.about-country-front.span4 {
 }
 
 .region-sidebar-right .btn-warning {
-	width: 238px;
+	width: 228px;
 }
 
 

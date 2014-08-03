@@ -43,9 +43,14 @@ h2, h3, h4 {
 	font-weight: 300 !important;
 }
 
+h2 {
+	line-height: 1.1em;
+}
+
 h3 {
 	font-size: $h3-font-size;
 	text-transform: none;
+	line-height: 1.1em;
 }
 
 p {

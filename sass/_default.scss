@@ -391,7 +391,7 @@ section.featured.map {
 
 #royal-slider-front-consultant {
 	// width: 370px;
-	width: 358px;
+	width: 366px; // 358px;
 	height: 240px;
 }
 
@@ -547,7 +547,9 @@ section.featured {
 // e.g. about-us
 .region-content .content .field-name-body {
 	h2 {
-		margin-top: 0;
+		margin-top: 7px;
+		margin-top: 0.4375rem;
+		margin-bottom: 0;
 	}
 }
 
@@ -561,6 +563,46 @@ body.page-team .view, // all team overview pages
 	margin-top: 12px;
 	margin-top: .75rem;
 }
+
+
+// h3 headings: spacing between headers and paragraphs in body
+
+.field-name-body {
+	h3 {
+		margin: 0 0 -2px 0;
+	}
+}
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// About Us
+
+// put Pedersen & Partners into the second line of the heading
+body.page-node-842 .field-name-body {
+	h2 {
+		width: 440px;
+	}
+// remove list styles in body list
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+}
+
+// space btw brochure image and button in right sidebar
+
+.region-sidebar-right {
+	#block-block-10 {
+		margin-bottom: 12px;
+		margin-bottom: .75rem;
+	}
+}
+
+
 
 
 
@@ -804,6 +846,55 @@ body.node-type-offices {
 }	
 
 
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+
+//===========================================================
+// Button 
+
+// Find an office location 
+.region-sidebar-left .btn-warning,
+.region-sidebar-right .btn-warning {
+	// width: 240px; /* needs to be adjusted for breakpoints */
+	text-align: left;
+	 margin: 12px 0 0 0;
+}
+
+
+
+// in Sidebars => Find an office location
+
+// button height
+.btn {
+	padding: 5px 12px;
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+
+//===========================================================
+// Quick select in sidebar
+
+#sidebar-left {
+	#block-pedersenandpartners-navigation-navigation {
+		margin-top: 38px;
+		margin-top: 2.375rem;
+		h3 {
+			// font-weight: 400 !important;
+		}
+	}
+}
+
+
+
+
 //===========================================================
 /* QUICKTABS Effect */
 
@@ -996,20 +1087,6 @@ h2.news-header {
 div.querytable {
 	background-color: #eeeeee !important;
 }
-
-//===========================================================
-// Button Find an office location 
-
-
-.region-sidebar-left .btn-warning,
-.region-sidebar-right .btn-warning {
-	// width: 240px; /* needs to be adjusted for breakpoints */
-	text-align: left;
-	// margin: 12px 0 24px 0;
-}
-
-
-//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
 
@@ -1385,8 +1462,8 @@ footer {
 	}
 	ul.menu {
 		padding-left: 0;
-		margin-top: 10px;
-		margin-top: .625rem;
+		margin-top: 0;// 10px;
+		// margin-top: .625rem;
 		li {
 			margin-left: 0;
 			list-style: none;
@@ -1397,10 +1474,44 @@ footer {
 		margin-top: 1.5rem;
 	}
 	div.footer-copyright {
-		margin-top: -12px;
-		margin-top: -0.75rem;
+		margin-top: 9px;
+		margin-top: 0.5625rem;
+		padding-top: 12px;
+		padding-top: .75rem;
 		background: $blue;
 		padding-bottom: 0;
+		border-top: 0 !important;
+		div.row div.span6 {
+			margin-bottom: 16px;
+			margin-bottom: 1rem;
+		}
+	}
+}
+
+footer div.container div.row > div {
+	// margin-bottom: 0!important;
+}
+
+
+// LINKS Sitemap in footer
+
+.region-footer-1 .block-block {
+	.span2 {
+		margin-left: 0;
+	}
+}
+
+// Tweet link
+
+.tweet-link {
+	a {
+		color: $blue !important;
+		text-decoration: underline;
+		font-size: 11px;
+		font-size: .687543rem;
+		&:hover, &:focus {
+			text-decoration: none;
+		}
 	}
 }
 
