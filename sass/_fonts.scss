@@ -18,6 +18,7 @@ h1, h2, h3, h4 {
 
 .btn-warning {
 	@include background-image(linear-gradient($yellowtop, $yellowbottom));
+	text-shadow: none !important;
 }
 
 // colors and weight
@@ -41,6 +42,10 @@ section.page-top h1 {
 h2, h3, h4 {
 	color: $blue;
 	font-weight: 300 !important;
+	.gecko.win &,
+	.chrome.win & {
+		// font-weight: 400 !important;
+	}
 }
 
 h2 {
@@ -57,6 +62,7 @@ p, select {
 	color: $gray;
 }
 
+
 // Select country front
 
 .about-country-front .form-select.jquery-once-3-processed {
@@ -68,8 +74,8 @@ p, select {
 .front section.featured {
 	.span4 h2,
 	.span8 h2 {
-		font-size: 36px;
-		font-size: 2.25rem;
+		font-size: 32px;
+		font-size: 2rem;
 	}
 	.span8 h4,
 	.span4 h4 {
@@ -95,6 +101,12 @@ p, select {
 			color: $blue;
 			font-size: $h3-font-size;
 			font-weight: 300;
+			margin-right: 15px;
+			margin-left: 15px;
+			.gecko.win &,
+			.chrome.win & {
+				font-weight: 400;
+			}
 		}
 	}
 }
@@ -168,7 +180,11 @@ p, select {
 	li.leaf {
 		font-size: 14px;
 		font-size: .875rem;
-
+		a {
+			.chrome.win {
+			font-weight: 400 !important;
+			}
+		}
 	}
 }
 
@@ -196,6 +212,10 @@ p, select {
 	@include adjust-font-size-to( $h2-font-size );
 	color: $blue;
 	font-weight: 300;
+	.gecko.win &,
+	.chrome.win & {
+		font-weight: 400;
+	}
 }
 
 .city {
@@ -209,8 +229,9 @@ p, select {
 }
 
 .field-name-field-email-office .btn-warning {
-	font-size: 12px;
-	font-size: .75rem;
+	// font-size: 12px;
+	// font-size: .75rem;
+	text-align: left;
 }
 
 .location-map h3 span a {
@@ -399,6 +420,10 @@ h2.news-header {
 	font-size: 1.25rem;
 	color: $blue;
 	font-weight: 300;
+	.gecko.win &,
+	.chrome.win & {
+		font-weight: 400;
+	}
 }
 
 
@@ -422,6 +447,10 @@ h2.news-header {
 
 {
 	font-weight: 300;
+	.gecko.win &,
+	.chrome.win & {
+		font-weight: 400;
+	}
 	text-decoration: none;
 	color: $gray;
 	font-size: 16px;
@@ -477,6 +506,7 @@ ol.search-results {
 footer {
 	h2 {
 		color: $blue !important;
+		font-size: 24px;
 	}
 	p a, 
 	.tweet_text,
@@ -511,6 +541,13 @@ footer {
 	text-transform: none !important;
 	color: $blue;
 	font-weight: 400 !important;
+}
+
+.gecko.win,
+.chrome.win {
+	.region-header-menu .menu-name-main-menu>ul.nav>li>a {
+	font-weight: 700 !important;
+	}
 }
 
 nav ul.nav-main ul.dropdown-menu, 

@@ -87,11 +87,18 @@ div.block-search-api-page input[type="image"]:focus {
 	-moz-border-radius: 0 14px 14px 0;
 	border-radius: 0 14px 14px 0;
 	position: relative;
-	top: -4px;
 	margin-left: -7px;
 	border: 1px solid #cccccc;
 	// 	border-left: 0;
 	// background: white !important; // hides the pill effect for the loupe background
+	top: -4px; // For Firefox, Safari, Chrome on Mac OSX
+	.opera.mac & {
+		top: 2px; // for Opera on Mac OSX
+	}
+	.gecko.win &,
+	.chrome.win & {
+		top: -3px; // For Chrome on Win
+	}
 }
 
 
@@ -464,7 +471,7 @@ section.featured.map {
 		background-color: #1e5db0 !important; // $blue !important;
 	}
 	.read-more {
-		@extend %read-more
+		@extend %read-more;
 	}
 }
 
@@ -784,7 +791,7 @@ body.node-type-offices {
 
 // E-Mail Office
 .field-name-field-email-office .btn-warning {
-	width: 163px;
+	// width: 163px;
 }
 
 // Location map Google Map
@@ -1470,11 +1477,12 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 
 {
 	float: left;
-	margin: 0px!important;
+	margin: 0 0 8px 0 !important;
 	clear: both; /* added 09.11.2012 for chrome browsers on Mac OSX; floating did not work there; the .view-contact-us.view-content div.item-list { clear: both } notation would not work */
 }
 
 ul.-field_city {
+	margin-top: 8px !important;
 	clear: left;
 }
 
@@ -1536,7 +1544,7 @@ footer {
 	background-repeat: no-repeat;
 	// height: 20px;
 	padding-top: 20px;
-	border-top: 12px solid $yellow;
+	border-top: 8px solid $yellow;
 	input[type="checkbox"] {
 		height: 20px;
 		width: 16px;
