@@ -19,6 +19,19 @@ body {
 	line-height: $base-line-height;
 }
 
+
+
+//===========================================================
+// Form elements
+
+// disable styles when input field in search is focused
+
+input[type="text"]:focus,
+input[type="search"]:focus {
+	border-color: #cccccc;
+	box-shadow: none;
+}
+
 //===========================================================
 // Header
 
@@ -111,6 +124,10 @@ div.block-search-api-page input[type="image"]:focus {
 		margin-right: 16px;
 		margin-right: 1rem;
 	}
+}
+
+.menu-block-22 ul.nav>li>a.active-trail {
+	color: $yellow;
 }
 
 // .menu-block-22 .nav-main li {
@@ -508,8 +525,8 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 section.featured {
 	input[type="text"] {
-		height: 30px;
-		height: 1.875rem;
+		height: 32px;
+		height: 2rem;
 	}
 	input[type="checkbox"] {
 		height: 20px;
@@ -571,7 +588,34 @@ body.page-team .view, // all team overview pages
 	h3 {
 		margin: 0 0 -2px 0;
 	}
+	// Adjusting lists - list styling in body
+	ul {
+		list-style: none;
+		padding-left: 0;
+		li {
+		background-image: image-url('list-icon.png');
+		background-size: 12px 11px;
+		background-repeat: no-repeat;
+		background-position: left 6px;
+		padding-left: 22px
+		}
+	}
 }
+
+// remove list styling for particular pages
+// 1.
+// 2. page-node-830 - Practice group landing page
+
+body.page-node-830 {
+	ul {
+		li {
+			background-image: none;
+			padding-left: 0;
+		}
+	}
+}
+
+
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -603,7 +647,22 @@ body.page-node-842 .field-name-body {
 }
 
 
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+
+
+
+//===========================================================
+// Assurances
+
+.assurances-wrapper {
+	text-align: center;
+	margin-top: 38px;
+	margin-top: 2.375rem;
+	.symbol {
+		margin: 11px 0;
+	}
+}
 
 
 //===========================================================
@@ -637,13 +696,28 @@ div.span3.references2 {
 
 body.node-type-offices {
 	.city-country-wrapper {
-		display: inline-block;
-		padding-left: 56px;
-		padding-left: 3.5rem;
-		span.city-country {
+		// display: inline-block;
+		padding-left: 50px;
+		padding-left: 3.125rem;
+		h2 {
+			margin-top: 0;
+			margin-bottom: 0;
+			letter-spacing: 0;
+		}
+		.city {
+			margin-right: 8px;
+			margin-right: .5rem;
+		}
+		.country {
+			margin-left: 6px;
+			margin-left: .5rem;
+		}
+		.city-country {
+			float: left;
 		}
 	}
 	.field-name-body {
+		clear: both;
 		p:nth-child(1) {
 			margin-top: 21px;
 			margin-top: 1.3125rem;
@@ -1125,6 +1199,17 @@ div.querytable {
 
 
 //===========================================================
+// Team bio pages
+
+.node-team .field-name-field-linkedin .field-label {
+	color: $blue;
+	font-weight: 600 !important;
+}
+
+
+
+
+//===========================================================
 // Team view
 
 
@@ -1317,7 +1402,8 @@ background-position: 0 -900px;
 }
 
 #block-block-40 { // Block of RS worldmap
-	max-height: 470px;
+	// max-height: 470px;
+	max-height: 432px;
 }
 
 body.page-node-904 {
@@ -1325,6 +1411,11 @@ body.page-node-904 {
 		margin-top: 76px;
 		margin-top: 4.75rem;
 	}
+}
+
+// Move table content closer to tabs
+.ui-tabs .ui-tabs-panel {
+	padding-top: 0;
 }
 
 ul.ui-tabs-nav li.ui-state-default /* By city */
@@ -1345,6 +1436,9 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 
 .ui-tabs .ui-tabs-nav li a {
 	padding: 0.5em 0;
+	// make whole tab clickable
+	width: 100%;
+	display: block;
 }
 
 .ui-state-default, 
@@ -1392,12 +1486,16 @@ ul.-field_city {
 			// height: 2rem;
 			padding-right: 12px;
 			padding-right: .75rem;
-			margin-top: -3px !important;
+			// margin-top: -3px !important;
 		}
 		ul {
-			height: 32px;
-			height: 2rem;
-			margin-bottom: 0 !important;
+			height: 20px;
+			height: 1.25rem;
+			margin-bottom: 12px !important;
+		}
+		li {
+			line-height: 16px;
+			line-height: 1rem;
 		}
 	}
 }

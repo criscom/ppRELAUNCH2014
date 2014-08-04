@@ -53,7 +53,7 @@ h3 {
 	line-height: 1.1em;
 }
 
-p {
+p, select {
 	color: $gray;
 }
 
@@ -90,7 +90,7 @@ p {
 
 .page-node-8 {
 	.field-name-body {
-		p {
+		p, div {
 			font-family: $roboto;
 			color: $blue;
 			font-size: $h3-font-size;
@@ -191,15 +191,15 @@ p {
 //===========================================================
 // OFFICES
 
-span.city-country {
+.city-country {
 	font-family: $roboto;
 	@include adjust-font-size-to( $h2-font-size );
 	color: $blue;
 	font-weight: 300;
 }
 
-span.city {
-	font-weight: 700;
+.city {
+	font-weight: 700 !important;
 }
 
 .node-offices {
@@ -431,7 +431,11 @@ h2.news-header {
 	}
 }
 
+// By City - make first letter blue
 
+p.city:first-letter {
+	color: $blue;
+}
 
 
 
@@ -563,5 +567,34 @@ ul.breadcrumb {
 				color: $yellowtext;
 			}
 		}
+	}
+}
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// Blue section - Executive Services
+
+body.page-node-3 {
+	#executive-search-blue-section p {
+	color: $blue !important;
+	margin-top: 1em;
+	margin-bottom: .5em;
+	}
+	.headline {
+		color: $yellow;
+		text-align: center;
+	}
+	.arrow-down {
+		background-image: url("../images/arrow-down-executive-search.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 	}
 }
