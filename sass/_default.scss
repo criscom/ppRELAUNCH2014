@@ -294,7 +294,7 @@ ul.breadcrumb li:nth-child(2) {
 
 #block-views-frontpage-slider-block .rsDefault .rsOverflow {
 	position: relative;
-	overflow: visible;
+	// overflow: visible;
 }
 
 #block-views-frontpage-slider-block .rsDefault .rsOverflow,
@@ -482,7 +482,14 @@ a [class^="icon-"], a [class*=" icon-"] {
 	margin-left: .375rem;
 }
 
-// Consultant spotlight slider
+// Consultant spotlight royal slider RoyalSlider
+
+// thinning of fonts in footer in Webkit based browsers
+// http://stackoverflow.com/questions/9049524/safari-rendering-page-fonts-thinner-with-jquery-slider-on-page
+.featured .royalSlider {
+	position:relative;
+	z-index:1;
+}
 
 .view-frontpage-consultant-spotlight {
 	.field-name-field-image-page {
@@ -530,10 +537,17 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 // NEWSLETTER in Slider section
 
+// width of input field newsletter
+
+input.span2 {
+	width: 220px;
+}
+
 section.featured {
 	input[type="text"] {
 		height: 32px;
 		height: 2rem;
+		-webkit-backface-visibility:hidden;
 	}
 	input[type="checkbox"] {
 		height: 20px;
@@ -620,6 +634,13 @@ body.page-node-830 {
 			padding-left: 0;
 		}
 	}
+}
+
+// Practice Group landing page
+// convert list into two columns
+
+.span3-pg-first {
+	margin-left: 0;
 }
 
 
@@ -1063,6 +1084,14 @@ h2.news-header {
 	float: left;
 	margin-right: 12px;
 	margin-right: .75rem;
+	min-height: 250px;
+}
+
+.news-landscape {
+	margin-top: 22px;
+	margin-top: 1.375rem;
+	margin-bottom: 28px;
+	margin-bottom: 1.75rem;
 }
 
 // enable when views field is set to plain text

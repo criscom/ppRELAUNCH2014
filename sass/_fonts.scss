@@ -507,12 +507,28 @@ footer {
 	h2 {
 		color: $blue !important;
 		font-size: 24px;
+		// http://help.dimsemenov.com/kb/royalslider-jquery-plugin-issues/font-flickering-or-blurriness
+		// instead of dimsemonov's solution I have applied 
+		// http://stackoverflow.com/questions/9049524/safari-rendering-page-fonts-thinner-with-jquery-slider-on-page
+		// see _default.scss lines 487 - 490
+		.mac.webkit & {
+			// -webkit-backface-visibility:hidden;
+			// http://stackoverflow.com/questions/9049524/safari-rendering-page-fonts-thinner-with-jquery-slider-on-page
+			//  -webkit-font-smoothing: antialiased; // this also works but disabled for now
+			// font-weight: 400;
+		}
 	}
 	p a, 
 	.tweet_text,
 	.tweet_text a,
+	ul.menu>li,
 	ul.menu>li>a {
 		color: $gray !important;
+		// http://help.dimsemenov.com/kb/royalslider-jquery-plugin-issues/font-flickering-or-blurriness
+		.mac.webkit & {
+			// -webkit-backface-visibility:hidden;
+			// font-weight: 400;
+		}
 	}
 	.tweet_time a {
 		color: $yellow !important;
