@@ -242,16 +242,32 @@ p, select {
 }
 
 // sidebar
+// news
+// our events
+// regional news
+
+body.node-type-in-the-media, // in the media
+body.node-type-insights-article, // insights
+body.node-type-article, //press releases
+body.node-type-events,
 body.node-type-offices {
 	.views-field-title {
 		span a {
 			color: $blue;
 			font-size: 16px;
 			font-size: 1rem;
+			text-decoration: underline;
 		}
 	}
-	.views-field-created {
-		span {
+	.field-name-field-tags { // news
+		font-size: 12px;
+		font-size: .75rem;
+	}
+	.views-field-field-events-date, // events
+	.views-field-field-events-city, // events
+	.views-field-created { // offices
+		div, // events
+		span { // offices
 			font-size: 12px;
 			font-size: .75rem;
 		}
@@ -299,7 +315,8 @@ body.node-type-offices {
 
 //===========================================================
 // LINKS
-
+.node,
+.view-footer,
 .field-name-body {
 	a, li>a, p>a {
 		color: $blue;

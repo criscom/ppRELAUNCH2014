@@ -133,6 +133,7 @@ div.block-search-api-page input[type="image"]:focus {
 	}
 }
 
+.menu-block-22 ul.nav>li>a.active,
 .menu-block-22 ul.nav>li>a.active-trail {
 	color: $yellow;
 }
@@ -645,6 +646,15 @@ body.page-team .view, // all team overview pages
 }
 
 
+// adjusting the banner image on PG and services landing pages
+
+.field-name-field-image-landing-page {
+	p {
+		margin-top: 12px;
+		margin-top: .75rem;
+	}
+}
+
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -760,6 +770,13 @@ body.node-type-offices {
 	}
 }
 
+
+// sidebar events and offices
+
+body.node-type-in-the-media, // in the media
+body.node-type-insights-article, // insights
+body.node-type-article, //press releases
+body.node-type-events,
 body.node-type-offices {
 	.region-sidebar-right .block-views {
 		margin-top: -14px;
@@ -898,6 +915,7 @@ body.node-type-offices {
 
 
 
+
 //===========================================================
 // SIDEBAR MENU
 
@@ -964,6 +982,30 @@ body.node-type-offices {
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+
+
+
+
+//===========================================================
+// Events
+
+// sidebar
+
+.view-display-id-block_2 {
+	div.views-field-field-events-date {
+		float: left;
+	}
+}
+
+// node - main content
+
+// aligning with map and spacing above
+
+.region-content .node-events {
+	margin-top: 6px;
+}
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
 
@@ -1149,7 +1191,49 @@ h2.news-header {
 	}
 }
 
+
+// Position the news READ MORE button
+// on the events page ==> #quicktabs-tabpage-news-4 we do not reposition it
+
+	#quicktabs-tabpage-news-0,
+	#quicktabs-tabpage-news-1,
+	#quicktabs-tabpage-news-2,
+	#quicktabs-tabpage-news-3 {
+		.views-field-view-node { // pushes the button up and aligns it with the tags
+			margin-top: -36px;
+			margin-top: -2.25rem;
+		}
+	}
+
+
+
+
+//===========================================================
+// News detail
+
 // NEWS Tags on news detail
+
+.node-article, // press releases
+.node-in-the-media,
+.node-insights-article {
+	h2 {
+		margin-top: 8px;
+		margin-top: .5rem;
+	}
+}
+
+.node-insights-article {
+	.field-name-field-date {
+		margin-bottom: 24px;
+		margin-bottom: 1.5rem;
+		.field-label {
+			float: left;
+		}
+	}
+	.field-name-body {
+		clear: both;;
+	}
+}
 
 .node .news-tags {
 		background-image: url('../images/icon-tags.png');
@@ -1161,6 +1245,16 @@ h2.news-header {
 		padding-left: 1.375rem;
 		padding-right: 16px;
 		padding-right: 1rem;
+}
+
+.node .field-name-field-upload {
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+	.field-item.odd {
+		margin-top: 12px;
+		margin-top: .75rem;
+	}
+
 }
 
 
@@ -1187,18 +1281,7 @@ h2.news-header {
 	margin-left: 0 !important;
 }
 
-// Position the news READ MORE button
-// on the events page ==> #quicktabs-tabpage-news-4 we do not reposition it
 
-	#quicktabs-tabpage-news-0,
-	#quicktabs-tabpage-news-1,
-	#quicktabs-tabpage-news-2,
-	#quicktabs-tabpage-news-3 {
-		.views-field-view-node { // pushes the button up and aligns it with the tags
-			margin-top: -36px;
-			margin-top: -2.25rem;
-		}
-	}
 
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -1360,6 +1443,23 @@ div.querytable {
 		margin-top: 0;
 	}
 }
+
+
+
+
+//===========================================================
+// Databases Database
+
+// Executive Compensation Database landing page
+#node-785 .field-name-body p {
+	margin-top: 0;
+}
+
+// Premium Compensation Database Login
+#node-752 .field-name-body p {
+	margin-top: 2px;
+}
+
 
 
 
