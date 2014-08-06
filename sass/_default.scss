@@ -207,6 +207,7 @@ section.page-top {
 	border-bottom-color: $yellow;
 	border-width: 8px;
 	position: relative;
+	padding: 10px 20px; // making the blue ribbon banner smaller 05.08.2014
 	margin-bottom: 0; // remove margin-bottom: 35px; to include background shadow.png
 	h1 {
 		border-bottom: 0;
@@ -540,7 +541,7 @@ a [class^="icon-"], a [class*=" icon-"] {
 // width of input field newsletter
 
 input.span2 {
-	width: 220px;
+	width: 204px;
 }
 
 section.featured {
@@ -627,14 +628,14 @@ body.page-team .view, // all team overview pages
 // 1.
 // 2. page-node-830 - Practice group landing page
 
-body.page-node-830 {
-	ul {
-		li {
-			background-image: none;
-			padding-left: 0;
-		}
-	}
-}
+// body.page-node-830 {
+// 	ul {
+// 		li {
+// 			background-image: none;
+// 			padding-left: 0;
+// 		}
+// 	}
+// }
 
 // Practice Group landing page
 // convert list into two columns
@@ -948,6 +949,19 @@ body.node-type-offices {
 }	
 
 
+// Contact us page - sidebar menu
+
+// Our offices
+#block-block-41 {
+	h3 {
+	margin-bottom: 0;
+	}
+	.content ul.worldcarouselmenu {
+		margin-top: 4px;
+		margin-top: .25rem;
+	}
+} 
+
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
@@ -1082,9 +1096,10 @@ h2.news-header {
 
 .news-portrait {
 	float: left;
+	margin-top: 8px;
 	margin-right: 12px;
 	margin-right: .75rem;
-	min-height: 250px;
+	// min-height: 250px;
 }
 
 .news-landscape {
