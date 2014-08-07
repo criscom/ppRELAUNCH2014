@@ -62,6 +62,11 @@ p, select {
 	color: $gray;
 }
 
+// Sidebar bios
+.region-sidebar-right .views-field-title span a {
+	color: $blue;
+	font-weight: 700;
+}
 
 // Select country front
 

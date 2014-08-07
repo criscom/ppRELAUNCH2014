@@ -547,9 +547,12 @@ input.span2 {
 
 section.featured {
 	input[type="text"] {
-		height: 32px;
-		height: 2rem;
+		height: 34px;
+		height: 2.125rem;
 		-webkit-backface-visibility:hidden;
+		.chrome.win & {
+			// height: 36px;
+		}
 	}
 	input[type="checkbox"] {
 		height: 20px;
@@ -620,7 +623,7 @@ body.page-team .view, // all team overview pages
 		background-size: 12px 11px;
 		background-repeat: no-repeat;
 		background-position: left 6px;
-		padding-left: 22px
+		padding-left: 22px;
 		}
 	}
 }
@@ -972,7 +975,8 @@ body.node-type-offices {
 // Our offices
 #block-block-41 {
 	h3 {
-	margin-bottom: 0;
+	// margin-bottom: 0;
+	margin-bottom: 12px;
 	}
 	.content ul.worldcarouselmenu {
 		margin-top: 4px;
@@ -1027,7 +1031,7 @@ body.node-type-offices {
 
 // button height
 .btn {
-	padding: 5px 12px;
+	padding: 6px 12px;
 }
 
 
@@ -1254,7 +1258,15 @@ h2.news-header {
 		margin-top: 12px;
 		margin-top: .75rem;
 	}
+}
 
+.download-wrapper {
+	margin-bottom: 22px;
+}
+
+.download {
+	margin-bottom: 12px;
+	margin-bottom: .75rem;
 }
 
 
