@@ -130,6 +130,9 @@ div.block-search-api-page input[type="image"]:focus {
 		text-indent: -9999px;
 		margin-right: 16px;
 		margin-right: 1rem;
+		&:hover {
+			background-image: url("../images/home-icon-retina-hover.png");
+		}
 	}
 }
 

@@ -2222,7 +2222,7 @@ p, select {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\0000366}}
-.region-sidebar-right .views-field-title span a {
+.region-sidebar-right .view-press-release-marketing-manager .views-field-title span a {
   color: #003465;
   font-weight: 700;
 }
