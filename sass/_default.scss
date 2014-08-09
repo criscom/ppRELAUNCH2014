@@ -136,6 +136,12 @@ div.block-search-api-page input[type="image"]:focus {
 	}
 }
 
+// .menu-block-22 .nav-pills>li.active:first-child>a {
+// 			&:hover {
+// 			background-image: url("../images/home-icon-retina-hover.png");
+// 		}
+// }
+
 .menu-block-22 ul.nav>li>a.active,
 .menu-block-22 ul.nav>li>a.active-trail {
 	color: $yellow;
@@ -807,11 +813,11 @@ body.node-type-offices {
 	border-bottom: 1px solid $grayborder;
 	}
 	.field-name-body {
-	margin-bottom: 12px;
-	margin-bottom: 0.75rem;
-	padding-bottom: 12px;
-	padding-bottom: 0.75rem;
-	border-bottom: 1px solid $grayborder;
+	// margin-bottom: 12px;
+	// margin-bottom: 0.75rem;
+	// padding-bottom: 12px;
+	// padding-bottom: 0.75rem;
+	// border-bottom: 1px solid $grayborder;
 	}
 	.group-office-address h3 {
 		margin-bottom: 12px;
@@ -1198,6 +1204,16 @@ h2.news-header {
 	}
 }
 
+// tags in right sidebar on news detail pages
+.view .field-name-field-tags {
+		background-image: url('../images/icon-tags.png');
+		background-size: 17px 14px;
+		background-position: left center;
+		background-repeat: no-repeat;
+		height: 20px;
+		padding-left: 22px;
+}
+
 
 // Position the news READ MORE button
 // on the events page ==> #quicktabs-tabpage-news-4 we do not reposition it
@@ -1263,13 +1279,35 @@ h2.news-header {
 	}
 }
 
-.download-wrapper {
+.download-title {
+	font-weight: 700;
+	margin-bottom: 2px;
+}
+
+.group-pdf-link-wrapper {
+	clear: both;
+	border-top: 1px solid #cccccc;
+	padding-top: 18px;
 	margin-bottom: 22px;
 }
+
+div.read-online-wrapper + div.download-wrapper {
+	margin-top: 12px;
+}
+
+
 
 .download {
 	margin-bottom: 12px;
 	margin-bottom: .75rem;
+}
+
+
+// published by link
+
+.published-by-wrapper {
+	margin-bottom: 1.4em;
+	float: right;
 }
 
 
@@ -1294,6 +1332,10 @@ h2.news-header {
 
 .group-portrait-wrapper.span2 {
 	margin-left: 0 !important;
+}
+
+.field-name-body p img {
+	margin: 5px 10px;
 }
 
 
@@ -1786,6 +1828,16 @@ footer div.container div.row > div {
 
 .not-front footer {
 	margin-top: 35px;
+}
+
+
+//===========================================================
+// Pager on news overview
+
+
+// hide <<first and last>> buttons in pager
+.disabled a {
+	display: none;
 }
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
