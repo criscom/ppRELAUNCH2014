@@ -38,15 +38,24 @@
 .view-partners,
 .view-consultant,
 .view-seniorconsultant,
-.view-consultatn2,
+.view-senior-consultant,
+.view-consultant2,
 .view-research-consultant,
 .view-practice-group, 
 .view-by-location,
-.view-managers
+.view-managers,
+.view-office-team-members
 {
 	.views-row-3,
 	.views-row-6,
-	.views-row-9 {
+	.views-row-9,
+	.views-row-12,
+	.views-row-15,
+	.views-row-18,
+	.views-row-21,
+	.views-row-24,
+	.views-row-27,
+	.views-row-30 {
 		margin-right: 0 !important;
 	}
 }

@@ -57,6 +57,7 @@ header {
 div.block-search-api-page .content {
 	float: right;
 	// min-width: 206px;
+	margin-top: 0;
 	min-width: 168px;
 }
 
@@ -66,7 +67,7 @@ div.block-search-api-page input[type="image"]:focus {
 }
 
 .form-item-keys-1 {
-	  display: inline-block;
+	  display: inline;
 }
 
 .form-item-keys-1 input[type="text"] {
@@ -82,7 +83,7 @@ div.block-search-api-page input[type="image"]:focus {
 
 #search-api-page-search-form-search-content .form-actions {
 	padding: 3px 11px 3px 11px !important;
-	display: inline-block;
+	display: inline;
 	-webkit-border-radius: 0 14px 14px 0;
 	-moz-border-radius: 0 14px 14px 0;
 	border-radius: 0 14px 14px 0;
@@ -91,13 +92,13 @@ div.block-search-api-page input[type="image"]:focus {
 	border: 1px solid #cccccc;
 	// 	border-left: 0;
 	// background: white !important; // hides the pill effect for the loupe background
-	top: -4px; // For Firefox, Safari, Chrome on Mac OSX
+	// top: -4px; // For Firefox, Safari, Chrome on Mac OSX
 	.opera.mac & {
 		top: 2px; // for Opera on Mac OSX
 	}
 	.gecko.win &,
 	.chrome.win & {
-		top: -3px; // For Chrome on Win
+		// top: -3px; // For Chrome on Win
 	}
 }
 
@@ -785,6 +786,7 @@ body.node-type-offices {
 
 // sidebar events and offices
 
+body.page-events-all, // Events archive
 body.node-type-in-the-media, // in the media
 body.node-type-insights-article, // insights
 body.node-type-article, //press releases
@@ -801,8 +803,8 @@ body.node-type-offices {
 			// margin-top: 0 !important;
 			margin-top: 20px;
 			margin-top: 1.25rem;
-			margin-bottom: 32px;
-			margin-bottom: 2rem;
+			margin-bottom: 20px;
+			margin-bottom: 1.25rem;
 		}
 	}
 	.region-sidebar-right .views-row {
@@ -896,8 +898,8 @@ body.node-type-offices {
 h3.team-members {
 	padding-top: 20px;
 	padding-top: 1.25rem;
-	margin-bottom: 36px;
-	margin-bottom: 2.25rem;
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
 	border-top: 1px solid $grayborder;
 }
 
@@ -907,7 +909,7 @@ body.node-type-offices {
 			float: left;
 			width: 163px;
 			min-height: 363px;
-			margin-right: 32px;
+			margin-right: 31px;
 			.field-name-field-linkedin,
 			.views-field-title {
 				margin-top: 16px;
@@ -925,7 +927,13 @@ body.node-type-offices {
 }
 
 
-
+.page-node-38 .view-office-team-members {
+	.views-row-1,
+	.views-row-2,
+	.views-row-3 {
+		min-height: 400px !important;
+	}
+}
 
 
 //===========================================================
@@ -1012,10 +1020,113 @@ body.node-type-offices {
 
 // node - main content
 
-// aligning with map and spacing above
+.group-city-date-wrapper {
+	.event-city,
+	.event-date {
+		font-weight: 700;
+	}
+}
 
-.region-content .node-events {
-	margin-top: 6px;
+.event-city {
+	&:after {
+	margin: 0 4px;
+	content: "-";
+	}
+}
+
+.group-date-time-wrapper {
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+	.label-inline.event-date,
+	.event-date,
+	.event-time {
+		float: left;
+	}
+	span.date-display-single {
+
+	}
+	.event-time {
+		float: left;
+			&:before {
+				padding: 0 4px;
+			content: "-";
+		}
+	}
+}
+
+.event-venue-wrapper {
+	clear: both;
+	margin-top: 1.4em; // doesn't work; .group-date-time-wrapper needs to be cleared properly
+}
+
+.group-events-footer-wrapper {
+	border-top: 1px solid #cccccc;
+	padding-top: 18px;
+	margin-top: 24px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 22px;
+	padding-bottom: 19px;
+	&:before, &:after {
+		content: " ";
+		display: table;
+	&:after {
+		clear: both;
+	}
+	}
+}
+
+.field-name-field-detailed-information  {
+	table {
+		font-size: 11px;
+		margin-top: 0;
+		margin-bottom: 0;
+		tbody {
+			border-top: 0;
+		}
+	}
+	p:first-child {
+		margin-top: 0;
+	}
+}
+
+.field-name-field-club-administrator {
+	p:first-child {
+		margin-top: 0;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+// Events archive menu
+
+#block-menu-block-24 {
+	h3 {
+		margin-top: 34px;
+		margin-top: 2.125rem;
+		margin-bottom: -6px;
+	}
+	ul {
+		padding-left: 0;
+		li {
+			list-style: none;
+			margin-left: 0;
+			a {
+			color: $blue;
+			text-decoration: underline;
+			&:hover {
+				text-decoration: none;
+			}
+			}
+		}
+	}
 }
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -1097,6 +1208,7 @@ transition:all 1s ease 0.1s;
 // NEWS landing page
 
 
+.view-events-overview,
 #quicktabs-news {
 	ul.quicktabs-tabs {
 		margin-top: 8px;
@@ -1121,6 +1233,14 @@ transition:all 1s ease 0.1s;
 		padding-bottom: 28px; // 38px
 		padding-bottom: 1.75rem;
 		border-bottom: 1px solid $grayborder;
+		&:before,
+		&:after {
+			content: " ";
+			display: table;
+		}
+		&:after {
+			clear: both;
+		}
 		.field-name-body {
 			// min-height: 120px;
 			p, div {
@@ -1236,6 +1356,7 @@ h2.news-header {
 
 // NEWS Tags on news detail
 
+.node-events,
 .node-article, // press releases
 .node-in-the-media,
 .node-insights-article {
@@ -1482,6 +1603,8 @@ div.querytable {
 	float: left;
 	margin-right: 6px;
 	}
+
+
 
 .field-name-field-email-person,
 .views-field-view-node,

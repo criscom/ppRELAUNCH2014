@@ -67,6 +67,12 @@ p, select {
 	font-size: .875rem;
 }
 
+// labels
+	.label-inline.event-date,
+	.event-label {
+		font-weight: 700;
+	}
+
 // Sidebar bios
 .region-sidebar-right .view-press-release-marketing-manager .views-field-title span a {
 	color: $blue;
@@ -243,6 +249,11 @@ p, select {
 	// font-size: 12px;
 	// font-size: .75rem;
 	text-align: left;
+	color: white !important;
+	text-decoration: none;
+	a:hover {
+		text-decoration: none;
+	}
 }
 
 .location-map h3 span a {
@@ -257,6 +268,7 @@ p, select {
 // our events
 // regional news
 
+body.page-events-all, // Events archive
 body.node-type-in-the-media, // in the media
 body.node-type-insights-article, // insights
 body.node-type-article, //press releases
@@ -345,7 +357,7 @@ body.node-type-offices {
 //===========================================================
 // NEWS landing page
 
-
+.view-events-overview,
 #quicktabs-news {
 	ul.quicktabs-tabs {
 		li {
