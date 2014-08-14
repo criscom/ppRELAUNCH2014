@@ -1104,7 +1104,8 @@ body.node-type-offices {
 	table {
 		font-size: 11px;
 		margin-top: 0;
-		margin-bottom: 0;
+		margin-bottom: 12px;
+		margin-bottom: 0.75rem;
 		tbody {
 			border-top: 0;
 		}
@@ -1112,9 +1113,13 @@ body.node-type-offices {
 	p:first-child {
 		margin-top: 0;
 	}
+	p:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .field-name-field-club-administrator {
+	clear: both;
 	p:first-child {
 		margin-top: 0;
 	}
