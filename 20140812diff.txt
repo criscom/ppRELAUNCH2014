@@ -1,0 +1,38 @@
+diff --git a/css/custom.css b/css/custom.css
+index 442b6be..0c8d608 100644
+--- a/css/custom.css
++++ b/css/custom.css
+@@ -2338,6 +2338,15 @@ ul.nav > li:last-child {
+     background: url("../images/homepage-background2x.png");
+   }
+ }
++@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\000032042}}
++.view-admin-in-the-media-2013-2014 .views-row {
++  margin-bottom: 32px;
++}
++@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_default\.scss}line{font-family:\000032044}}
++.view-admin-in-the-media-2013-2014 .views-row a {
++  color: #003465;
++}
++
+ @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/pedersenandpartners-RELAUNCH-20140715\/sass\/_fonts\.scss}line{font-family:\0000313}}
+ h1, h2, h3, h4 {
+   font-family: Roboto, Arial, sans-serif;
+diff --git a/sass/_default.scss b/sass/_default.scss
+index 420b6ef..a11b598 100644
+--- a/sass/_default.scss
++++ b/sass/_default.scss
+@@ -2035,3 +2035,13 @@ ul.nav>li:last-child {
+     background:url('../images/homepage-background2x.png');
+ 	} 
+ }
++
++
++// In the media view
++
++.view-admin-in-the-media-2013-2014 .views-row {
++	margin-bottom: 32px;
++	a {
++		color: $blue;
++	}
++}

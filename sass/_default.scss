@@ -252,15 +252,18 @@ ul.breadcrumb li:nth-child(2) {
 }
 
 // offices
-.node-type-offices ul.breadcrumb {
-	li:nth-child(2) {
-		a {
-			color: white;
+.page-team,
+.node-type-offices {
+	ul.breadcrumb {
+		li:nth-child(2) {
+			a {
+				color: white;
+			}
 		}
-	}
-	li:nth-child(3) {
-		a {
-			color: $yellow;
+		li:nth-child(3) {
+			a {
+				color: $yellow;
+			}
 		}
 	}
 }
@@ -1522,6 +1525,13 @@ div.querytable {
 	border-radius: 3px 3px 3px 3px;
 }
 
+// Team photos in right sidebar
+.region-sidebar-right {
+	.field-name-field-image-page img {
+		width: 205px; // adjusting image sizes on team to 205px w and 246 px h
+	}
+}
+
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -1554,10 +1564,13 @@ div.querytable {
 .team-list {
 	.views-row {
 		float: left;
-		max-width: 253px;
+		// max-width: 253px;
+		max-width: 211px; // adjusting image sizes on team to 205px w and 246 px h
 		margin-right: 2%;
-		min-height: 470px;
-		margin-bottom: 40px;
+		// min-height: 470px;
+		min-height: 398px;
+		// margin-bottom: 40px;
+		margin-bottom: 30px; // adjusting image sizes on team to 205px w and 246 px h
 		.field-name-field-linkedin,
 		.views-field-title {
 			margin-top: 14px;
@@ -1569,9 +1582,13 @@ div.querytable {
 		.view-field-field-job-title {
 			clear: left;
 			}
-		.views-row-last {
-			margin-bottom: 0;
+		.views-field-field-image-page .picframe img {
+			width: 205px; // adjusting image sizes on team to 205px w and 246 px h
 		}
+	}
+	.views-row-last {
+		margin-bottom: 0;
+		min-height: 0;
 	}
 }
 
@@ -2034,4 +2051,14 @@ ul.nav>li:last-child {
   section.featured.map {
     background:url('../images/homepage-background2x.png');
 	} 
+}
+
+
+// In the media view
+
+.view-admin-in-the-media-2013-2014 .views-row {
+	margin-bottom: 32px;
+	a {
+		color: $blue;
+	}
 }
