@@ -8,55 +8,33 @@
 <table role="presentation">
 	<tbody>
 		<tr>
-		<td class="label lastname">
-		<label class="xspTextLabel" for="view:_id1:_id4:lastName1" id="view:_id1:_id4:lastName_Label1">Last Name:</label>*</td>
-
-		<td>
-		<input type="text" class="xspInputFieldEditBox" aria-required="true" name="view:_id1:_id4:lastName1" id="view:_id1:_id4:lastName1"></td>
-		<td colspan="3"><span role="alert"></span></td>
-		</tr>
-
-		<tr>
-		<td class="label name">
-		<label class="xspTextLabel" for="view:_id1:_id4:firstName1" id="view:_id1:_id4:firstName_Label1">First Name:</label>*</td>
-
-		<td>
+		<td class="label input lastname">
+		<label class="xspTextLabel" for="view:_id1:_id4:lastName1" id="view:_id1:_id4:lastName_Label1">Last Name:*</label>
+		<input type="text" class="xspInputFieldEditBox" aria-required="true" name="view:_id1:_id4:lastName1" id="view:_id1:_id4:lastName1">
+		</td>
+		<td></td>
+		<td class="label input name">
+		<label class="xspTextLabel" for="view:_id1:_id4:firstName1" id="view:_id1:_id4:firstName_Label1">First Name:*</label>
 		<input type="text" class="xspInputFieldEditBox" aria-required="true" name="view:_id1:_id4:firstName1" id="view:_id1:_id4:firstName1"></td>
-		<td colspan="3"><span role="alert"></span></td>
 		</tr>
 
 		<tr>
-		<td class="label mobilephone">
-		<label class="xspTextLabel" for="view:_id1:_id4:mobilePhone1" id="view:_id1:_id4:mobilePhone_Label1">Mobile Phone:</label>*</td>
-
-		<td>
+		<td class="label input mobilephone">
+		<label class="xspTextLabel" for="view:_id1:_id4:mobilePhone1" id="view:_id1:_id4:mobilePhone_Label1">Mobile Phone:*</label>
 		<input type="text" class="xspInputFieldEditBox" aria-required="true" name="view:_id1:_id4:mobilePhone1" id="view:_id1:_id4:mobilePhone1"></td>
-		<td colspan="3"><span role="alert"></span></td>
-		</tr>
-
-		<tr>
-		<td class="label otherphone"><label class="xspTextLabel" for="view:_id1:_id4:mobilePhone21" id="view:_id1:_id4:mobilePhone2_Label1">Other Phone:</label></td>
-
-		<td>
+		<td></td>
+		<td class="label input otherphone">
+		<label class="xspTextLabel" for="view:_id1:_id4:mobilePhone21" id="view:_id1:_id4:mobilePhone2_Label1">Other Phone:</label>
 		<input type="text" class="xspInputFieldEditBox" name="view:_id1:_id4:mobilePhone21" id="view:_id1:_id4:mobilePhone21"></td>
-		<td></td>
-		<td></td>
-		<td></td>
 		</tr>
 
 		<tr>
-		<td class="label email">
-		<label class="xspTextLabel" for="view:_id1:_id4:email1" id="view:_id1:_id4:email_Label1">Email:</label>*</td>
-
-		<td>
+		<td class="label input email">
+		<label class="xspTextLabel" for="view:_id1:_id4:email1" id="view:_id1:_id4:email_Label1">Email:*</label>
 		<input type="text" class="xspInputFieldEditBox" size="40" aria-required="true" name="view:_id1:_id4:email1" id="view:_id1:_id4:email1"></td>
-		<td colspan="3"><span role="alert"></span></td>
-		</tr>
-
-		<tr>
-		<td class="label gender">
-		<label class="xspTextLabel" for="view:_id1:_id4:sex1" id="view:_id1:_id4:sex_Label1">Gender:</label>*</td>
-		<td>
+		<td></td>
+		<td class="label input gender">
+		<label class="xspTextLabel" for="view:_id1:_id4:sex1" id="view:_id1:_id4:sex_Label1">Gender:*</label>
 		<fieldset class="xspRadioButton" aria-required="true" id="view:_id1:_id4:radioGroup1">
 		<table border="0" class="xspRadioButton" role="presentation">
 		<tbody>
@@ -67,15 +45,8 @@
 		<td>
 		<label for="view:_id1:_id4:radioGroup1:1">
 		<input type="radio" value="Female" name="view:_id1:_id4:radioGroup1" id="view:_id1:_id4:radioGroup1:1">Female</label></td>
-		</tr>
-		</tbody>
-		</table>
-		</fieldset>
-		</td>
-		<td></td>
 		<td>
-		<label class="xspTextLabel" for="view:_id1:_id4:birthYear1" id="view:_id1:_id4:birthYear_Label1">Birth Year:</label></td>
-		<td>
+		<label class="xspTextLabel" for="view:_id1:_id4:birthYear1" id="view:_id1:_id4:birthYear_Label1">Birth Year:</label>
 		<select style="width:auto" size="1" class="xspComboBox" name="view:_id1:_id4:comboBox1" id="view:_id1:_id4:comboBox1">	
 		<option value=""></option>
 		<option value="?">?</option>
@@ -170,12 +141,16 @@
 		</select>
 		</td>
 		</tr>
+		</tbody>
+		</table>
+		</fieldset>
+		</td>		
+		</tr>
 
 
 		<tr>
-		<td class="label cv-languages">
-		<label class="xspTextLabel" for="view:_id1:_id4:languages1" id="view:_id1:_id4:languages_Label1">Languages:</label></td>
-		<td>
+		<td class="label input cv-languages">
+		<label class="xspTextLabel" for="view:_id1:_id4:languages1" id="view:_id1:_id4:languages_Label1">Languages:</label>
 		<select style="width:auto;height:6em" size="3" multiple="multiple" class="xspListBox" name="view:_id1:_id4:listBox1" id="view:_id1:_id4:listBox1">	<option value="Abkhaz -  Basic">Abkhaz -  Basic</option>
 		<option value="Abkhaz -  Conversational">Abkhaz -  Conversational</option>
 		<option value="Abkhaz -  Fluent">Abkhaz -  Fluent</option>
@@ -729,8 +704,8 @@
 		</td>
 		<td></td>
 		<td class="nationality label">
-		<label class="xspTextLabel" for="view:_id1:_id4:nationality1" id="view:_id1:_id4:nationality_Label1">Nationality:</label></td>
-		<td class="nationality selectbox national">
+		<label class="xspTextLabel" for="view:_id1:_id4:nationality1" id="view:_id1:_id4:nationality_Label1">Nationality:</label>
+		<div class="nationality selectbox national">
 		<select style="width:75%" size="1" class="xspComboBox" name="view:_id1:_id4:comboBox2" id="view:_id1:_id4:comboBox2">	
 		<option value="Nationality">Nationality</option>
 		<option value="----------------">----------------</option>
@@ -982,67 +957,50 @@
 		<option value="Yemen">Yemen</option>
 		<option value="Zambia">Zambia</option>
 		<option value="Zimbabwe">Zimbabwe</option>
-		</select></td>
-		</tr>
-		<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		</tr>
-		<tr>
-		<td></td>
-		<td colspan="4"></td>
-		</tr>
-		<tr><td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td><div style="text-align:right">
-		</div>
+		</select></div>
 		</td>
 		</tr>
+		
 
 		<tr>
-		<td colspan="5">
-		<span class="xspTextLabel" id="view:_id1:_id4:label1">Summary of Your Profile:</span><br id="view:_id1:_id4:br1">
+		<td colspan="3">
+		<div class="xspTextLabel" id="view:_id1:_id4:label1">Summary of Your Profile:</div><br id="view:_id1:_id4:br1">
 		<textarea class="xspInputFieldTextArea" style="width:90%" rows="5" cols="80" name="view:_id1:_id4:inputTextarea1" id="view:_id1:_id4:inputTextarea1"></textarea></td>
 		</tr>
 
 
 		<tr>
-		<td colspan="5"><br id="view:_id1:_id4:br2">
+		<td colspan="3"><br id="view:_id1:_id4:br2">
 		<label class="xspTextLabel" for="view:_id1:_id4:carierPlan1" id="view:_id1:_id4:carierPlan_Label1">Career Plan, Target Positions, Industries, Location, Compensation:</label>
 		<br id="view:_id1:_id4:br3">
 		<textarea class="xspInputFieldTextArea" style="width:90%" rows="5" cols="80" name="view:_id1:_id4:inputTextarea2" id="view:_id1:_id4:inputTextarea2"></textarea></td>
 		</tr>
 
-		<tr><td colspan="5"><br id="view:_id1:_id4:br4">
-		<h3>Upload files</h3>
-		<span class="inputwrapper">
-		<input type="file" aria-required="true" class="upload first" id="view:_id1:_id4:fileUpload1" name="view:_id1:_id4:fileUpload1"></span>
-		<span class="inputwrapper-second">
-		<input type="file" class="upload second" id="view:_id1:_id4:fileUpload2" name="view:_id1:_id4:fileUpload2"></span>
-		<span class="inputwrapper">
-		<input type="file" class="upload third" id="view:_id1:_id4:fileUpload3" name="view:_id1:_id4:fileUpload3"></span></td>
-		</tr>
-
 		<tr>
-		<td colspan="5"><br id="view:_id1:_id4:br5">
+		<td class="td-interested-in-working" colspan="3"><br id="view:_id1:_id4:br5">
 		<label class="xspCheckBox" for="view:_id1:_id4:checkBox1">
 		<input type="checkbox" class="xspCheckBox" name="view:_id1:_id4:checkBox1" id="view:_id1:_id4:checkBox1">I am interested in working for Pedersen &amp; Partners</label></td>
 		</tr>
 
-		<tr><td class="td-policy-text" colspan="5"><input type="checkbox" class="xspCheckBox" aria-required="true" name="view:_id1:_id4:checkBox2" id="view:_id1:_id4:checkBox2"><span class="policy-text">I agree,&nbsp;in accordance with&nbsp;<a title="Privacy policy" target="_blank" href="http://pedersenandpartners.com/content/privacy-policy" class="policy">data protection legislation and the stated Pedersen &amp; Partners&nbsp;Privacy Policy</a>, that&nbsp;I choose to submit my personal data.*</span></td>
+		<tr><td colspan="3"><br id="view:_id1:_id4:br4">
+		<h3>Upload files</h3>
+		<span class="inputwrapper inputwrapper-first">
+		<input type="file" aria-required="true" class="upload first" id="view:_id1:_id4:fileUpload1" name="view:_id1:_id4:fileUpload1"></span>
+		<span class="inputwrapper inputwrapper-second">
+		<input type="file" class="upload second" id="view:_id1:_id4:fileUpload2" name="view:_id1:_id4:fileUpload2"></span>
+		<span class="inputwrapper inputwrapper-third">
+		<input type="file" class="upload third" id="view:_id1:_id4:fileUpload3" name="view:_id1:_id4:fileUpload3"></span></td>
+		</tr>
+
+		<tr><td class="td-policy-text" colspan="3"><input type="checkbox" class="xspCheckBox" aria-required="true" name="view:_id1:_id4:checkBox2" id="view:_id1:_id4:checkBox2"><span class="policy-text">I agree,&nbsp;in accordance with&nbsp;<a title="Privacy policy" target="_blank" href="http://pedersenandpartners.com/content/privacy-policy" class="policy">data protection legislation and the stated Pedersen &amp; Partners&nbsp;Privacy Policy</a>, that&nbsp;I choose to submit my personal data.*</span></td>
 		</tr>
 
 		<tr>
-		<td colspan="5"><span role="alert"></span></td>
+		<td colspan="3"><span role="alert"></span></td>
 		</tr>
 
 		<tr>
-		<td colspan="5"><br id="view:_id1:_id4:br6">
+		<td class="td-submit-your-cv" colspan="3"><br id="view:_id1:_id4:br6">
 		<button id="view:_id1:_id4:button1" name="view:_id1:_id4:button1" type="button" class="btn btn-warning btn-primary" style="text-align:left;color:rgb(255,255,255)">Submit your CV</button>
 		<div class="asterisks">(Asterisks * indicate required information)</div>
 		</td>
