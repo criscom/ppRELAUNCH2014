@@ -58,6 +58,10 @@ h3 {
 	line-height: 1.1em;
 }
 
+.field-name-body h3 {
+	font-size: $h3-new-font-size;
+}
+
 p, select {
 	color: $gray;
 }
