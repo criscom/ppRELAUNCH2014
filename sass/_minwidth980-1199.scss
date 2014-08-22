@@ -113,6 +113,9 @@
 	width: 300px;
 }
 
+
+
+
 //===========================================================
 // Latest News
 
@@ -174,7 +177,7 @@
 
 
 .region-sidebar-left select {
-	width: 225px; /* 220px - 5px */
+	width: 230px; /* 220px - 5px */
 }
 
 
@@ -189,15 +192,44 @@
 
 .region-sidebar-left .btn-warning,
 .region-sidebar-right .btn-warning {
-	width: 190px; /* 220px - 30px */
+	width: 194px; // 190px; /* 220px - 30px */
 	text-align: left;
 	margin: 12px 0 24px 0;
+}
+
+.region-sidebar-right .btn-warning {
+	// width: 197px;
 }
 
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
+
+
+//===========================================================
+// Brochure Image
+
+
+#block-block-10 .content {
+	.image {
+		width: 218px;
+		height: 218px;
+	}
+}
+
+
+
+
+//===========================================================
+// Team images
+
+// Team photos in right sidebar
+.region-sidebar-right {
+	.field-name-field-image-page img {
+		width: 212px; // adjusting image sizes on team from 205px w to 212 on smaller screens
+	}
+}
 
 
 
@@ -222,7 +254,7 @@ ul.ui-tabs-nav li.ui-state-default /* By city */
 
 ul.ui-tabs-nav li.ui-state-default:last-child {
 	margin-right: 0 !important;
-	width: 212px; //268px
+	width: 213px; // 212px; //268px
 }
 
 
@@ -230,30 +262,19 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 
 
 //===========================================================
-// CONTACT By Region By City By country
+// NEWS landing page
 
 
-.quicktabs-ui-wrapper,
-ul.ui-tabs-nav {
-	width: 700px !important; // 700px - 870px
+.view-events-overview,
+#quicktabs-news {
+	ul.quicktabs-tabs {
+		li {
+			margin-right: 10px !important;
+			margin-right: 0.6rem !important;
+			
+		}
+	}
 }
-
-ul.ui-tabs-nav li.ui-state-default /* By city */
-{
-	padding-left: 17px;
-	/*padding-right: 155px!important;*/
-	/*padding-left: 2%;*/
-	/*width: 33%;*/
-	width: 211px; // 267px
-	margin-right: 4px;
-}
-
-ul.ui-tabs-nav li.ui-state-default:last-child {
-	margin-right: 0 !important;
-	width: 212px; //268px
-}
-
-
 
 
 
