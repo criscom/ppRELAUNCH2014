@@ -288,10 +288,16 @@ ul.breadcrumb li:nth-child(2) {
 		margin-bottom: 0;
 	}
 	.field-name-body {
-		p {
+		p:first-child {
 			margin-top: -14px;
 			margin-top: -0.875rem;
 			margin-bottom: 0;
+		}
+		p.read-more {
+			margin-top: 0px;
+			// margin-top: 0.75rem;
+			margin-bottom: 0px;
+			// margin-bottom: .375rem;
 		}
 	}
 }
@@ -399,6 +405,7 @@ div.map-section {
 		article p { // push text closer to news heading
 			margin-top: 16px;
 			margin-top: 1rem;
+			margin-bottom: 0;
 		}
 	}
 }
