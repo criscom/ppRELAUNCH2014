@@ -1,0 +1,140 @@
+/* Einstern_2014 for Pedersen & Partners */
+/* holds all styles for screen widths of 0 px to 480px */
+
+
+
+		//===========================================================
+// Team view
+
+
+.view-partners,
+.view-consultant,
+.view-senior-consultant,
+.view-consultant2,
+.view-research-consultant,
+.view-practice-group,
+.view-by-location,
+.view-managers,
+.team-list {
+			@media only screen and (min-width: 569px) and (max-width:767px) {
+			.views-row {
+			margin-right: 10%;
+				}
+			}
+		@media only screen and (min-width: 560px) and (max-width:568px) {
+			.views-row {
+			margin-right: 18%;
+			}
+			.views-row-2,
+			.views-row-4,
+			.views-row-6,
+			.views-row-8,
+			.views-row-10,
+			.views-row-12,
+			.views-row-14,
+			.views-row-16,
+			.views-row-18,
+			.views-row-20,
+			.views-row-22,
+			.views-row-24,
+			.views-row-26,
+			.views-row-28,
+			.views-row-30 {
+				margin-right: 0 !important;
+			}
+		}
+		@media only screen and (min-width: 540px) and (max-width:559px) {
+			.views-row {
+				margin-right: 14%;
+			}
+			.views-row-2,
+			.views-row-4,
+			.views-row-6,
+			.views-row-8,
+			.views-row-10,
+			.views-row-12,
+			.views-row-14,
+			.views-row-16,
+			.views-row-18,
+			.views-row-20,
+			.views-row-22,
+			.views-row-24,
+			.views-row-26,
+			.views-row-28,
+			.views-row-30 {
+				margin-right: 0 !important;
+			}
+		}
+		@media only screen and (min-width: 0px) and (max-width: 479px) {
+			.views-row {
+		 // max-width: 205px;
+			}
+	}
+}
+
+
+//===========================================================
+// office members
+
+body.node-type-offices {
+	.view-office-team-members {
+		@media only screen and (min-width: 768px) and (max-width: 979px) {
+			.views-row {
+				margin-right: 26px;
+			}
+			.views-row-2,
+			.views-row-4,
+			.views-row-6,
+			.views-row-8,
+			.views-row-10,
+			.views-row-12,
+			.views-row-14,
+			.views-row-16,
+			.views-row-18,
+			.views-row-20,
+			.views-row-22,
+			.views-row-24,
+			.views-row-26,
+			.views-row-28,
+			.views-row-30 {
+				margin-right: 0;
+			}
+		}
+		@media only screen and (min-width: 980px) and (max-width: 1199px) {
+			// 3 people in a row on iPad landscape
+			.views-row {
+				margin-right: 16px;
+				width: 140px;
+			}
+			.views-row-3,
+			.views-row-6,
+			.views-row-9,
+			.views-row-12,
+			.views-row-15,
+			.views-row-18,
+			.views-row-21,
+			.views-row-24,
+			.views-row-27,
+			.views-row-30 {
+				margin-right: 0;
+			}
+		}
+		@media only screen and (min-width: 540px) and (max-width: 567px) {
+			.views-row {
+				margin-right: 5px;
+			}
+			.views-row-3,
+			.views-row-6,
+			.views-row-9,
+			.views-row-12,
+			.views-row-15,
+			.views-row-18,
+			.views-row-21,
+			.views-row-24,
+			.views-row-27,
+			.views-row-30 {
+				margin-right: 0;
+			}
+		}
+	}
+}

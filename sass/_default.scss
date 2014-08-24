@@ -942,13 +942,13 @@ body.node-type-offices {
 				margin-top: 1rem;
 			}
 		}
-		.views-row-3,
-		.views-row-6,
-		.views-row-9,
-		.views-row-12,
-		.views-row-15 {
-			margin-right: 0;
-		}
+		// .views-row-3,
+		// .views-row-6,
+		// .views-row-9,
+		// .views-row-12,
+		// .views-row-15 {
+		// 	margin-right: 0;
+		// }
 	}
 }
 
@@ -966,6 +966,8 @@ body.node-type-offices {
 // SIDEBAR MENU
 
 #block-block-41 .content ul.worldcarouselmenu, // Our offices Contact page
+.content .block-menu-block ul.menu, // for mobile devices if menu blocks are in the content region
+.region-after-content .block-menu-block ul.menu, // for mobile devices if menu blocks are in the after-content region
 .region-sidebar-left .block-menu-block ul.menu // team
 {
 	padding-left: 0;

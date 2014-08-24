@@ -3,6 +3,129 @@
 
 @media only screen and (max-width: 767px) {
 
+
+	//===========================================================
+	// Disable left sidebar blocks
+	#header-top,
+	#sidebar-left {
+		display: none;
+	}
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// Header Region with logo and mobile menu 
+	header .logo {
+		float: none !important;
+		text-align: center;
+		margin-right: 0;
+	}
+
+	header nav {
+		width: 100%;
+		float: none;
+	}
+
+	.mobile-menu {
+		width: 284px;
+		float: none;
+		margin: 24px auto;
+		margin: 1.5rem auto;
+	}
+
+	//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+	//===========================================================
+	// Vertical spacing for the blocks in the right sidebar and after content region
+
+		.region-sidebar-right {
+		margin-bottom: 23px; // If there is a right sidebar we need some more margin for the spacing between
+		// the right sidebar and the button "Find an office location"
+		margin-bottom: 1.4375rem;
+		.views-row-last, // If there is a view in the right sidebar like on office pages
+		#block-block-9  { // If there is a button as last element in the right sidebar like on about us
+			margin-bottom: 28px !important; 
+			// adjust the spacing between the view and Fin and office location.
+		}
+	}
+
+	#block-block-43 { // Mobile: Find an office location
+		margin-top: 20px; // Top spacing between Find an office location and main content if there is no right sidebar
+		margin-top: 1.25rem;
+	}
+
+	.menu-block-wrapper ul.menu { 
+		margin-top: 13px; // Top spacing between Find an office location and menu
+		margin-top: 0.8125rem;
+		margin-bottom: 29px; // Bottom spacing between menu and Quick select
+		margin-bottom: 1.8125rem;
+		#block-menu-block-28 & { // Mobile: Office menu for office pages
+		margin-bottom: 4px; // Bottom spacing between menu and Quick select
+		margin-bottom: .25rem;
+		}
+	}
+
+
+	.block-pedersenandpartners-mobile-navigation { // Spacing between Quick Select and the footer
+		margin-bottom: 50px;
+		margin-bottom: 3.125rem;
+	}
+
+	.region {
+		select {
+		width: 100%;
+		}
+		#block-block-9,
+		#block-block-43 {
+			.btn-warning {
+			width: 96.4%;
+			}
+		}
+	}
+
+	.btn {
+		text-align: left;
+	}
+
+	//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+//===========================================================
+// Team view
+
+	.view-partners,
+	.view-consultant,
+	.view-seniorconsultant,
+	.view-senior-consultant,
+	.view-consultant2,
+	.view-research-consultant,
+	.view-practice-group, 
+	.view-by-location,
+	.view-managers,
+	.view-office-team-members {
+		.views-row-2,
+		.views-row-4,
+		.views-row-6,
+		.views-row-8,
+		.views-row-10,
+		.views-row-12,
+		.views-row-14,
+		.views-row-16,
+		.views-row-18,
+		.views-row-20,
+		.views-row-22,
+		.views-row-24,
+		.views-row-26,
+		.views-row-28,
+		.views-row-30 {
+			// margin-right: 0 !important;
+		}
+	}
+
 //===========================================================
 // Slider LATEST NEWS
 
@@ -28,37 +151,27 @@
 }
 
 
-		//===========================================================
-// Team view
 
+//===========================================================
+// News landing page
 
-.view-partners,
-.view-consultant,
-.view-senior-consultant,
-.view-consultant2,
-.view-research-consultant,
-.view-practice-group,
-.view-by-location,
-.view-managers,
-.team-list {
-		.views-row {
-		margin-right: 20px;
-		// min-height: 470px;
-	}
+.field-content.picframe.news-landscape img {
+    width: 90%;
 }
 
-.view-partners,
-.view-consultant,
-.view-seniorconsultant,
-.view-consultatn2,
-.view-research-consultant,
-.view-practice-group, 
-.view-by-location,
-.view-managers
-{
-	.views-row-even {
-		margin-right: 0 !important;
-	}
+.group-pdf-link-wrapper .download {
+	-ms-word-break: break-all;
+
+     /* Be VERY careful with this, breaks normal words wh_erever */
+     word-break: break-all;
+
+     /* Non standard for webkit */
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+
 }
 
 
@@ -71,7 +184,21 @@
 }
 
 span.city-country { 
-	line-height: 1.125em;
+	// line-height: 1.125em;
+}
+
+//===========================================================
+// Contact Us
+
+// Tabs
+
+
+ul.ui-tabs-nav li.ui-state-default {
+	width: 26%;
+}
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+    width: 28.5%;
 }
 
 

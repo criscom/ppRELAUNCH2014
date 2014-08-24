@@ -1,0 +1,60 @@
+
+/* Einstern_2014 for Pedersen & Partners */
+/* holds all styles for screen widths of 568 px to 767px */
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+
+
+
+		//===========================================================
+// Team view
+
+
+	.view-partners,
+	.view-consultant,
+	.view-seniorconsultant,
+	.view-senior-consultant,
+	.view-consultant2,
+	.view-research-consultant,
+	.view-practice-group, 
+	.view-by-location,
+	.view-managers,
+	.view-office-team-members
+	{
+		.views-row-3,
+		.views-row-6,
+		.views-row-9,
+		.views-row-12,
+		.views-row-15,
+		.views-row-18,
+		.views-row-21,
+		.views-row-24,
+		.views-row-27,
+		.views-row-30 {
+			// margin-right: 0 !important;
+		}
+	}
+
+body.node-type-offices {
+	.view-office-team-members {
+			.views-row {
+				margin-right: 18px !important;
+			}
+			.views-row-3,
+			.views-row-6,
+			.views-row-9,
+			.views-row-12,
+			.views-row-15,
+			.views-row-18,
+			.views-row-21,
+			.views-row-24,
+			.views-row-27,
+			.views-row-30 {
+				margin-right: 0 !important;
+			}
+		}
+	}
+
+
+
+} // end media query

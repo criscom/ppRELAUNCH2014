@@ -8,7 +8,20 @@
 // Logo
 @media only screen and (min-width: 768px) {
 	
-	
+
+
+	//===========================================================
+	// Disable MOBILE Blocks (in the content region)
+	#block-block-43, // Mobile: Find an office location
+	#block-menu-block-25, // Mobile: Practice Group block
+	#block-menu-block-26, // Mobile: Office menu for office pages
+	#block-menu-block-27, // Mobile: Menu for About
+	#block-menu-block-28, // Mobile: Menu for Team Section
+	#block-menu-block-29, // Mobile: Menu for Services
+	#block-menu-block-30, // Mobile: Menu for Executive Compensation Database on Database CT pages
+	#block-pedersenandpartners-mobile-navigation-navigation { // Mobile: Quick Select
+		display: none;
+	}
 
 	//===========================================================
 // Main menu
@@ -43,8 +56,8 @@
 .view-research-consultant,
 .view-practice-group, 
 .view-by-location,
-.view-managers,
-.view-office-team-members
+.view-managers
+// .view-office-team-members
 {
 	.views-row-3,
 	.views-row-6,

@@ -258,6 +258,24 @@ div.about-country-front.span4 {
 
 
 //===========================================================
+// office members
+
+body.node-type-offices {
+	.view-office-team-members {
+		.views-row-3,
+		.views-row-6,
+		.views-row-9,
+		.views-row-12,
+		.views-row-15 {
+			margin-right: 0;
+		}
+	}
+}
+
+
+
+
+//===========================================================
 // CONTACT By Region By City By country
 
 

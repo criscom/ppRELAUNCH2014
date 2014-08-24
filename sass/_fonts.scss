@@ -52,6 +52,13 @@ h2 {
 	line-height: 1.1em;
 }
 
+.block-pedersenandpartners-mobile-navigation { // changing font size for Quick Select on mobile
+	h2 {
+		font-size: 22px;
+		font-size: 1.375rem;
+	}
+}
+
 h3 {
 	font-size: $h3-font-size;
 	text-transform: none;
@@ -468,6 +475,10 @@ h2.news-header {
 	.gecko.win &,
 	.chrome.win & {
 		font-weight: 400;
+	}
+	@media only screen and (max-width: 480px) {
+		font-size: 16px;
+		font-size: 1rem;
 	}
 }
 
