@@ -56,5 +56,24 @@ body.node-type-offices {
 	}
 
 
+//===========================================================
+// Contact Us
+
+
+	#block-quicktabs-contact-us-landing-page {
+		margin-top: -84px;
+	}
+
+// Tabs
+
+ul.ui-tabs-nav li.ui-state-default {
+	width: 154px;
+	margin-right: 5px;
+}
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+    width: 153px;
+}
+
 
 } // end media query

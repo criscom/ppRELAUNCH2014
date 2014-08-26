@@ -40,7 +40,12 @@ header {
 	{
 		position: relative;
 	}
-
+	.logo {
+		img {
+			width: 284px;
+			height: 51px;
+		}
+	}
 }
 
 
@@ -268,6 +273,22 @@ ul.breadcrumb li:nth-child(2) {
 	}
 }
 
+// biography
+
+.node-type-team {
+	ul.breadcrumb {
+		li:nth-child(2) {
+			a {
+				color: white;
+			}
+		}
+		li:nth-child(4) {
+			a {
+				color: $yellow;
+			}
+		}
+	}
+}
 
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -706,7 +727,7 @@ body.page-team .view, // all team overview pages
 // put Pedersen & Partners into the second line of the heading
 body.page-node-842 .field-name-body {
 	h2 {
-		width: 440px;
+		max-width: 440px;
 	}
 // remove list styles in body list
 	ul {
@@ -787,11 +808,12 @@ body.node-type-offices {
 			margin-right: .5rem;
 		}
 		.country {
-			margin-left: 6px;
-			margin-left: .5rem;
+			// margin-left: 6px;
+			// margin-left: .5rem;
 		}
 		.city-country {
 			float: left;
+			margin-right: 6px;
 		}
 	}
 	.field-name-body {

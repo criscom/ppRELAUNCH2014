@@ -1,0 +1,23 @@
+/* Einstern_2014 for Pedersen & Partners */
+/* holds all styles for screen widths of 480 px to 539px */
+
+@media only screen and (min-width: 480px) and (max-width: 539px) {
+	// pulling the quicktabs view closer to the map
+	#block-quicktabs-contact-us-landing-page {
+		margin-top: -84px;
+	}
+
+// target size 360px
+	ul.ui-tabs-nav li.ui-state-default {
+	width: 122px;
+	padding-right: 4px;
+	padding-left:14px;
+	margin-right: 6px;
+	}
+
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+  width: 124px;
+	}
+
+} // end of query

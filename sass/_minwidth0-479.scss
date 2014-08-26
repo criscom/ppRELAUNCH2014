@@ -4,4 +4,52 @@
 
 @media only screen and (min-width: 0px) and (max-width: 479px) {
 
+	// pulling the quicktabs view closer to the map
+	#block-quicktabs-contact-us-landing-page {
+		margin-top: -96px;
+	}
+
+// target size 360px
+	ul.ui-tabs-nav li.ui-state-default {
+	width: 84px;
+	padding-right: 4px;
+	padding-left:14px;
+	margin-right: 3px;
+	}
+
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+  width: 86px;
+	}
+
+// news landing
+
+.news-portrait {
+	float: none;
+	margin-bottom: 16px;
+}
+
+} // end media query
+
+
+// iPhone 5S portrait
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+
+// target size 320px
+	ul.ui-tabs-nav li.ui-state-default {
+	width: 79px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 3px;
+}
+
+ul.ui-tabs-nav li.ui-state-default:last-child {
+  width: 80px;
+}
+
+
+
+
+
+
 } // end media query

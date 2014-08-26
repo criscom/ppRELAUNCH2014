@@ -53,6 +53,21 @@
 		}
 	}
 
+// team pages
+
+body.page-team-partners,
+body.page-team-clientpartners,
+body.page-team-principals,
+body.page-team-consultants,
+body.page-team-research-consultants,
+body.page-team-practice-group,
+body.page-team-location,
+body.page-team-managers {
+	.region.region-after-content {
+    margin-top: 40px;
+	}
+}
+
 	#block-block-43 { // Mobile: Find an office location
 		margin-top: 20px; // Top spacing between Find an office location and main content if there is no right sidebar
 		margin-top: 1.25rem;
@@ -159,6 +174,8 @@
     width: 90%;
 }
 
+div a,
+p a,
 .group-pdf-link-wrapper .download {
 	-ms-word-break: break-all;
 
@@ -172,6 +189,14 @@
    -moz-hyphens: auto;
         hyphens: auto;
 
+}
+
+//===========================================================
+// Royal Slider Frontpage
+
+// Hide navigation for banner slider
+.rsArrow {
+	display: none;
 }
 
 
@@ -199,6 +224,20 @@ ul.ui-tabs-nav li.ui-state-default {
 
 ul.ui-tabs-nav li.ui-state-default:last-child {
     width: 28.5%;
+}
+
+
+//===========================================================
+// news tags
+
+.node .news-tags {
+	display: block;
+	width: 90%;
+}
+
+#block-views-events-block-1 {
+margin-top: 32px;
+	margin-top: 2rem;
 }
 
 
