@@ -17,6 +17,7 @@ body {
 	font-family: $arial !important;
 	font-size: $base-font-size;
 	line-height: $base-line-height;
+
 }
 
 
@@ -108,7 +109,13 @@ div.block-search-api-page input[type="image"]:focus {
 	border: 1px solid #cccccc;
 	// 	border-left: 0;
 	// background: white !important; // hides the pill effect for the loupe background
+	input {
+		width: 13px;
+		height: 13px;
+	}
 }
+
+
 
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -436,6 +443,7 @@ section.featured.map {
 	// background-color: rgba(255,255,255,0.3) !important;
 	background-repeat: no-repeat;
 	clear: both;
+	background-size: 1280px 414px;
 	.container {
 		// overflow: hidden;
 	}
@@ -453,6 +461,14 @@ section.featured.map {
 	h4 {
 		margin-top: 0 !important;
 	}
+}
+
+.flexslider .slides > li {
+	padding-top: 2px;
+}
+
+div.recent-posts div.date {
+	margin-top: 6px;
 }
 
 /* Royal Slider Press Releases */
@@ -478,9 +494,7 @@ section.featured.map {
 	height: 240px;
 }
 
-.view-frontpage-consultant-spotlight .rsDefault .rsOverflow {
-	height: 240px !important;
-}
+
 
 /* Navigation Bullets */
 .view-press-frontpage .rsDefault .rsBullets {
@@ -598,14 +612,48 @@ a [class^="icon-"], a [class*=" icon-"] {
 
 // width of input field newsletter
 
-input.span2 {
-	width: 204px;
+body {
+	background-color: transparent !important;
 }
 
-section.featured {
+.xspForm>div {
+		width: 320px !important;
+	}
+
+input.span2 {
+	width: 204px !important;
+}
+
+.querytable-outer-wrapper {
+	margin-top: 0 !important;
+}
+
+.querytable-wrapper {
+	input[type="checkbox"] {
+	width: 16px !important;
+	height: 16px !important;
+	margin-right: 4px !important;
+	margin-top: -4px !important;
+	}
+	input[type="text"]:focus {
+		border: 1px solid #cccccc !important;
+		box-shadow: none !important;
+	}
+}
+
+.consent-text {
+	max-width: 350px !important;
+	line-height: 24px;
+	line-height: 1.5rem;
+}
+
+div.input-append {
+	margin-top: 10px;
+	margin-top: .625rem;
 	input[type="text"] {
 		height: 34px;
 		height: 2.125rem;
+		box-shadow: none !important;
 		-webkit-backface-visibility:hidden;
 		.chrome.win & {
 			// height: 36px;
@@ -617,6 +665,29 @@ section.featured {
 		margin-top: -4px;
 	}
 }
+
+h2.newsletter {
+	margin-bottom: 24px !important;
+}
+
+.span4.span-last > p {
+    margin-bottom: 0;
+}
+
+
+.errortext {
+	/*background-color: rgb(214, 214, 214);*/
+	background-color: transparent;
+	// border-right: 4px;
+	margin-top: -8px;
+}
+
+span[role="alert"] table.errortext td {
+	color: #faa61a !important;
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
 /* Royal Slider */
@@ -1207,7 +1278,7 @@ body.node-type-offices {
 
 // button height
 .btn {
-	padding: 6px 12px;
+	padding: 6px 12px !important;
 }
 
 
@@ -2086,7 +2157,7 @@ ul.nav>li:last-child {
        (min-resolution: 1.5dppx) {
   /* on retina, use image that's scaled by 2 */
   section.featured.map {
-    background:url('../images/homepage-background2x.png');
+    // background:url('../images/homepage-background2x.png');
 	} 
 }
 

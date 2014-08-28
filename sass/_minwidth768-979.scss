@@ -74,7 +74,6 @@
 
 
 
-
 //===========================================================
 // Frontpage Panels
 
@@ -83,6 +82,18 @@
 		background-size: 724px 32px;
 	}
 
+.front {
+	#pedersenandpartners-country-navigation-form {
+		margin-bottom: 0;
+		.form-item, .form-actions {
+			margin-bottom: 0
+		}
+	}
+}
+
+.region.region-after-content {
+    margin-top: -3px;
+}
 
 // shifting consultant spotlight below Latest News
 section.featured {
@@ -94,9 +105,25 @@ section.featured {
 
 // Slider Consultant Spotlight
 
+#royal-slider-front-consultant,
+.view-frontpage-consultant-spotlight .rsDefault .rsOverflow {
+	height: 166px !important;
+}
+
+section.featured .container .row .span-first {
+	// width: 370px;
+}
+
 #royal-slider-front-consultant {
-	width: 480px;
+	// width: 480px;
+	// width: 370px;
+	width: 724px;
 	.views-field-title div.span3 {
+		width: 360px;
+		// width: 260px;
+		// width: 560px !important;
+	}
+	.job-title {
 		width: 360px;
 	}
 	.field-name-field-image-page {
@@ -112,8 +139,15 @@ section.featured {
 // Latest News
 
 section.featured .container .row .span8,
-section.featured .container .row .span4 {
+section.featured .container .row .span4,
+section.featured .container .row .span-second {
 	width: 724px;
+}
+
+h2.latest-news,
+h2.newsletter {
+	margin-top: 8px;
+	margin-top: 0.5rem;
 }
 
 .flexslider.unstyled {

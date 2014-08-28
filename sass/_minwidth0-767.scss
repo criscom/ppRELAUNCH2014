@@ -40,6 +40,52 @@
 
 
 	//===========================================================
+	// Frontpage vertical alignment of blocks
+
+	// About
+
+		.about-country-front {
+		margin-top: -21px;
+		margin-top: -1.3125rem;
+		h1 {
+			margin-top: 0 !important;
+		}
+	}
+
+// map section
+
+div.map-section {
+	margin-top: 22px;
+	margin-top: 1.375rem;
+}
+
+// consultant spotlight header
+
+div.map-section .span-first h2 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+// newsletter {
+div.map-section .span-last {
+	padding-top: 0;
+}
+
+footer {
+	margin-top: 60px;
+}
+
+
+	//===========================================================
+	// Map in consultant spotlight
+
+	section.featured.map {
+		// background-position: left center;
+		background-image: none;
+	}
+
+
+	//===========================================================
 	// Vertical spacing for the blocks in the right sidebar and after content region
 
 		.region-sidebar-right {
@@ -154,6 +200,12 @@ body.page-team-managers {
 		// max-width: 380px !important;
 	}
 
+.front section.featured .span4 h4,
+	div.map-section ul.slides li .span4 article p {
+	margin-right: 8px;
+	margin-right: .5rem;
+}
+
 // Slider Consultant Spotlight
 
 #royal-slider-front-consultant {
@@ -165,7 +217,28 @@ body.page-team-managers {
 	}
 }
 
+// Consultant spotlight
 
+.view-frontpage-consultant-spotlight {
+	.job-title{
+		 div {
+			margin-right: 30px;
+			}
+		}
+	.consultant-body {
+			div {
+			margin-right: 8px;
+			margin-right: .5rem;
+			}
+		}
+}
+
+// newsletter
+
+.span4.span-last > p {
+	margin-right: 8px;
+	margin-right: .5rem;
+} 
 
 //===========================================================
 // News landing page
@@ -195,8 +268,31 @@ p a,
 // Royal Slider Frontpage
 
 // Hide navigation for banner slider
-.rsArrow {
-	display: none;
+.rsArrow,
+.rsArrowIcn {
+	display: none !important;
+}
+
+.front .panel-col {
+	padding-top: 35px;
+	padding-top: 2.1875rem;
+}
+
+
+// adjusting vertical space between Practice Groups and Services above and Consultant Spotlight below
+
+.practice-groups-front {
+	margin-top: 16px;
+	margin-top: 1rem;
+	// margin-bottom: 11px;
+	// margin-bottom: 0.6875rem;
+}
+
+// adjusting vertical space between Consultant spotlight and Latest News
+
+h2.latest-news,
+h2.newsletter {
+	margin-top: 0;
 }
 
 

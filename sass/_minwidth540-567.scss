@@ -3,6 +3,35 @@
 
 @media only screen and (min-width: 540px) and (max-width: 567px) {
 
+	// .about-country-front {
+	// 	margin-top: -12px;
+	// 	h1 {
+	// 		margin-top: 0 !important;
+	// 	}
+	// }
+
+
+	footer {
+	margin-top: 43px;
+}
+
+// consultant spotlight
+
+#royal-slider-front-consultant,
+.view-frontpage-consultant-spotlight .rsDefault .rsOverflow {
+	height: 176px !important;
+}
+
+.recent-posts {
+    margin-bottom: 11px;
+}
+
+
+// newsletter
+
+.xspForm>div {
+	max-width: 520px !important;
+}
 
 
 

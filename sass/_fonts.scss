@@ -73,6 +73,10 @@ p, select {
 	color: $gray;
 }
 
+.consent-text {
+	font-size: $base-font-size;
+}
+
 .download { // pdf links on news detail pages
 	font-size: 14px;
 	font-size: .875rem;
@@ -92,9 +96,9 @@ p, select {
 
 // Select country front
 
-.front .input-append .btn, // Submit button newsletter
+.input-append .btn, // Submit button newsletter
 .about-country-front .form-select.jquery-once-3-processed {
-	color: $gray;
+	color: $gray !important;
 }
 
 // Latest News / Consultant Spotlight

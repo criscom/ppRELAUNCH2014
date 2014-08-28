@@ -4,6 +4,25 @@
 
 @media only screen and (min-width: 0px) and (max-width: 479px) {
 
+
+	// 	.about-country-front {
+	// 	margin-top: -12px;
+	// 	h1 {
+	// 		margin-top: 0 !important;
+	// 	}
+	// }
+
+// consultant spotlight
+
+	#royal-slider-front-consultant,
+	.view-frontpage-consultant-spotlight .rsDefault .rsOverflow {
+		height: 213px !important;
+	}
+
+	.recent-posts {
+	    margin-bottom: 11px;
+	}
+
 	// pulling the quicktabs view closer to the map
 	#block-quicktabs-contact-us-landing-page {
 		margin-top: -96px;
@@ -24,17 +43,44 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 
 // news landing
 
-.news-portrait {
-	float: none;
-	margin-bottom: 16px;
-}
+	.news-portrait {
+		float: none;
+		margin-bottom: 16px;
+	}
 
 } // end media query
 
 
 // iPhone 5S portrait
-@media only screen and (min-width: 0px) and (max-width: 320px) {
+@media only screen and (min-width: 0px) and (max-width: 360px) {
 
+// consultant spotlight
+
+	#royal-slider-front-consultant,
+	.view-frontpage-consultant-spotlight .rsDefault .rsOverflow {
+		height: 227px !important;
+	}
+
+
+
+// Latest news
+
+
+
+	.recent-posts {
+	    margin-bottom: 11px;
+	}
+	
+
+
+	.xspForm>div {
+		width: 300px !important;
+	}
+	
+	.consent-text {
+		width: 300px !important;
+	}
+	
 // target size 320px
 	ul.ui-tabs-nav li.ui-state-default {
 	width: 79px;
@@ -46,6 +92,7 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 ul.ui-tabs-nav li.ui-state-default:last-child {
   width: 80px;
 }
+
 
 
 
