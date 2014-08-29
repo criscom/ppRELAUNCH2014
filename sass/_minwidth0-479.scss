@@ -12,6 +12,9 @@
 	// 	}
 	// }
 
+//===========================================================
+// Frontpage
+
 // consultant spotlight
 
 	#royal-slider-front-consultant,
@@ -80,6 +83,54 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 	.consent-text {
 		width: 300px !important;
 	}
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+
+//===========================================================
+// Biography pages -- TEAM detail
+
+.node-type-team .region-content .picframe {
+	margin-bottom: 16px;
+	margin-bottom: 1rem;
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// News landing
+
+// pager breaks on small devices
+
+.pagination-large ul > li > a {
+	font-size: 16px !important;
+}
+
+
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+
+
+//===========================================================
+// Executive Compensation Consulting
+
+.compensation-database .button.landingpage {
+	width: 310px !important;
+}
+
+
+
+
+//===========================================================
+// Contact page
 	
 // target size 320px
 	ul.ui-tabs-nav li.ui-state-default {
@@ -92,11 +143,6 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 ul.ui-tabs-nav li.ui-state-default:last-child {
   width: 80px;
 }
-
-
-
-
-
 
 
 } // end media query

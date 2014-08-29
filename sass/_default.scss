@@ -20,6 +20,10 @@ body {
 
 }
 
+iframe {
+  max-width: 100%;
+}
+
 
 
 //===========================================================
@@ -786,6 +790,16 @@ body.page-team .view, // all team overview pages
 	}
 }
 
+
+// Executive Market Mapping
+
+// adjust spacing between link list at the bottom and footer
+
+.node-services {
+	.field-name-field-link-team {
+		margin-bottom: 1.4em;
+	}
+}
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -1725,7 +1739,7 @@ div.querytable {
 
 .node-type-team .region-content {
 	.field-name-body {
-		p:nth-child(1) { // removes padding of the first paragraph on team pages
+			p:nth-child(1) { // removes padding of the first paragraph on team pages
 			margin-top: 0;
 		}
 	}

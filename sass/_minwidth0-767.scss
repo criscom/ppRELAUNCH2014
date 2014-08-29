@@ -92,7 +92,7 @@ footer {
 		margin-bottom: 23px; // If there is a right sidebar we need some more margin for the spacing between
 		// the right sidebar and the button "Find an office location"
 		margin-bottom: 1.4375rem;
-		.views-row-last, // If there is a view in the right sidebar like on office pages
+		#block-views-regional-news-block .views-row-last, // If there is a view in the right sidebar like on office pages
 		#block-block-9  { // If there is a button as last element in the right sidebar like on about us
 			margin-bottom: 28px !important; 
 			// adjust the spacing between the view and Fin and office location.
@@ -108,13 +108,16 @@ body.page-team-consultants,
 body.page-team-research-consultants,
 body.page-team-practice-group,
 body.page-team-location,
-body.page-team-managers {
+body.page-team-managers,
+body.node-type-team {
 	.region.region-after-content {
-    margin-top: 40px;
+    margin-top: 44px;
+    margin-top: 2.75rem;
 	}
 }
 
-	#block-block-43 { // Mobile: Find an office location
+	#block-block-43,  // Mobile: Find an office location
+	.region-sidebar-right #block-block-10 { // Mobile: Coporate brochure in sidebar on About pages
 		margin-top: 20px; // Top spacing between Find an office location and main content if there is no right sidebar
 		margin-top: 1.25rem;
 	}
@@ -122,8 +125,8 @@ body.page-team-managers {
 	.menu-block-wrapper ul.menu { 
 		margin-top: 13px; // Top spacing between Find an office location and menu
 		margin-top: 0.8125rem;
-		margin-bottom: 29px; // Bottom spacing between menu and Quick select
-		margin-bottom: 1.8125rem;
+		//margin-bottom: 29px; // Bottom spacing between menu and Quick select
+		// margin-bottom: 1.8125rem;
 		#block-menu-block-28 & { // Mobile: Office menu for office pages
 		margin-bottom: 4px; // Bottom spacing between menu and Quick select
 		margin-bottom: .25rem;
@@ -132,6 +135,8 @@ body.page-team-managers {
 
 
 	.block-pedersenandpartners-mobile-navigation { // Spacing between Quick Select and the footer
+		margin-top: 29px; // top spacing beween Quick Select and menu or "Find an office location"
+		margin-top: 1.8125rem;
 		margin-bottom: 50px;
 		margin-bottom: 3.125rem;
 	}
@@ -247,6 +252,12 @@ body.page-team-managers {
     width: 90%;
 }
 
+#block-views-f0652b421151e735c4e360d18c6179db { // Mark's module/view
+
+	margin-top: 16px;
+	margin-top: 1rem;
+}
+
 div a,
 p a,
 .group-pdf-link-wrapper .download {
@@ -263,6 +274,15 @@ p a,
         hyphens: auto;
 
 }
+
+// news detail
+
+#block-views-e2db768c00fee716397bd6646c49ee18 // Latest News block on news detail
+{
+	margin-top: 36px;
+	margin-top: 1.25rem;
+}
+
 
 //===========================================================
 // Royal Slider Frontpage
